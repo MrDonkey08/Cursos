@@ -11,12 +11,9 @@
             "id": "e692f4bddaf4a055",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md"
               }
             }
           }
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
+                "file": "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md"
+                "file": "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md"
               }
             }
           },
@@ -132,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
+                "file": "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,24 +150,24 @@
       "workspaces:Manage workspace layouts": false,
       "random-note:Open random note": false,
       "templates:Insert template": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "graph:Open graph view": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "e692f4bddaf4a055",
   "lastOpenFiles": [
-    "Attachments/Templates/Excalidraw.md",
-    "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
-    "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo Dijkstra.md",
-    "Attachments/Excalidraw/Algoritmo-de-Dijakstra.excalidraw.md",
+    "Attachments/Excalidraw/Algoritmo de flujo máximo.excalidraw.md",
     "Attachments/Excalidraw/Drawing 2023-01-23 15.32.06.excalidraw.md",
-    "Attachments/Templates/Images.md",
-    "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de flujo máximo.md",
     "Attachments/Excalidraw/Algoritmo-de-Fleury.excalidraw.md",
-    "Attachments/Templates/Bibliografía/APA/Sitio Web Dinámico.md",
-    "Attachments/Images/21321412-87fde9fe-3b8d-48af-bcfd-c01756f24523.webp"
+    "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md",
+    "Attachments/Excalidraw/Algoritmo-de-Dijakstra.excalidraw.md",
+    "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
+    "Attachments/Templates/Excalidraw.md",
+    "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo Dijkstra.md",
+    "Attachments/Templates/Images.md",
+    "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de flujo máximo.md"
   ]
 }
