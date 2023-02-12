@@ -1,0 +1,12 @@
+{
+  "accentColor": "",
+  "baseFontSize": 18,
+  "textFontFamily": "",
+  "enabledCssSnippets": [
+    "media-aligh",
+    "media-align",
+    "media-grid-snippet"
+  ],
+  "theme": "obsidian",
+  "nativeMenus": false
+}

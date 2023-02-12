@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "1184283d9ab02066",
+    "type": "split",
+    "children": [
+      {
+        "id": "346d5c34c140138a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Tipos de dato.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c667ee0edbe3bae6",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd521ad6bf7c9b3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05eed463fb5b2ed1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9fd25c954b3832c4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 176
+  },
+  "right": {
+    "id": "ea2ac971eac37afd",
+    "type": "split",
+    "children": [
+      {
+        "id": "311bc59636d8158b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30ecf98b40562677",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tipos de dato.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "346d5c34c140138a",
+  "lastOpenFiles": [
+    "Tipos de dato.md",
+    "Operadores.md"
+  ]
+}

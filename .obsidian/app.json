@@ -1,0 +1,21 @@
+{
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "spellcheck": false,
+  "promptDelete": false,
+  "showUnsupportedFiles": true,
+  "showInlineTitle": false,
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./",
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "showFrontmatter": false,
+  "strictLineBreaks": false,
+  "readableLineLength": true,
+  "showLineNumber": false
+}

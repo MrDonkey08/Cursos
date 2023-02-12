@@ -1,0 +1,1 @@
+![[Vowel Sounds IPA.png]]

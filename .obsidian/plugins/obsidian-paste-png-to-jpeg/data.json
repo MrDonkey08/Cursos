@@ -1,0 +1,10 @@
+{
+  "imageNamePattern": "{{fileName}}",
+  "dupNumberAtStart": false,
+  "dupNumberDelimiter": "-",
+  "autoRename": true,
+  "autoMove": false,
+  "pngToJpeg": true,
+  "quality": "0.7",
+  "dirpath": "image/"
+}

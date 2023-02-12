@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "04f5d07b11d5cbb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "9fce4c2c0b742fa2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dbd178bfd6dddff",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "91201a66dfabe2a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0905cdc6c0f87c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb3f03798bde329d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "29e78712db18f635",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8e4b3f84142aa5e8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4b702cc4fb11ac6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b1a07e496495901",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2824c29bf586ad79",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Matemáticas/Álgebra/Attatchments/Propiedades-potencias.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "17e0a30d920a96bc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5c1f4492e0b0fbf3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Matemáticas/Álgebra/Attatchments/Propiedades-potencias.png"
+              }
+            }
+          },
+          {
+            "id": "241558df237147ce",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f0bd45cf3aba3ae1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Matemáticas/Álgebra/Attatchments/Propiedades-potencias.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "random-note:Open random note": false,
+      "templates:Insert template": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "templater-obsidian:Templater": false,
+      "graph:Open graph view": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "eb3f03798bde329d",
+  "lastOpenFiles": [
+    "Programación/Pensamiento lógico/Attatchments/Pasted image 20220814131547.png",
+    "Programación/Pensamiento lógico/Attatchments/Corriente_bits.png",
+    "Attachments/Images/Binomios conjugados.png",
+    "Attachments/Images/Binomio al cuadrado representación gráfica.png",
+    "Attachments/Images/Árbol de expresión aritmética.png",
+    "Attachments/Images/Árbol de expansión mínimo.png",
+    "Attachments/Images/Árbol - nivel y altura.png",
+    "Attachments/Images/Algoritmo Dijkstra.png",
+    "Attachments/Images/Algoritmo de flujo máximo.png",
+    "Attachments/Images/Algoritmo de Fleury.png"
+  ]
+}
