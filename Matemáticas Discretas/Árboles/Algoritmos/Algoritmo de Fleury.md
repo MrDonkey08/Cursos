@@ -24,7 +24,7 @@ Los pasos que seguir son:
 3. En cada nueva iteración realizar un nuevo camino cerrado visitando aristas que no han sido visitadas.
 4. Reemplazar cada nuevo circuito en el inicial hasta visitar todas las aristas.
 
-![](/Attachments/Excalidraw/Algoritmo-de-Fleury.excalidraw.md)
+[Ejemplo de Algoritmo de Fleury](/Attachments/Excalidraw/Algoritmo-de-Fleury.excalidraw.md)
 
 > [!note]+ Condición para determinar si se hizo bien el ciclo
 > 
