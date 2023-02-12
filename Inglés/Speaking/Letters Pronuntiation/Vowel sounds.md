@@ -1,1 +1,1 @@
-![[Vowel Sounds IPA.png]]
+![](Vowel-sounds-1.jpeg)

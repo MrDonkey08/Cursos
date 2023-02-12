@@ -7,7 +7,7 @@ Resuelve los siguientes ejercicios y comenta en el sistema de discusiones tus re
 ![Captura de pantalla 2018-07-24 a la(s) 14.53.58.png|400](https://static.platzi.com/media/user_upload/Captura%20de%20pantalla%202018-07-24%20a%20la%28s%29%2014.53.58-8526a605-3145-43c7-8bea-5941d023c874.jpg)
 
 ---
-![[Árbol - nivel y altura.png]]
+![](/Attachments/Images/Ejercicios-1676210754531.jpeg)
 
 **Altura:** 5
 **Nivel:** 4
@@ -18,7 +18,7 @@ Resuelve los siguientes ejercicios y comenta en el sistema de discusiones tus re
 ![Captura de pantalla 2018-07-24 a la(s) 14.58.53.png|400](https://static.platzi.com/media/user_upload/Captura%20de%20pantalla%202018-07-24%20a%20la%28s%29%2014.58.53-1e8462c5-dfae-43b3-be4d-8c1d479a9c63.jpg)
 
 ---
-![[Árbol de expansión mínimo.png]]
+![](/Attachments/Images/Árbol%20de%20expansión%20mínimo.jpg)
 **Coste total:**  28
 
 ---
@@ -34,10 +34,10 @@ Resuelve los siguientes ejercicios y comenta en el sistema de discusiones tus re
 ---
 **4.** Grafique la siguiente expresión aritmética a través de un árbol:
 
-![Captura de pantalla 2018-07-24 a la(s) 15.06.41.png|250](https://static.platzi.com/media/user_upload/Captura%20de%20pantalla%202018-07-24%20a%20la%28s%29%2015.06.41-917f3a73-a945-46fb-b1f4-bcb1ebdc95a2.jpg)
+$$\left(x \cdot y^2 \right) + \left[b \cdot \left(x+c \right)\right] x$$
 
 ---
-![[Árbol de expresión aritmética.png]]
+![](/Attachments/Images/Ejercicios-1676211157411.jpeg)
 
 ---
 **5.** ¿Cuál es la expresión matemática del siguiente árbol?

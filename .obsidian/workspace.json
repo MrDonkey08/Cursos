@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "9fce4c2c0b742fa2",
+        "id": "6c0ac4deba73f3bc",
         "type": "tabs",
         "children": [
           {
-            "id": "0dbd178bfd6dddff",
+            "id": "e692f4bddaf4a055",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -39,7 +44,15 @@
             }
           },
           {
-            "id": "29e78712db18f635",
+            "id": "8e4b3f84142aa5e8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "a0e30b04f4b7a693",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -48,25 +61,16 @@
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "8e4b3f84142aa5e8",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 237
   },
   "right": {
     "id": "4b702cc4fb11ac6c",
@@ -82,11 +86,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemáticas/Álgebra/Attatchments/Propiedades-potencias.png",
+                "file": "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
@@ -110,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemáticas/Álgebra/Attatchments/Propiedades-potencias.png"
+                "file": "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md"
               }
             }
           },
@@ -123,19 +127,18 @@
             }
           },
           {
-            "id": "f0bd45cf3aba3ae1",
+            "id": "219e955e5725b38a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemáticas/Álgebra/Attatchments/Propiedades-potencias.png",
+                "file": "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -152,23 +155,22 @@
       "templates:Insert template": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
       "templater-obsidian:Templater": false,
       "graph:Open graph view": false,
-      "markdown-importer:Open format converter": false
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "eb3f03798bde329d",
+  "active": "e692f4bddaf4a055",
   "lastOpenFiles": [
-    "Programación/Pensamiento lógico/Attatchments/Pasted image 20220814131547.png",
-    "Programación/Pensamiento lógico/Attatchments/Corriente_bits.png",
-    "Attachments/Images/Binomios conjugados.png",
-    "Attachments/Images/Binomio al cuadrado representación gráfica.png",
-    "Attachments/Images/Árbol de expresión aritmética.png",
-    "Attachments/Images/Árbol de expansión mínimo.png",
-    "Attachments/Images/Árbol - nivel y altura.png",
-    "Attachments/Images/Algoritmo Dijkstra.png",
-    "Attachments/Images/Algoritmo de flujo máximo.png",
-    "Attachments/Images/Algoritmo de Fleury.png"
+    "Attachments/Templates/Excalidraw.md",
+    "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
+    "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo Dijkstra.md",
+    "Attachments/Excalidraw/Algoritmo-de-Dijakstra.excalidraw.md",
+    "Attachments/Excalidraw/Drawing 2023-01-23 15.32.06.excalidraw.md",
+    "Attachments/Templates/Images.md",
+    "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de flujo máximo.md",
+    "Attachments/Excalidraw/Algoritmo-de-Fleury.excalidraw.md",
+    "Attachments/Templates/Bibliografía/APA/Sitio Web Dinámico.md",
+    "Attachments/Images/21321412-87fde9fe-3b8d-48af-bcfd-c01756f24523.webp"
   ]
 }

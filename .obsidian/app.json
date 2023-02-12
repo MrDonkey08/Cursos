@@ -11,7 +11,7 @@
   "showUnsupportedFiles": true,
   "showInlineTitle": false,
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "./",
+  "attachmentFolderPath": "Attachments/Images",
   "trashOption": "local",
   "alwaysUpdateLinks": true,
   "showFrontmatter": false,

@@ -1,6 +1,6 @@
 Un árbol de expansión mínimo es aquel árbol que partiendo de una raíz pueda conectar todos los vértices buscando los caminos de menor costo. Para sacar el costo mínimo del árbol solo basta con ir sumando el valor que tiene cada conexión nivel por nivel, luego sumar todos los niveles.
 
-![[Pasted image 20230107172841.png | 600]]
+![](/Attachments/Images/Árbol-de-expansión-mínimo-1.jpeg)
 
 ---
 ## Algoritmo de prim
@@ -11,7 +11,9 @@ Un árbol de expansión mínimo es aquel árbol que partiendo de una raíz pueda
 4. Finaliza cuando todos los nodos están conectados con $n-1$ aristas, donde $n$ es el número de nodos.
 5. Para conseguir el coste total suma todas los valores de las aristas seleccionadas.
 
-![[Algoritmo de prim.png]]
+![](/Attachments/Images/Árbol-de-expansión-mínimo-2.jpeg) 
+
+![](/Attachments/Images/Árbol-de-expansión-mínimo-2.jpeg)
 
 **Coste total:** 27
 

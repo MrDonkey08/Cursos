@@ -21,7 +21,6 @@ Existen dos tipos de proposiciones, las simples y las compuestas:
 Existen múltiples conectores lógicos, entre ellos se encuentran la conjunción, disyunción, implicación, equivalencia y negación.
 
 ---
-
 ## Referencias
 
 - [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/). (s.f.). _Funciones lineales_. [Curso de Fundamentos de Matemáticas](https://platzi.com/cursos/fundamentos-matematicas/). [Platzi](https://platzi.com/). https://platzi.com/clases/1393-fundamentos-matematicas/14430-funciones-lineales1984/ %%[Consultado el 16/10/2022]%%

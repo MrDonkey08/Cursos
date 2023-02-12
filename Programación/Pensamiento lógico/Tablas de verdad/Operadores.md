@@ -11,7 +11,7 @@
 |O|Devuelve *True* caundo la primera o la segunda expresión es verdadera.|
 |Xor|Devuelve *True* si la primera o la segunda expresión es verdadera, pero no si ambas lo son a la vez.|
 
-![[Pasted image 20220814131547.png | 400]]
+![](/Attachments/Images/Operadores-lógicos-programación.jpeg)
 
 ---
 ## Operadores aritméticos

@@ -1,6 +1,6 @@
 A diferencia del árbol de expansión mínimo, el cual busca conectar todos los nodos entre sí con la menor cantidad de recursos, este lo que busca es conseguir descifrar la cantidad máxima de recursos que se pueden mandar desde un punto inicial hasta un final a partir de los caminos que se disponen y sus respectivos flujos.
 
-![[Algoritmo de flujo máximo.png]]
+![](/Attachments/Images/Algoritmo-de-flujo-máximo-1.jpeg)
 
 ---
 ## Referencias
