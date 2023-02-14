@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Matemáticas/Aritmética/2. Potenciación y sus propiedades.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "exponentes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Matemáticas/Aritmética/2. Potenciación y sus propiedades.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Matemáticas/Aritmética/2. Potenciación y sus propiedades.md"
               }
             }
           },
@@ -132,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Matemáticas/Aritmética/2. Potenciación y sus propiedades.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,17 +161,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eb3f03798bde329d",
+  "active": "dd073862f4db20f0",
   "lastOpenFiles": [
-    "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md",
-    "Attachments/Excalidraw/Algoritmo de flujo máximo.excalidraw.md",
-    "Attachments/Excalidraw/Drawing 2023-01-23 15.32.06.excalidraw.md",
-    "Attachments/Excalidraw/Algoritmo-de-Fleury.excalidraw.md",
-    "Attachments/Excalidraw/Algoritmo-de-Dijakstra.excalidraw.md",
-    "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
-    "Attachments/Templates/Excalidraw.md",
-    "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo Dijkstra.md",
-    "Attachments/Templates/Images.md",
-    "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de flujo máximo.md"
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/6. Simplificación de polinomios.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/5. Polinomios.md",
+    "Matemáticas/Aritmética/4. Orden de operaciones.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/3. Orden de despeje.md",
+    "Matemáticas/Álgebra/Productos Notables/1. Binomio al cuadrado.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/2. Lenguaje algebraico.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/1. Principios del Álgebra.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/Untitled 1.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/7. Propiedad distributiva de la multiplicación.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/4. Propiedades de las ecuaciones algebraicas.md"
   ]
 }
