@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6c0ac4deba73f3bc",
+        "id": "5cab9af524a26632",
         "type": "tabs",
         "children": [
           {
-            "id": "e692f4bddaf4a055",
+            "id": "dd073862f4db20f0",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md"
+                "file": "Untitled.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -129,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,12 +160,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e692f4bddaf4a055",
+  "active": "eb3f03798bde329d",
   "lastOpenFiles": [
+    "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md",
     "Attachments/Excalidraw/Algoritmo de flujo máximo.excalidraw.md",
     "Attachments/Excalidraw/Drawing 2023-01-23 15.32.06.excalidraw.md",
     "Attachments/Excalidraw/Algoritmo-de-Fleury.excalidraw.md",
-    "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md",
     "Attachments/Excalidraw/Algoritmo-de-Dijakstra.excalidraw.md",
     "Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
     "Attachments/Templates/Excalidraw.md",
