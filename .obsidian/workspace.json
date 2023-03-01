@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5cab9af524a26632",
+        "id": "b6b64acc05c2026a",
         "type": "tabs",
         "children": [
           {
-            "id": "dd073862f4db20f0",
+            "id": "deee738e5e701dd6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Matemáticas/Aritmética/2. Potenciación y sus propiedades.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Attachments/Images/Ejercicios-1676210754531.jpeg"
               }
             }
           }
@@ -57,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exponentes",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +63,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemáticas/Aritmética/2. Potenciación y sus propiedades.md",
+                "file": "Attachments/Images/Ejercicios-1676210754531.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemáticas/Aritmética/2. Potenciación y sus propiedades.md"
+                "file": "Attachments/Images/Ejercicios-1676210754531.jpeg"
               }
             }
           },
@@ -133,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemáticas/Aritmética/2. Potenciación y sus propiedades.md",
+                "file": "Attachments/Images/Ejercicios-1676210754531.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,8 +157,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dd073862f4db20f0",
+  "active": "deee738e5e701dd6",
   "lastOpenFiles": [
+    "Attachments/Images/Ejercicios-1676211157411.jpeg",
+    "Attachments/Images/Expresiones Aritméticas-1676212453167.jpeg",
+    "Attachments/Images/Operadores-lógicos-programación.jpeg",
+    "Attachments/Images/Ejercicios-1676210754531.jpeg",
+    "Attachments/Images/Árbol-de-expansión-mínimo-2.jpeg",
+    "Attachments/Images/Árbol-de-expansión-mínimo-1.jpeg",
+    "Attachments/Images/Algoritmo-Dijkstra-1.jpeg",
+    "Attachments/Images/Algoritmo-Dijkstra.jpeg",
+    "Attachments/Images/Algoritmo-de-flujo-máximo-1.jpeg",
+    "Attachments/Images/3. Binomios conjugados-1676210380765.jpeg",
+    "Attachments/Images/1.-Sistema-Binario-1.jpeg",
+    "Untitled.md",
     "Matemáticas/Álgebra/Fundamentos de Álgebra/6. Simplificación de polinomios.md",
     "Matemáticas/Álgebra/Fundamentos de Álgebra/5. Polinomios.md",
     "Matemáticas/Aritmética/4. Orden de operaciones.md",
