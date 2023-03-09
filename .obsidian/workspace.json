@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8c949410bde66d59",
+            "id": "7676122266ef04d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 5. Aplicando las Reglas.md",
+                "file": "Electricidad y electrónica/Untitled.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -21,33 +21,14 @@
             }
           },
           {
-            "id": "dc9bf83d9500431d",
+            "id": "93def72b0fb3dead",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matemáticas/Aritmética/Propiedades y orden de las operaciones.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06047c97a4a9eb32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +74,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Electricidad y electrónica/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Electricidad y electrónica/Untitled.md"
               }
             }
           },
@@ -160,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Electricidad y electrónica/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,9 +168,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "06047c97a4a9eb32",
+  "active": "eb3f03798bde329d",
   "lastOpenFiles": [
     "Untitled.md",
+    "Programación\\Pensamiento lógico\\Validaciones",
+    "Programación\\Pensamiento lógico\\Tipos de datos",
+    "Programación\\Pensamiento lógico\\Tablas de verdad",
+    "Programación\\Pensamiento lógico\\Lenguajes de programación\\Python",
+    "Programación\\Pensamiento lógico\\Lenguajes de programación\\PHP",
+    "Programación\\Pensamiento lógico\\Lenguajes de programación",
+    "Programación\\Pensamiento lógico\\Lenguajes de programación\\JavaScript",
+    "Programación\\Pensamiento lógico\\Estructuras de control",
+    "Programación\\Pensamiento lógico\\Binario",
+    "Programación\\Pensamiento lógico\\Algoritmos",
+    "Matemáticas/Aritmética/Propiedades y orden de las operaciones.md",
+    "Electricidad y electrónica/Untitled.md",
     "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 5. Aplicando las Reglas.md",
     "Matemáticas/Cálculo/Funciones/Funciones Compuestas.md",
     "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 6. Multiplicar y Dividir al Derivar.md",
@@ -199,7 +191,6 @@
     "Matemáticas/Matemáticas Discretas/Lógica.md",
     "Matemáticas/Cálculo/Límites/Límites.md",
     "Matemáticas/Cálculo/Límites/Ejercicios/Dónde hay discontinuidades.md",
-    "Matemáticas/Aritmética/Propiedades y orden de las operaciones.md",
     "Matemáticas/Aritmética/6. Recta númerica.md",
     "Matemáticas/Aritmética/5. Factorización.md",
     "Matemáticas/Aritmética/4. Orden de operaciones.md",
@@ -212,12 +203,8 @@
     "Attachments/Templates/Meta.md",
     "Attachments/Templates/New Note.md",
     "Attachments/Templates/Page Break.md",
-    "Matemáticas/Ecuaciones Diferenciales",
     "Attachments/Excalidraw/Algoritmo de flujo máximo.excalidraw.md",
     "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md",
-    "Attachments/Excalidraw/Algoritmo-de-Dijakstra.excalidraw.md",
-    "Attachments/Excalidraw/Algoritmo-de-Fleury.excalidraw.md",
-    "Algoritmo de Fleury.pdf",
     "Attachments/Images/Ejercicios-1676210754531.jpeg",
     "Attachments/Images/Ejercicios-1676211157411.jpeg",
     "Attachments/Images/Expresiones Aritméticas-1676212453167.jpeg",
