@@ -13,12 +13,7 @@
   "shell_path": "",
   "user_scripts_folder": "Attachments/Templates/Scripts",
   "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "/",
-      "template": "Attachments/Templates/New Note.md"
-    }
-  ],
+  "folder_templates": [],
   "syntax_highlighting": true,
   "enabled_templates_hotkeys": [
     ""

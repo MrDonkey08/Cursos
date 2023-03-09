@@ -4,20 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "b6b64acc05c2026a",
+        "id": "58aeee3d0e009d8b",
         "type": "tabs",
         "children": [
           {
-            "id": "deee738e5e701dd6",
+            "id": "8c949410bde66d59",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attachments/Images/Ejercicios-1676210754531.jpeg"
+                "file": "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 5. Aplicando las Reglas.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc9bf83d9500431d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matemáticas/Aritmética/Propiedades y orden de las operaciones.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06047c97a4a9eb32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -63,7 +93,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -83,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/Images/Ejercicios-1676210754531.jpeg",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/Images/Ejercicios-1676210754531.jpeg"
+                "file": "Untitled.md"
               }
             }
           },
@@ -129,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachments/Images/Ejercicios-1676210754531.jpeg",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,29 +188,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "deee738e5e701dd6",
+  "active": "06047c97a4a9eb32",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 5. Aplicando las Reglas.md",
+    "Matemáticas/Cálculo/Funciones/Funciones Compuestas.md",
+    "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 6. Multiplicar y Dividir al Derivar.md",
+    "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
+    "Matemáticas/Ecuaciones Diferenciales/1. Ecuación Diferencial.md",
+    "Matemáticas/Matemáticas Discretas/Lógica.md",
+    "Matemáticas/Cálculo/Límites/Límites.md",
+    "Matemáticas/Cálculo/Límites/Ejercicios/Dónde hay discontinuidades.md",
+    "Matemáticas/Aritmética/Propiedades y orden de las operaciones.md",
+    "Matemáticas/Aritmética/6. Recta númerica.md",
+    "Matemáticas/Aritmética/5. Factorización.md",
+    "Matemáticas/Aritmética/4. Orden de operaciones.md",
+    "Attachments/Templates/Bibliografía/APA/Sitio Web Estático.md",
+    "Attachments/Templates/Bibliografía/APA/Sitio Web Dinámico.md",
+    "Attachments/Templates/Bibliografía/APA/Static Web.md",
+    "Attachments/Templates/Bibliografía/APA/Diccionario en línea.md",
+    "Attachments/Templates/Excalidraw.md",
+    "Attachments/Templates/Images.md",
+    "Attachments/Templates/Meta.md",
+    "Attachments/Templates/New Note.md",
+    "Attachments/Templates/Page Break.md",
+    "Matemáticas/Ecuaciones Diferenciales",
+    "Attachments/Excalidraw/Algoritmo de flujo máximo.excalidraw.md",
+    "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md",
+    "Attachments/Excalidraw/Algoritmo-de-Dijakstra.excalidraw.md",
+    "Attachments/Excalidraw/Algoritmo-de-Fleury.excalidraw.md",
+    "Algoritmo de Fleury.pdf",
+    "Attachments/Images/Ejercicios-1676210754531.jpeg",
     "Attachments/Images/Ejercicios-1676211157411.jpeg",
     "Attachments/Images/Expresiones Aritméticas-1676212453167.jpeg",
     "Attachments/Images/Operadores-lógicos-programación.jpeg",
-    "Attachments/Images/Ejercicios-1676210754531.jpeg",
     "Attachments/Images/Árbol-de-expansión-mínimo-2.jpeg",
     "Attachments/Images/Árbol-de-expansión-mínimo-1.jpeg",
     "Attachments/Images/Algoritmo-Dijkstra-1.jpeg",
     "Attachments/Images/Algoritmo-Dijkstra.jpeg",
     "Attachments/Images/Algoritmo-de-flujo-máximo-1.jpeg",
-    "Attachments/Images/3. Binomios conjugados-1676210380765.jpeg",
-    "Attachments/Images/1.-Sistema-Binario-1.jpeg",
-    "Untitled.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/6. Simplificación de polinomios.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/5. Polinomios.md",
-    "Matemáticas/Aritmética/4. Orden de operaciones.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/3. Orden de despeje.md",
-    "Matemáticas/Álgebra/Productos Notables/1. Binomio al cuadrado.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/2. Lenguaje algebraico.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/1. Principios del Álgebra.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/Untitled 1.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/7. Propiedad distributiva de la multiplicación.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/4. Propiedades de las ecuaciones algebraicas.md"
+    "Attachments/Images/3. Binomios conjugados-1676210380765.jpeg"
   ]
 }
