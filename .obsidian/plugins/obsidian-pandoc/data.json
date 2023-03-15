@@ -5,11 +5,11 @@
   "injectThemeCSS": false,
   "customCSSFile": null,
   "displayYAMLFrontmatter": false,
-  "linkStrippingBehaviour": "text",
+  "linkStrippingBehaviour": "unchanged",
   "highDPIDiagrams": true,
-  "pandoc": "pandoc",
-  "pdflatex": "pdflatex",
-  "outputFolder": null,
+  "pandoc": "",
+  "pdflatex": "",
+  "outputFolder": "C:\\Users\\Human Solutions\\Pandoc exports",
   "extraArguments": "",
   "exportFrom": "md"
 }
