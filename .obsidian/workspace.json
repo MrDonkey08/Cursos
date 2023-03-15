@@ -4,24 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "58aeee3d0e009d8b",
+        "id": "fbb465c5c6e03ea8",
         "type": "tabs",
         "children": [
           {
-            "id": "7676122266ef04d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electricidad y electrónica/Untitled.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93def72b0fb3dead",
+            "id": "4ce1156cd8a60102",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -38,11 +25,26 @@
     "type": "split",
     "children": [
       {
-        "id": "c0905cdc6c0f87c3",
+        "id": "898d09d22110a661",
         "type": "tabs",
         "children": [
           {
-            "id": "eb3f03798bde329d",
+            "id": "a84eecac7c9ad952",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "14b31f7a61e09a38",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -52,33 +54,19 @@
             }
           },
           {
-            "id": "8e4b3f84142aa5e8",
+            "id": "104aa10af05cc1db",
             "type": "leaf",
             "state": {
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "a0e30b04f4b7a693",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": true,
-                "sortOrder": "alphabetical"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 237
+    "width": 200
   },
   "right": {
     "id": "4b702cc4fb11ac6c",
@@ -89,44 +77,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2824c29bf586ad79",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Electricidad y electrónica/Untitled.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": true,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "17e0a30d920a96bc",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "5c1f4492e0b0fbf3",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Electricidad y electrónica/Untitled.md"
-              }
-            }
-          },
-          {
             "id": "241558df237147ce",
             "type": "leaf",
             "state": {
@@ -135,14 +85,48 @@
             }
           },
           {
-            "id": "219e955e5725b38a",
+            "id": "28083d0a39da3a79",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1a8f018980295c43",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Electricidad y electrónica/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f504ba2a6884d4e1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "9e2f8fe02f3befd7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -150,70 +134,72 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 333.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false,
-      "random-note:Open random note": false,
-      "templates:Insert template": false,
+      "obsidian42-brat:BRAT": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
+      "audio-recorder:Start/stop recording": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
       "graph:Open graph view": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "eb3f03798bde329d",
+  "active": "4ce1156cd8a60102",
   "lastOpenFiles": [
     "Untitled.md",
-    "Programación\\Pensamiento lógico\\Validaciones",
-    "Programación\\Pensamiento lógico\\Tipos de datos",
-    "Programación\\Pensamiento lógico\\Tablas de verdad",
-    "Programación\\Pensamiento lógico\\Lenguajes de programación\\Python",
-    "Programación\\Pensamiento lógico\\Lenguajes de programación\\PHP",
-    "Programación\\Pensamiento lógico\\Lenguajes de programación",
-    "Programación\\Pensamiento lógico\\Lenguajes de programación\\JavaScript",
-    "Programación\\Pensamiento lógico\\Estructuras de control",
-    "Programación\\Pensamiento lógico\\Binario",
-    "Programación\\Pensamiento lógico\\Algoritmos",
-    "Matemáticas/Aritmética/Propiedades y orden de las operaciones.md",
-    "Electricidad y electrónica/Untitled.md",
-    "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 5. Aplicando las Reglas.md",
-    "Matemáticas/Cálculo/Funciones/Funciones Compuestas.md",
-    "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 6. Multiplicar y Dividir al Derivar.md",
-    "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
-    "Matemáticas/Ecuaciones Diferenciales/1. Ecuación Diferencial.md",
-    "Matemáticas/Matemáticas Discretas/Lógica.md",
-    "Matemáticas/Cálculo/Límites/Límites.md",
-    "Matemáticas/Cálculo/Límites/Ejercicios/Dónde hay discontinuidades.md",
-    "Matemáticas/Aritmética/6. Recta númerica.md",
-    "Matemáticas/Aritmética/5. Factorización.md",
-    "Matemáticas/Aritmética/4. Orden de operaciones.md",
-    "Attachments/Templates/Bibliografía/APA/Sitio Web Estático.md",
-    "Attachments/Templates/Bibliografía/APA/Sitio Web Dinámico.md",
-    "Attachments/Templates/Bibliografía/APA/Static Web.md",
-    "Attachments/Templates/Bibliografía/APA/Diccionario en línea.md",
-    "Attachments/Templates/Excalidraw.md",
-    "Attachments/Templates/Images.md",
-    "Attachments/Templates/Meta.md",
-    "Attachments/Templates/New Note.md",
-    "Attachments/Templates/Page Break.md",
-    "Attachments/Excalidraw/Algoritmo de flujo máximo.excalidraw.md",
-    "Attachments/Excalidraw/Algoritmo de prim.excalidraw.md",
-    "Attachments/Images/Ejercicios-1676210754531.jpeg",
-    "Attachments/Images/Ejercicios-1676211157411.jpeg",
-    "Attachments/Images/Expresiones Aritméticas-1676212453167.jpeg",
-    "Attachments/Images/Operadores-lógicos-programación.jpeg",
-    "Attachments/Images/Árbol-de-expansión-mínimo-2.jpeg",
-    "Attachments/Images/Árbol-de-expansión-mínimo-1.jpeg",
-    "Attachments/Images/Algoritmo-Dijkstra-1.jpeg",
-    "Attachments/Images/Algoritmo-Dijkstra.jpeg",
-    "Attachments/Images/Algoritmo-de-flujo-máximo-1.jpeg",
-    "Attachments/Images/3. Binomios conjugados-1676210380765.jpeg"
+    "Formularios/Circuitos electrónicos y electromagnetismo.md",
+    "-Tercero/Programación Orientada en Objetos/Untitled.md",
+    "-Tercero\\Programación Orientada en Objetos",
+    "-Primero\\Introducción a la Ingeniería\\Apuntes de clase",
+    "-Primero/Introducción a la Ingeniería/Actividades/Propiedad Intelectual.md",
+    "-Primero\\Introducción a la Ingeniería\\Actividades",
+    "-Tercero\\Programación Orientada en Objetos\\Tareas",
+    "-Tercero\\Programación Orientada en Objetos\\Tareas\\Attachments",
+    "Formularios/Precálculo.md",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Tarea3_JuarezRubio_AlanYahir.md",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Tarea1_JuarezRubio_AlanYahir.md",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311152811.png",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311153112.png",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311152023.png",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311133621.png",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Diagrama-de-clase.png",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Diagrama-de-clase-simple.png",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Diagrama-de-interfaz.png",
+    "-Tercero/Sistemas Digitales (Oyente)/Logica de Función Fija - 14-02-2023.md",
+    "-Tercero/Sistemas Digitales/Tareas/1. Conversiones numéricas.md",
+    "Formularios/Conjuntos y lógica matemática - símbolos.md",
+    "Formularios/Formulario Cinemática y Leyes de Newton.md",
+    "Formularios/Leyes.md",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Portada.md",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311155501.png",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311154603.png",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311153419.png",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments",
+    "-Tercero/Programación Orientada en Objetos/Tareas/Portada.m.md",
+    "-Primero/Fundamentos de Física/Portafolio de Evidencias.md",
+    "-Tercero/Sistemas Digitales/Tareas/Portada.md",
+    "-Primero/Precálculo/Class Notes/Sistemas 2x2.md",
+    "-Primero/Precálculo/Class Notes/Untitled.md",
+    "-Tercero/Programación Orientada en Objetos/Notas/Introducción a POO.md",
+    "Attachments\\Excalidraw",
+    "-Tercero\\Sistemas Digitales\\Tareas\\Attachments",
+    "-Tercero\\Programación Orientada en Objetos\\Programas\\Fecha_2",
+    "-Tercero\\Programación Orientada en Objetos\\Programas\\Fecha",
+    "Attachments/Excalidraw/FODA 2023-02-28 11.27.25.excalidraw.md",
+    "Formularios/Cálculo.md",
+    "Attachments/Excalidraw/Drawing 2023-02-28 11.27.25.excalidraw.md",
+    "Attachments/Excalidraw/Drawing 2023-02-28 11.27.11.excalidraw.md",
+    "Attachments/Excalidraw/Drawing 2023-02-28 10.15.22.excalidraw.md",
+    "Attachments/Excalidraw/Drawing 2023-01-30 16.33.09.excalidraw.md",
+    "Formularios/Precálculo 1.md"
   ]
 }
