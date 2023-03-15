@@ -12,5 +12,10 @@
   "obsidian-outliner",
   "templater-obsidian",
   "oz-image-plugin",
-  "git-sync"
+  "obsidian-enhancing-export",
+  "editing-toolbar",
+  "cm-editor-syntax-highlight-obsidian",
+  "git-sync",
+  "obsidian-full-calendar",
+  "obsidian42-brat"
 ]
