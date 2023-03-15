@@ -1,12 +1,16 @@
 {
   "accentColor": "",
-  "baseFontSize": 18,
-  "textFontFamily": "",
+  "baseFontSize": 16,
+  "textFontFamily": "Inter",
   "enabledCssSnippets": [
     "media-aligh",
     "media-align",
     "media-grid-snippet"
   ],
   "theme": "obsidian",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "cssTheme": "Things",
+  "interfaceFontFamily": "Inter",
+  "baseFontSizeAction": true,
+  "showViewHeader": true
 }
