@@ -11,11 +11,12 @@
   "showUnsupportedFiles": true,
   "showInlineTitle": false,
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "Attachments/Images",
+  "attachmentFolderPath": "./Attachments",
   "trashOption": "local",
   "alwaysUpdateLinks": true,
   "showFrontmatter": false,
   "strictLineBreaks": false,
-  "readableLineLength": true,
-  "showLineNumber": false
+  "readableLineLength": false,
+  "showLineNumber": false,
+  "newLinkFormat": "absolute"
 }
