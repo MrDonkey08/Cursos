@@ -11,8 +11,13 @@
             "id": "5973b203a4686845",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Electricidad y electrónica/1. Electricidad.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Electricidad y electrónica/1. Electricidad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Electricidad y electrónica/1. Electricidad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Electricidad y electrónica/1. Electricidad.md"
+              }
             }
           },
           {
@@ -152,8 +161,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "14b31f7a61e09a38",
+  "active": "5973b203a4686845",
   "lastOpenFiles": [
+    "Attachments/Templates/Excalidraw.md",
+    "Attachments/Templates/Images.md",
+    "Attachments/Templates/Meta.md",
+    "Attachments/Templates/Page Break.md",
+    "Attachments/Templates/New Note.md",
+    "Electricidad y electrónica/1. Electricidad.md",
     "Untitled.md",
     "Formularios/Circuitos electrónicos y electromagnetismo.md",
     "Circuitos-dudas.md",
@@ -179,15 +194,9 @@
     "-Tercero/Circuitos/Actividad 1 - Circuito 3_beta.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
     "Attachments/Excalidraw/Drawing 2023-01-30 16.33.09.excalidraw.md",
     "Attachments/Excalidraw/FODA 2023-02-28 11.27.25.excalidraw.md",
-    "-Tercero/Circuitos/Prácticas/Untitled.md",
-    "-Tercero/Circuitos/Prácticas/1. RESISTENCIA.md",
     "-Tercero/Circuitos/Actividad 1/Actividad 1 - Circuito 3.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
     "-Tercero/Circuitos/Tarea 1/New Project.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
-    "-Tercero/Ecuaciones Diferenciales/Apuntes de clase/Untitled.md",
-    "-Tercero/Ecuaciones Diferenciales/Apuntes de clase/Untitled 2.md",
-    "-Tercero/Programación Orientada en Objetos/Untitled.md",
     "-Tercero/Circuitos/Prácticas",
-    "Untitled 2.md",
     "-Tercero/Circuitos/Project Backups/Actividad 1 - Circuito 4 y 5 [20230317, 21-09-27].pdsprj",
     "-Tercero/Circuitos/Actividad 1 - Circuito 4 y 5.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
     "-Tercero/Circuitos/Project Backups/Actividad 1 - Circuito 4 y 5 [20230317, 21-09-22].pdsprj",
