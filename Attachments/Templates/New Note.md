@@ -12,13 +12,13 @@ type: Note
 ---
 
 ---
-### <% tp.file.title %>
+# <% tp.file.title %>
 ---
 <div style="page-break-after: always;"></div>
 
 
 
 ---
-## Referencias
+# Referencias
 
 - 
