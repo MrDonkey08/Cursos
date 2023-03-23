@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fbb465c5c6e03ea8",
+        "id": "5e060683680084ce",
         "type": "tabs",
         "children": [
           {
-            "id": "4ce1156cd8a60102",
+            "id": "5973b203a4686845",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -37,7 +37,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -66,7 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 302.5026054382324
   },
   "right": {
     "id": "4b702cc4fb11ac6c",
@@ -139,7 +139,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "audio-recorder:Start/stop recording": false,
@@ -148,25 +147,51 @@
       "graph:Open graph view": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4ce1156cd8a60102",
+  "active": "14b31f7a61e09a38",
   "lastOpenFiles": [
     "Untitled.md",
     "Formularios/Circuitos electrónicos y electromagnetismo.md",
+    "Circuitos-dudas.md",
+    "-Tercero/Administración/Tareas/Actividad 3 - La Organización.md",
+    "Attachements/Excalidraw/Organigrama.excalidraw.md",
+    "-Tercero/Administración/Tareas/Actividad 2 - La planeación.md",
+    "Attachements/Excalidraw/Organigrama.excalidraw 1.md",
+    "-Tercero/Administración/Tareas/Attachments/Pasted image 20230320182452.png",
+    "-Tercero/Administración/Tareas/Actividad 1.1 - La empresa_Juarez Rubio Alan Yahir.md",
+    "Attachements/Excalidraw",
+    "Attachements",
+    "-Tercero/Administración/Tareas/Untitled.md",
+    "-Tercero/Administración/Notes/Untitled 1.md",
+    "-Tercero/Administración/Notes",
+    "-Tercero/Administración/Notes/Untitled.md",
+    "Formularios/Cálculo.md",
+    "-Primero/Lógica Matemática/Class Notes/Lenguaje natural, símbolico y tablas de verdad.md",
+    "-Primero/Fundamentos de Física/Class Notes/Calor.md",
+    "Formularios/Conjuntos y lógica matemática - símbolos.md",
+    "Reseñas de profesores/Personales/Reseñas ICOM.md",
+    "Reseñas de profesores/Personales/Reseñas.md",
+    "Reseñas de profesores/Claves de Materias ICOM.md",
+    "-Tercero/Circuitos/Actividad 1 - Circuito 3_beta.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
+    "Attachments/Excalidraw/Drawing 2023-01-30 16.33.09.excalidraw.md",
+    "Attachments/Excalidraw/FODA 2023-02-28 11.27.25.excalidraw.md",
+    "-Tercero/Circuitos/Prácticas/Untitled.md",
+    "-Tercero/Circuitos/Prácticas/1. RESISTENCIA.md",
+    "-Tercero/Circuitos/Actividad 1/Actividad 1 - Circuito 3.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
+    "-Tercero/Circuitos/Tarea 1/New Project.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
+    "-Tercero/Ecuaciones Diferenciales/Apuntes de clase/Untitled.md",
+    "-Tercero/Ecuaciones Diferenciales/Apuntes de clase/Untitled 2.md",
     "-Tercero/Programación Orientada en Objetos/Untitled.md",
-    "-Tercero\\Programación Orientada en Objetos",
-    "-Primero\\Introducción a la Ingeniería\\Apuntes de clase",
-    "-Primero/Introducción a la Ingeniería/Actividades/Propiedad Intelectual.md",
-    "-Primero\\Introducción a la Ingeniería\\Actividades",
-    "-Tercero\\Programación Orientada en Objetos\\Tareas",
-    "-Tercero\\Programación Orientada en Objetos\\Tareas\\Attachments",
-    "Formularios/Precálculo.md",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Tarea3_JuarezRubio_AlanYahir.md",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Tarea1_JuarezRubio_AlanYahir.md",
+    "-Tercero/Circuitos/Prácticas",
+    "Untitled 2.md",
+    "-Tercero/Circuitos/Project Backups/Actividad 1 - Circuito 4 y 5 [20230317, 21-09-27].pdsprj",
+    "-Tercero/Circuitos/Actividad 1 - Circuito 4 y 5.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
+    "-Tercero/Circuitos/Project Backups/Actividad 1 - Circuito 4 y 5 [20230317, 21-09-22].pdsprj",
+    "Formularios/Attachments/df9fd49486e75a6b243031819b615e3f014ef6a3.svg",
     "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311152811.png",
     "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311153112.png",
     "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311152023.png",
@@ -174,32 +199,6 @@
     "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Diagrama-de-clase.png",
     "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Diagrama-de-clase-simple.png",
     "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Diagrama-de-interfaz.png",
-    "-Tercero/Sistemas Digitales (Oyente)/Logica de Función Fija - 14-02-2023.md",
-    "-Tercero/Sistemas Digitales/Tareas/1. Conversiones numéricas.md",
-    "Formularios/Conjuntos y lógica matemática - símbolos.md",
-    "Formularios/Formulario Cinemática y Leyes de Newton.md",
-    "Formularios/Leyes.md",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Portada.md",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311155501.png",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311154603.png",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311153419.png",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Portada.m.md",
-    "-Primero/Fundamentos de Física/Portafolio de Evidencias.md",
-    "-Tercero/Sistemas Digitales/Tareas/Portada.md",
-    "-Primero/Precálculo/Class Notes/Sistemas 2x2.md",
-    "-Primero/Precálculo/Class Notes/Untitled.md",
-    "-Tercero/Programación Orientada en Objetos/Notas/Introducción a POO.md",
-    "Attachments\\Excalidraw",
-    "-Tercero\\Sistemas Digitales\\Tareas\\Attachments",
-    "-Tercero\\Programación Orientada en Objetos\\Programas\\Fecha_2",
-    "-Tercero\\Programación Orientada en Objetos\\Programas\\Fecha",
-    "Attachments/Excalidraw/FODA 2023-02-28 11.27.25.excalidraw.md",
-    "Formularios/Cálculo.md",
-    "Attachments/Excalidraw/Drawing 2023-02-28 11.27.25.excalidraw.md",
-    "Attachments/Excalidraw/Drawing 2023-02-28 11.27.11.excalidraw.md",
-    "Attachments/Excalidraw/Drawing 2023-02-28 10.15.22.excalidraw.md",
-    "Attachments/Excalidraw/Drawing 2023-01-30 16.33.09.excalidraw.md",
-    "Formularios/Precálculo 1.md"
+    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311155501.png"
   ]
 }
