@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5e060683680084ce",
+        "id": "7edd972f5d35d176",
         "type": "tabs",
         "children": [
           {
-            "id": "5973b203a4686845",
+            "id": "3053ba3bbe9dbb30",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electricidad y electrónica/1. Electricidad.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -95,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electricidad y electrónica/1. Electricidad.md",
+                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Python/Operadores aritméticos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Electricidad y electrónica/1. Electricidad.md",
+                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Python/Operadores aritméticos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Electricidad y electrónica/1. Electricidad.md"
+                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Python/Operadores aritméticos.md"
               }
             }
           },
@@ -161,39 +156,40 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5973b203a4686845",
+  "active": "14b31f7a61e09a38",
   "lastOpenFiles": [
-    "Attachments/Templates/Excalidraw.md",
-    "Attachments/Templates/Images.md",
-    "Attachments/Templates/Meta.md",
-    "Attachments/Templates/Page Break.md",
-    "Attachments/Templates/New Note.md",
+    "Programación/Pensamiento lógico/Lenguajes de programación/PHP/Ejercicios.md",
+    "Español/Gramática/3. Oraciones/1. Estructura de la oración y tipos de oraciones.md",
+    "Inglés/Inglés Básico A1 para principiantes/Subject pronouns.md",
+    "Inglés/Writting/Plural forms.md",
+    "Español/Gramática/4. Párrafo/2. Coma criminal.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/1. Principios del Álgebra.md",
+    "Inglés/Speaking/Letters Pronuntiation/Vowel sounds.md",
+    "Attachments/Excalidraw/Algoritmo-de-Dijakstra.excalidraw.md",
+    "Español/Gramática/5. Texto/2. Estructura del texto.md",
+    "Programación/Pensamiento lógico/Estructuras de control/Arrays en las estructuras de control.md",
+    "Attachments/Templates/Bibliografía/APA/Recuperado.md",
+    "Matemáticas/Cálculo/Límites/Límites.md",
+    "Programación/Pensamiento lógico/Estructuras de control/Estructuras de control.md",
     "Electricidad y electrónica/1. Electricidad.md",
-    "Untitled.md",
-    "Formularios/Circuitos electrónicos y electromagnetismo.md",
-    "Circuitos-dudas.md",
-    "-Tercero/Administración/Tareas/Actividad 3 - La Organización.md",
-    "Attachements/Excalidraw/Organigrama.excalidraw.md",
-    "-Tercero/Administración/Tareas/Actividad 2 - La planeación.md",
-    "Attachements/Excalidraw/Organigrama.excalidraw 1.md",
+    "Programación/Pensamiento lógico/Lenguajes de programación/Lenguaje de programación.md",
+    "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md",
+    "Inglés/Inglés Básico A1 para principiantes/Possesive Adjectives.md",
+    "Matemáticas/Matemáticas Discretas/Lógica.md",
+    "Programación/Introducción a la web - Historia y Funcionamiento de la web/Python/Tipos de dato.md",
+    "Programación/Pensamiento lógico/Lenguajes de programación/JavaScript/Ejercicios.md",
+    "Inglés/A1/Grammar/Reflexive Pronouns and the past continous.md",
+    "Matemáticas/Álgebra/Productos Notables/1. Binomio al cuadrado.md",
+    "Programación/Pensamiento lógico/Tablas de verdad/Tablas de verdad.md",
+    "Attachments/Templates/New Note.md",
+    "Inglés/CV.md",
+    "Inglés/Speaking/Letters Pronuntiation/IPA International Phonetic Alphabet.md",
+    "Español/Gramática/1. Letras/2 Reglas.webp",
     "-Tercero/Administración/Tareas/Attachments/Pasted image 20230320182452.png",
-    "-Tercero/Administración/Tareas/Actividad 1.1 - La empresa_Juarez Rubio Alan Yahir.md",
     "Attachements/Excalidraw",
     "Attachements",
-    "-Tercero/Administración/Tareas/Untitled.md",
-    "-Tercero/Administración/Notes/Untitled 1.md",
     "-Tercero/Administración/Notes",
-    "-Tercero/Administración/Notes/Untitled.md",
-    "Formularios/Cálculo.md",
-    "-Primero/Lógica Matemática/Class Notes/Lenguaje natural, símbolico y tablas de verdad.md",
-    "-Primero/Fundamentos de Física/Class Notes/Calor.md",
-    "Formularios/Conjuntos y lógica matemática - símbolos.md",
-    "Reseñas de profesores/Personales/Reseñas ICOM.md",
-    "Reseñas de profesores/Personales/Reseñas.md",
-    "Reseñas de profesores/Claves de Materias ICOM.md",
     "-Tercero/Circuitos/Actividad 1 - Circuito 3_beta.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
-    "Attachments/Excalidraw/Drawing 2023-01-30 16.33.09.excalidraw.md",
-    "Attachments/Excalidraw/FODA 2023-02-28 11.27.25.excalidraw.md",
     "-Tercero/Circuitos/Actividad 1/Actividad 1 - Circuito 3.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
     "-Tercero/Circuitos/Tarea 1/New Project.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
     "-Tercero/Circuitos/Prácticas",
@@ -207,7 +203,6 @@
     "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311133621.png",
     "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Diagrama-de-clase.png",
     "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Diagrama-de-clase-simple.png",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Diagrama-de-interfaz.png",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311155501.png"
+    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Diagrama-de-interfaz.png"
   ]
 }
