@@ -45,5 +45,9 @@
   ],
   "defaultExportDirectoryMode": "Auto",
   "openExportedFile": true,
-  "version": "1.1.10"
+  "version": "1.1.10",
+  "lastExportDirectory": {
+    "win32": "C:\\Users\\Human Solutions\\Documents"
+  },
+  "lastExportType": "Word (.docx)"
 }
