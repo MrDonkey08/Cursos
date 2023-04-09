@@ -7,9 +7,9 @@
   "displayYAMLFrontmatter": false,
   "linkStrippingBehaviour": "unchanged",
   "highDPIDiagrams": true,
-  "pandoc": "",
-  "pdflatex": "",
-  "outputFolder": "C:\\Users\\Human Solutions\\Pandoc exports",
+  "pandoc": "pandoc",
+  "pdflatex": "pdflatex",
+  "outputFolder": "C:\\Users\\Human Solutions\\Documents\\Pandoc exports",
   "extraArguments": "",
   "exportFrom": "md"
 }
