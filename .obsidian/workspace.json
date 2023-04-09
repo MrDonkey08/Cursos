@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "c1d730e2b3c39082",
+            "id": "05eebbaee6f2f2b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
+                "file": "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,13 +73,13 @@
             }
           },
           {
-            "id": "05eebbaee6f2f2b0",
+            "id": "85724ce6d2929521",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/C++/Memoria Dinámica/Manejo de memoria.md",
-                "mode": "preview",
+                "file": "Español/Gramática/2. Palabras/2. Diptongo, tripotongo e hiato.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
+                "file": "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
+                "file": "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md"
+                "file": "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md"
               }
             }
           },
@@ -228,11 +228,26 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "c1d730e2b3c39082",
+  "active": "05eebbaee6f2f2b0",
   "lastOpenFiles": [
-    "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas - Copy.md",
-    "Programación/C++/Memoria Dinámica/Manejo de memoria.md",
+    "Español/Gramática/5. Texto/2. Estructura del texto.md",
+    "Español/Gramática/5. Texto/1. Texto.md",
+    "Español/Gramática/4. Párrafo/2. Coma criminal.md",
+    "Español/Gramática/4. Párrafo/1. Signos de puntuación.md",
+    "Español/Gramática/3. Oraciones/2. Palabras.md",
+    "Español/Gramática/3. Oraciones/1. Estructura de la oración y tipos de oraciones.md",
+    "Español/Gramática/2. Palabras/4. Tildes Diacriticas.md",
     "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
+    "Español/Gramática/2. Palabras/2. Diptongo, tripotongo e hiato.md",
+    "Español/Gramática/2. Palabras/1. Acento, sílaba tónica y tílde.md",
+    "Español/Gramática/1. Letras/1. Mayúsculas y minúsculas.md",
+    "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md",
+    "Español/Gramática/1. Letras/2 Reglas.webp",
+    "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas - Copy.md",
+    "Untitled.md",
+    "Español/Gramática/2. Palabras/tex2pdf.-c5891a0e43087b2f/input.tex",
+    "Español/Gramática/2. Palabras/tex2pdf.-c5891a0e43087b2f",
+    "Programación/C++/Memoria Dinámica/Manejo de memoria.md",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/README.md",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/_style.css",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/blackboard.png",
@@ -244,7 +259,6 @@
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-red.png",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-yellow.png",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/chalk-blue.png",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/chalk-green.png",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/plugin (copy).js",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/plugin.js",
@@ -253,28 +267,14 @@
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chart/README.md",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chart/chart.min.js",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chart/plugin.js",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chart",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/customcontrols/README.md",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/customcontrols/plugin.js",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/menu/README.md",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/menu/CONTRIBUTING.md",
-    "Español/Gramática/2. Palabras/2. Diptongo, tripotongo e hiato.md",
-    "Español/Gramática/2. Palabras/1. Acento, sílaba tónica y tílde.md",
     "Programación/C++/Untitled.md",
     "Programación/C++/Tipos de datos.md",
     "Electricidad y electrónica/1. Electricidad.md",
     "Electricidad y electrónica/Circuitos electrónicos.md",
     "Programación/Pensamiento lógico/Tablas de verdad/Operadores.md",
-    "Español/Gramática/4. Párrafo/1. Signos de puntuación.md",
-    "().md",
-    "Programación/Introducción a la web - Historia y Funcionamiento de la web/Python/Operadores aritméticos.md",
-    "Programación/Pensamiento lógico/Lenguajes de programación/PHP/Ejercicios.md",
-    "Español/Gramática/3. Oraciones/1. Estructura de la oración y tipos de oraciones.md",
-    "Inglés/Inglés Básico A1 para principiantes/Subject pronouns.md",
-    "Inglés/Writting/Plural forms.md",
-    "Español/Gramática/4. Párrafo/2. Coma criminal.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/1. Principios del Álgebra.md",
-    "Inglés/Speaking/Letters Pronuntiation/Vowel sounds.md",
-    "Attachments/Excalidraw/Algoritmo-de-Dijakstra.excalidraw.md"
+    "().md"
   ]
 }
