@@ -11,11 +11,82 @@
             "id": "3053ba3bbe9dbb30",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Electricidad y electrónica/1. Electricidad.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef0c81351f82061d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Electricidad y electrónica/Circuitos electrónicos.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56a5e242969768c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programación/Pensamiento lógico/Tablas de verdad/Operadores.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c64f0926c79f1be0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programación/C++/Tipos de datos.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1d730e2b3c39082",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05eebbaee6f2f2b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programación/C++/Memoria Dinámica/Manejo de memoria.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -90,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Python/Operadores aritméticos.md",
+                "file": "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Python/Operadores aritméticos.md",
+                "file": "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Python/Operadores aritméticos.md"
+                "file": "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md"
               }
             }
           },
@@ -152,12 +223,50 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "14b31f7a61e09a38",
+  "active": "c1d730e2b3c39082",
   "lastOpenFiles": [
+    "Programación/C++/Memoria Dinámica/Manejo de memoria.md",
+    "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/README.md",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/_style.css",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/blackboard.png",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-black.png",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-blue.png",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-green.png",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-orange.png",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-purple.png",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-red.png",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-yellow.png",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/chalk-blue.png",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/chalk-green.png",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/plugin (copy).js",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/plugin.js",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/style.css",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chart/README.md",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chart/chart.min.js",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chart/plugin.js",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chart",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/customcontrols/README.md",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/customcontrols/plugin.js",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/menu/README.md",
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/menu/CONTRIBUTING.md",
+    "Español/Gramática/2. Palabras/2. Diptongo, tripotongo e hiato.md",
+    "Español/Gramática/2. Palabras/1. Acento, sílaba tónica y tílde.md",
+    "Programación/C++/Untitled.md",
+    "Programación/C++/Tipos de datos.md",
+    "Electricidad y electrónica/1. Electricidad.md",
+    "Electricidad y electrónica/Circuitos electrónicos.md",
+    "Programación/Pensamiento lógico/Tablas de verdad/Operadores.md",
+    "Español/Gramática/4. Párrafo/1. Signos de puntuación.md",
+    "().md",
+    "Programación/Introducción a la web - Historia y Funcionamiento de la web/Python/Operadores aritméticos.md",
     "Programación/Pensamiento lógico/Lenguajes de programación/PHP/Ejercicios.md",
     "Español/Gramática/3. Oraciones/1. Estructura de la oración y tipos de oraciones.md",
     "Inglés/Inglés Básico A1 para principiantes/Subject pronouns.md",
@@ -166,43 +275,6 @@
     "Matemáticas/Álgebra/Fundamentos de Álgebra/1. Principios del Álgebra.md",
     "Inglés/Speaking/Letters Pronuntiation/Vowel sounds.md",
     "Attachments/Excalidraw/Algoritmo-de-Dijakstra.excalidraw.md",
-    "Español/Gramática/5. Texto/2. Estructura del texto.md",
-    "Programación/Pensamiento lógico/Estructuras de control/Arrays en las estructuras de control.md",
-    "Attachments/Templates/Bibliografía/APA/Recuperado.md",
-    "Matemáticas/Cálculo/Límites/Límites.md",
-    "Programación/Pensamiento lógico/Estructuras de control/Estructuras de control.md",
-    "Electricidad y electrónica/1. Electricidad.md",
-    "Programación/Pensamiento lógico/Lenguajes de programación/Lenguaje de programación.md",
-    "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md",
-    "Inglés/Inglés Básico A1 para principiantes/Possesive Adjectives.md",
-    "Matemáticas/Matemáticas Discretas/Lógica.md",
-    "Programación/Introducción a la web - Historia y Funcionamiento de la web/Python/Tipos de dato.md",
-    "Programación/Pensamiento lógico/Lenguajes de programación/JavaScript/Ejercicios.md",
-    "Inglés/A1/Grammar/Reflexive Pronouns and the past continous.md",
-    "Matemáticas/Álgebra/Productos Notables/1. Binomio al cuadrado.md",
-    "Programación/Pensamiento lógico/Tablas de verdad/Tablas de verdad.md",
-    "Attachments/Templates/New Note.md",
-    "Inglés/CV.md",
-    "Inglés/Speaking/Letters Pronuntiation/IPA International Phonetic Alphabet.md",
-    "Español/Gramática/1. Letras/2 Reglas.webp",
-    "-Tercero/Administración/Tareas/Attachments/Pasted image 20230320182452.png",
-    "Attachements/Excalidraw",
-    "Attachements",
-    "-Tercero/Administración/Notes",
-    "-Tercero/Circuitos/Actividad 1 - Circuito 3_beta.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
-    "-Tercero/Circuitos/Actividad 1/Actividad 1 - Circuito 3.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
-    "-Tercero/Circuitos/Tarea 1/New Project.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
-    "-Tercero/Circuitos/Prácticas",
-    "-Tercero/Circuitos/Project Backups/Actividad 1 - Circuito 4 y 5 [20230317, 21-09-27].pdsprj",
-    "-Tercero/Circuitos/Actividad 1 - Circuito 4 y 5.pdsprj.DESKTOP-9FAHEL3.Human Solutions.workspace",
-    "-Tercero/Circuitos/Project Backups/Actividad 1 - Circuito 4 y 5 [20230317, 21-09-22].pdsprj",
-    "Formularios/Attachments/df9fd49486e75a6b243031819b615e3f014ef6a3.svg",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311152811.png",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311153112.png",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311152023.png",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Pasted image 20230311133621.png",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Diagrama-de-clase.png",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Diagrama-de-clase-simple.png",
-    "-Tercero/Programación Orientada en Objetos/Tareas/Attachments/Diagrama-de-interfaz.png"
+    "Español/Gramática/5. Texto/2. Estructura del texto.md"
   ]
 }
