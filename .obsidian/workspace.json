@@ -58,35 +58,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "05eebbaee6f2f2b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85724ce6d2929521",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Español/Gramática/2. Palabras/2. Diptongo, tripotongo e hiato.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -161,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md",
+                "file": "Programación/C++/Tipos de datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md",
+                "file": "Programación/C++/Tipos de datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md"
+                "file": "Programación/C++/Tipos de datos.md"
               }
             }
           },
@@ -228,20 +202,20 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "05eebbaee6f2f2b0",
+  "active": "c64f0926c79f1be0",
   "lastOpenFiles": [
-    "Español/Gramática/5. Texto/2. Estructura del texto.md",
-    "Español/Gramática/5. Texto/1. Texto.md",
-    "Español/Gramática/4. Párrafo/2. Coma criminal.md",
-    "Español/Gramática/4. Párrafo/1. Signos de puntuación.md",
-    "Español/Gramática/3. Oraciones/2. Palabras.md",
     "Español/Gramática/3. Oraciones/1. Estructura de la oración y tipos de oraciones.md",
     "Español/Gramática/2. Palabras/4. Tildes Diacriticas.md",
-    "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
-    "Español/Gramática/2. Palabras/2. Diptongo, tripotongo e hiato.md",
+    "Español/Gramática/3. Oraciones/2. Palabras.md",
+    "Español/Gramática/4. Párrafo/1. Signos de puntuación.md",
+    "Español/Gramática/4. Párrafo/2. Coma criminal.md",
+    "Español/Gramática/5. Texto/1. Texto.md",
+    "Español/Gramática/5. Texto/2. Estructura del texto.md",
     "Español/Gramática/2. Palabras/1. Acento, sílaba tónica y tílde.md",
-    "Español/Gramática/1. Letras/1. Mayúsculas y minúsculas.md",
+    "Español/Gramática/2. Palabras/2. Diptongo, tripotongo e hiato.md",
     "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md",
+    "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
+    "Español/Gramática/1. Letras/1. Mayúsculas y minúsculas.md",
     "Español/Gramática/1. Letras/2 Reglas.webp",
     "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas - Copy.md",
     "Untitled.md",
