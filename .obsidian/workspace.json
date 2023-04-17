@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3053ba3bbe9dbb30",
+            "id": "4a6ac99a2815ab3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,48 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ef0c81351f82061d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electricidad y electrónica/Circuitos electrónicos.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56a5e242969768c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programación/Pensamiento lógico/Tablas de verdad/Operadores.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c64f0926c79f1be0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programación/C++/Tipos de datos.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programación/C++/Tipos de datos.md",
+                "file": "Electricidad y electrónica/1. Electricidad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programación/C++/Tipos de datos.md",
+                "file": "Electricidad y electrónica/1. Electricidad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/C++/Tipos de datos.md"
+                "file": "Electricidad y electrónica/1. Electricidad.md"
               }
             }
           },
@@ -202,8 +162,13 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "c64f0926c79f1be0",
+  "active": "4a6ac99a2815ab3d",
   "lastOpenFiles": [
+    "Electricidad y electrónica/Circuitos electrónicos.md",
+    "Electricidad y electrónica/1. Electricidad.md",
+    "Programación/C++/Tipos de datos.md",
+    "Español\\Gramática\\2. Palabras",
+    "Programación/Pensamiento lógico/Tablas de verdad/Operadores.md",
     "Español/Gramática/3. Oraciones/1. Estructura de la oración y tipos de oraciones.md",
     "Español/Gramática/2. Palabras/4. Tildes Diacriticas.md",
     "Español/Gramática/3. Oraciones/2. Palabras.md",
@@ -240,15 +205,9 @@
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chart/README.md",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chart/chart.min.js",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chart/plugin.js",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/customcontrols/README.md",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/menu/README.md",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/menu/CONTRIBUTING.md",
-    "Programación/C++/Untitled.md",
-    "Programación/C++/Tipos de datos.md",
-    "Electricidad y electrónica/1. Electricidad.md",
-    "Electricidad y electrónica/Circuitos electrónicos.md",
-    "Programación/Pensamiento lógico/Tablas de verdad/Operadores.md",
-    "().md"
+    "Programación/C++/Untitled.md"
   ]
 }
