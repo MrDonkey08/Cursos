@@ -11,9 +11,11 @@ last modification date: 06-04-2023
 type: Note
 ---
 ---
+
 # Tipos de datos  en C++
 
 ---
+
 ## Datos primitivos
 
 Los _tipos de dato primitivo_ o  _elementales_ son aquellos  tipos de datos originales de un lenguaje de programación, es decir, aquellos que nos proporciona dicho lenguaje.
@@ -38,7 +40,10 @@ En los tipos de datos númericos tenemos las dos siguientes categorias:
 - **Unsigned**: Son aquellos que "no tienen signo", es decir, solo consideran los _números positivos_. Estos se declaran de la siguiente manera:
 	- unsigned int a
 
+<div style="page-break-after: always;"></div>
+
 ---
+
 # Referencias
 
 - [Martínez, D.](https://platzi.com/profesores/diananerd/) (s.f.). _Tipos de datos_. [Curso de C++ Básico](https://platzi.com/cursos/c-plus-plus/). [Platzi](https://platzi.com/home). Recuperado el 06 de abril de 2023 de https://platzi.com/clases/2372-c-plus-plus/38890-tipos-de-datos/
