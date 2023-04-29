@@ -11,9 +11,12 @@
             "id": "4a6ac99a2815ab3d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attachments/Images/3. Binomios conjugados-1676210380765.jpeg"
+                "file": "Programación/Pensamiento lógico/Algoritmos/Diagramas de flujo.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "romb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -63,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/Images/3. Binomios conjugados-1676210380765.jpeg",
+                "file": "Programación/Pensamiento lógico/Algoritmos/Diagramas de flujo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachments/Images/3. Binomios conjugados-1676210380765.jpeg",
+                "file": "Programación/Pensamiento lógico/Algoritmos/Diagramas de flujo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/Images/3. Binomios conjugados-1676210380765.jpeg"
+                "file": "Programación/Pensamiento lógico/Algoritmos/Diagramas de flujo.md"
               }
             }
           },
@@ -161,6 +163,7 @@
   },
   "active": "4a6ac99a2815ab3d",
   "lastOpenFiles": [
+    "Attachments/Images/3. Binomios conjugados-1676210380765.jpeg",
     "Attachments/Images/1.-Sistema-Binario-1.jpeg",
     "Attachments/Images/1.-Binomio-al-cuadrado-1.jpeg",
     "Matemáticas/Ecuaciones Diferenciales/1. Ecuación Diferencial.md",
@@ -196,7 +199,6 @@
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-orange.png",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-purple.png",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-red.png",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-yellow.png",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/plugin (copy).js",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/plugin.js",

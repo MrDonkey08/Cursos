@@ -1,4 +1,4 @@
-***
+
 # Diagramas de flujo
 
 |Figura|Nombre|Descripción|
@@ -7,6 +7,16 @@
 |Rombo|Condicional|Hace una pregunta cerrada y con base a la respuesta, toma un camino u otro.
 |Rectángulo|Proceso|Dentro de este puede haber una operación, mensaje u algoritmo.|
 |Flecha|Conector|Indica el inicio y el final de un proceso. Este sirve para especificar las conecciones entre los símbolos. Todas las figuras tienen que tener por lo menos 2 conectores, a excepción del inicio y el fin.|
+
+```mermaid
+flowchart TD
+
+A([Inicio]) --> B{Condición} 
+B ---> |Sí| C[Proceso 1]
+B ---> |No| D[Proceso 2]
+C --> E([Fin])
+D --> E([Fin])
+```
 
 ---
 ## Referencias
