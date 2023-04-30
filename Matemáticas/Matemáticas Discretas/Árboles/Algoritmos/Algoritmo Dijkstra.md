@@ -13,9 +13,9 @@ Los pasos de este algoritmo son los siguientes:
 ---
 Encontrar la ruta menos costosa de $a$ a $f$ 
 
-![Algoritmo-Dijkstra](Matemáticas/Matemáticas%20Discretas/Árboles/Algoritmos/Attachments/Algoritmo-Dijkstra.jpeg)
+![Algoritmo-Dijkstra](Attachments/Algoritmo-Dijkstra.jpeg)
 
-![Algoritmo-Dijkstra-1](Matemáticas/Matemáticas%20Discretas/Árboles/Algoritmos/Attachments/Algoritmo-Dijkstra-1.jpeg)
+![Algoritmo-Dijkstra-1](Attachments/Algoritmo-Dijkstra-1.jpeg)
 <div style="page-break-after: always;"></div>
 <div style="page-break-after: always;"></div>
 

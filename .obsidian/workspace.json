@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fc0baca1062864aa",
+        "id": "02489685c2ee3a16",
         "type": "tabs",
         "children": [
           {
-            "id": "65e514809cf002da",
+            "id": "c3c1387d4cfbe716",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md",
+                "file": "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md",
+                "file": "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md",
+                "file": "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md"
+                "file": "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md"
               }
             }
           },
@@ -162,21 +162,35 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "65e514809cf002da",
+  "active": "14b31f7a61e09a38",
   "lastOpenFiles": [
-    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Fleury.excalidraw.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Fleury.png",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-flujo-máximo-1.jpeg",
+    "Matemáticas/Matemáticas Discretas/Árboles/Árbol de expansión mínimo.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md",
-    "Computación/Elección de componentes/RAM/ADATA/Notación.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Árbol binario.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Ejercicios.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676211157411.jpeg",
+    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg",
+    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Árbol de expansión mínimo.excalidraw.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Árbol - nivel y altura.excalidraw.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Árbol de expresión aritmética.excalidraw.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo Dijkstra.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de flujo máximo.md",
     "Attachments/Excalidraw/Drawing 2023-01-23 15.32.06.excalidraw.md",
-    "Matemáticas/Álgebra/Función/1. Función.md",
-    "Attachments/Images/Tabulación completa.webp",
-    "Attachments/Images/3. Binomios conjugados-1676210380765.jpeg",
-    "Attachments/Images/1.-Binomio-al-cuadrado-1.jpeg",
-    "Attachments/Images/1.-Sistema-Binario-1.jpeg",
     "Attachments/Images/Vowel-sounds-1.jpeg",
+    "Attachments/Images/Tabulación completa.webp",
     "Attachments/Images/simplificando polinomios-b0ad3a80-32d0-491b-bc75-108124dbed5f.webp",
     "Attachments/Images/Potenciación-y-sus-propiedades-1.jpeg",
     "Attachments/Images/Operadores-lógicos-programación.jpeg",
+    "Attachments/Images/3. Binomios conjugados-1676210380765.jpeg",
+    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Árbol-de-expansión-mínimo-1.jpeg.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo de flujo máximo.excalidraw.md",
+    "Attachments.f.mages",
+    "Computación/Elección de componentes/RAM/ADATA/Notación.md",
+    "Matemáticas/Álgebra/Función/1. Función.md",
     "Matemáticas/Aritmética/1. Operaciones básicas.md",
     "Matemáticas/Aritmética/2. Potenciación y sus propiedades.md",
     "Matemáticas/Cálculo/Funciones/Funciones, dominio y rango.md",
@@ -185,29 +199,15 @@
     "Matemáticas/Cálculo/Límites/Ejercicios/Dónde hay discontinuidades.md",
     "Matemáticas/Cálculo/Límites/Límites.md",
     "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Expresiones-Aritméticas.jpeg",
     "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments",
     "Matemáticas/Matemáticas Discretas/Grafos/Matriz de adyacencia.md",
-    "Matemáticas/Matemáticas Discretas/Grafos/Grados caminos, cadenas y ciclos.md",
-    "Matemáticas/Matemáticas Discretas/Grafos/Clasificación de grafos.md",
-    "Matemáticas/Matemáticas Discretas/Grafos/Caminos y ciclos hamiltoniano.md",
-    "Matemáticas/Matemáticas Discretas/Grafos/Caminos y ciclos eulerianos.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Recorrido de árboles.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Introducción a los árboles.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Árbol binario.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Árbol de expansión mínimo.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Attachments",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo Dijkstra.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de flujo máximo.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Dijakstra.excalidraw.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments",
     "Español\\Gramática\\2. Palabras",
     "Español/Gramática/2. Palabras/tex2pdf.-c5891a0e43087b2f/input.tex",
     "Español/Gramática/2. Palabras/tex2pdf.-c5891a0e43087b2f",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/_style.css",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/plugin (copy).js",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/plugin.js"
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/plugin (copy).js"
   ]
 }

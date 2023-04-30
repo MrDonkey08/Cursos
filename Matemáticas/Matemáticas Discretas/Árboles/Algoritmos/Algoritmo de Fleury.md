@@ -22,7 +22,7 @@ Los pasos que seguir son:
 3. En cada nueva iteración realizar un nuevo camino cerrado visitando aristas que no han sido visitadas.
 4. Reemplazar cada nuevo circuito en el inicial hasta visitar todas las aristas.
 
-![Ejemplo de Algoritmo de Fleury](Matemáticas/Matemáticas%20Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Fleury.excalidraw.md)
+![Algoritmo-de-Fleury](Attachments/Algoritmo-de-Fleury.png)
 
 > [!note]+ Condición para determinar si se hizo bien el ciclo
 > 

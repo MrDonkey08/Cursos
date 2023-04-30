@@ -18,5 +18,5 @@
   "strictLineBreaks": false,
   "readableLineLength": true,
   "showLineNumber": false,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "relative"
 }

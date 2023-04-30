@@ -2,7 +2,7 @@
 
 Un árbol de expansión mínimo es aquel árbol que partiendo de una raíz pueda conectar todos los vértices buscando los caminos de menor costo. Para sacar el costo mínimo del árbol solo basta con ir sumando el valor que tiene cada conexión nivel por nivel, luego sumar todos los niveles.
 
-![](/Attachments.f.mages/Árbol-de-expansión-mínimo-1.jpeg)
+![](Attachments/Árbol-de-expansión-mínimo-1.jpeg.md)
 
 ## Algoritmo de prim
 
@@ -12,9 +12,9 @@ Un árbol de expansión mínimo es aquel árbol que partiendo de una raíz pueda
 4. Finaliza cuando todos los nodos están conectados con $n-1$ aristas, donde $n$ es el número de nodos.
 5. Para conseguir el coste total suma todas los valores de las aristas seleccionadas.
 
-![](/Attachments.f.mages/Árbol-de-expansión-mínimo-2.jpeg) 
+![Attachments/Árbol-de-expansión-mínimo-1.jpeg](Attachments/Árbol-de-expansión-mínimo-1.jpeg)
 
-![](/Attachments.f.mages/Árbol-de-expansión-mínimo-2.jpeg)
+![Árbol-de-expansión-mínimo-2](Attachments/Árbol-de-expansión-mínimo-2.jpeg)
 
 **Coste total:** 27
 
@@ -29,14 +29,14 @@ El algoritmo de Kruskal al igual que el algoritmo de Prim sirve para buscar el �
 ---
 Aplica para ambos algoritmos:
 
-```ad-note 
-Cabe mencionar que cuando estemos haciendo este proceso no se formen ciclos cerrados o rutas cerradas porque sino se estarían repitiendo caminos por los cuales no se deberian pasar.
-```
+> [!note]
+> 
+> Cabe mencionar que cuando estemos haciendo este proceso no se formen ciclos cerrados o rutas cerradas porque sino se estarían repitiendo caminos por los cuales no se deberian pasar.
 
-```ad-note 
-Esta conexión no es de orden secuencial, por lo que puedes hacer un camino y si se presenta algun ciclo o ruta cerrada, puedes regresarte a cualquiera de los demás nodos que ya han sido conectados y seguir conectando aquellos que no están conectados.
+> [!note]
+> 
+> Esta conexión no es de orden secuencial, por lo que puedes hacer un camino y si se presenta algun ciclo o ruta cerrada, puedes regresarte a cualquiera de los demás nodos que ya han sido conectados y seguir conectando aquellos que no están conectados.
 
-```
 
 <div style="page-break-after: always;"></div>
 
