@@ -25,7 +25,7 @@ Así como vimos las diferentes formas para recorrer un árbol, las expresiones a
 • In fijo: izquierda-raíz-derecha  
 • Pos fijo: izquierda-derecha-raíz
 
-![ | 550](Matemáticas/Matemáticas%20Discretas/Árboles/Attachments/Expresiones-Aritméticas.jpeg)
+![Expresiones-Aritméticas | 550](Matemáticas/Matemáticas%20Discretas/Árboles/Attachments/Expresiones-Aritméticas.jpeg)
 
 <div style="page-break-after: always;"></div>
 

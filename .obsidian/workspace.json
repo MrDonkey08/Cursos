@@ -11,9 +11,12 @@
             "id": "65e514809cf002da",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg"
+                "file": "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -92,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg",
+                "file": "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg",
+                "file": "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg"
+                "file": "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md"
               }
             }
           },
@@ -154,13 +157,14 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
   "active": "65e514809cf002da",
   "lastOpenFiles": [
+    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg",
     "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md",
     "Computación/Elección de componentes/RAM/ADATA/Notación.md",
     "Attachments/Excalidraw/Drawing 2023-01-23 15.32.06.excalidraw.md",
@@ -182,7 +186,6 @@
     "Matemáticas/Cálculo/Límites/Límites.md",
     "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Expresiones-Aritméticas.jpeg",
-    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg",
     "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments",
     "Matemáticas/Matemáticas Discretas/Grafos/Matriz de adyacencia.md",
     "Matemáticas/Matemáticas Discretas/Grafos/Grados caminos, cadenas y ciclos.md",
@@ -198,7 +201,6 @@
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de flujo máximo.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Dijakstra.excalidraw.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo de prim.excalidraw.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments",
     "Español\\Gramática\\2. Palabras",
     "Español/Gramática/2. Palabras/tex2pdf.-c5891a0e43087b2f/input.tex",
