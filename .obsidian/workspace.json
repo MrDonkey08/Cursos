@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
-                "mode": "source",
+                "file": "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
+                "file": "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
+                "file": "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md"
+                "file": "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md"
               }
             }
           },
@@ -162,11 +162,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "14b31f7a61e09a38",
+  "active": "c3c1387d4cfbe716",
   "lastOpenFiles": [
+    "Matemáticas/Matemáticas Discretas/Lógica.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Fleury.excalidraw.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Fleury.png",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-flujo-máximo-1.jpeg",
     "Matemáticas/Matemáticas Discretas/Árboles/Árbol de expansión mínimo.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md",
