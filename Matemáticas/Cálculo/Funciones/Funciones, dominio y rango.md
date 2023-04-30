@@ -1,5 +1,6 @@
-****
-## ¿Qué es una función?
+# Funciones, domingo y rango
+
+## Qué es una función
 
 La **función** es una regla que relaciona a un conjunto de entradas con un conjunto de posibles salidas, donde a cada elemento en la entrada le corresponde únicamente un elemento de la salida.
 
@@ -18,9 +19,7 @@ En consecuencia, lo que vamos a estar haciendo es alimentar a esta regla con dat
 
 ![f(x).jpg | 600](https://cdn.document360.io/da52b302-22aa-4a71-9908-ba18e68ffee7/Images/Documentation/f%28x%29.jpg)
 
----
-
-## ¿Qué es una función lineal?
+## Qué es una función lineal
 
 Si te fijas aquí hay tres elementos: $y$, $mx$ y $b$. Donde:
 
@@ -29,8 +28,7 @@ Si te fijas aquí hay tres elementos: $y$, $mx$ y $b$. Donde:
 -   La $x$ son los datos de entrada
 -   La $b$ es el lugar donde esa línea va a cruzar el eje vertical o eje de las $y$. Este punto $b$ lo vamos a llamar la intersección con el eje de las $y$
 
----
-## ¿Qué es el dominio?
+## Qué es el dominio
 
 El dominio es el conjunto de valores que una función admite para ser procesados (las entradas).
 
@@ -42,7 +40,6 @@ La $X$ mayúscula son todos los valores que se pueden asignar a la función, mie
 
 Esta $x$ minúscula representa el **dominio**. El dominio son los valores que se van a ingresar como valores de la función.
 
----
 ## Codominio y rango de la función
 
 El **codominio** son **todos** los posibles valores que resultan de una función, los cuales se van a representar con $Y$ mayúscula.
@@ -51,7 +48,6 @@ El **codominio** son **todos** los posibles valores que resultan de una función
 
 Volviendo a la imagen de conjuntos anterior, el **dominio** $(x)$ se encuentra en el lado izquierdo y el **codominio** $(Y)$ en el lado derecho. Las flechas representan los valores que están conectando a un conjunto con el otro, y ese pequeño elemento más pequeño que está del lado derecho representado por un pequeño óvalo es el **rango**. Es decir, el **rango es una parte del codominio**.
 
----
 ## Ejercicio práctico de funciones
 
 Vamos a realizar un ejercicio práctico para visualizar mejor todo lo visto hasta este momento. Supongamos la función siguiente:
@@ -69,10 +65,8 @@ En este caso práctico, se identifican claramente los siguientes elementos:
 -   Un conjunto de 10 posibles salidas conformado por el **codominio**
 -   Valores específicos de salida $(y)$ o $f(x)$ que representan el **rango**, el cual es un subconjunto del **codominio**
 
----
 ## Clasificación de funciones
 
----
 ### Funciones de tipo algebraico
 
 Las **funciones algebraicas** se pueden escribir en términos de operaciones algebraicas (potenciación, radicación, suma, resta, multiplicación, división). Por ejemplo:
@@ -85,7 +79,6 @@ $y = 3x^2 z = xxz + xxz + xxz$
 
 Pues, la $x^2$ es una simplificación de la multiplicación de $x$ por $x$. Entonces, nos indica que una función algebraica podemos separarla en otros elementos.
 
----
 ### Funciones de tipo trascendente
 
 La [función trascendente](https://es.wikipedia.org/wiki/Funci%C3%B3n$trascendente) es una función que no satisface una ecuación polinómica cuyos coeficientes sean a su vez polinomios; esto contrasta con las funciones algebraicas, las cuales satisfacen dicha ecuación.
@@ -100,11 +93,8 @@ Esta función nos muestra un problema, pues, anteriormente decíamos que una $x^
 
 La respuesta es que no lo sabemos; entonces si te fijas la forma de escribir esta función es única, es especial, porque no se puede separar en otros componentes. Por esta razón, no podemos entonces confundir las funciones trascendentes con las funciones algebraicas.
 
----
-## Notas Recomendadas
-- [[1. Función | Función]]
+<div style="page-break-after: always;"></div>
 
----
-## Referencias
+# Referencias
 
 - [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). [_Funciones, dominio y rango_](https://platzi.com/clases/2612-calculo-diferencial/43599-funciones-dominio-y-rango/). [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/). [Consultado el 11/01/2023]

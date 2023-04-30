@@ -11,9 +11,7 @@ last modification date: 12-02-2023
 type: Note
 ---
 
----
-### Algoritmo de Fleury
----
+# Algoritmo de Fleury
 
 El **algoritmo de Fleury** va a encontrar un **ciclo euleriano**. Recordemos que un ciclo euleriano es un ciclo donde inicias y terminas en el mismo punto, pasando por todas las aristas una sola vez.
 
@@ -24,13 +22,14 @@ Los pasos que seguir son:
 3. En cada nueva iteración realizar un nuevo camino cerrado visitando aristas que no han sido visitadas.
 4. Reemplazar cada nuevo circuito en el inicial hasta visitar todas las aristas.
 
-![Ejemplo de Algoritmo de Fleury](/Attachments/Excalidraw/Algoritmo-de-Fleury.excalidraw.md)
+![Ejemplo de Algoritmo de Fleury](Matemáticas/Matemáticas%20Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Fleury.excalidraw.md)
 
 > [!note]+ Condición para determinar si se hizo bien el ciclo
 > 
 > El número de veces que el nodo aparece en el ciclo euleriano debe de ser la mitad del grado que tiene en el grafo.
 
----
-## Referencias
+<div style="page-break-after: always;"></div>
 
-- [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s/i). [_Algoritmo de Fleury_](https://platzi.com/clases/1319-discretas/12239-algoritmo-de-fleury/). [Curso de Matemáticas Discretas](). [Platzi](https://platzi.com/). [Consultado el 09/01/2023].
+# Referencias
+
+- [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Algoritmo de Fleury_. [Curso de Matemáticas Discretas](). [Platzi](https://platzi.com/). Recuperado el 09 de enero de 2023 de https://platzi.com/clases/1319-discretas/12239-algoritmo-de-fleury/

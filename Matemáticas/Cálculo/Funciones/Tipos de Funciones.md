@@ -1,4 +1,5 @@
-***
+# Tipos de funciones
+
 Teniendo en cuenta $f(x)$ y $a$, $b$, $c$ y $m \in \Bbb R$  y son constantes, definimos lo siguiente: 
 
 **Función constante:** Aquella que, para todos los valores de $x$, regresa el mismo valor en $y$. Esta es fácil de identificar porque la función no tiene el término $x$.
@@ -24,8 +25,8 @@ donde $n$ y $m$ $\in \Bbb Z$ y $n-m=h$  y $h$ es un número non. -->
 
 **Funciones logaritmicas:** En estas funciones se caracterizan porque en su grafica tiene una asíntota vertical, esto porque un logaritmo no puede evaluarse en valores negativos. Los logaritmos más populares son $\ln(x) = \log_e(x)$ y $\log(x) = \log_{10}(x)$.
 
----
-## Referencias
+
+# Referencias
 
 - [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). [Tipos de Funciones_](https://platzi.com/clases/2612-calculo-diferencial/43600-tipos-de-funciones/). [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/) .[Consultado el 11/01/2023].
 - [Alonso R](https://www.geogebra.org/u/raliarte) (s.f). [_Función de proporcionalidad inversa_](https://www.geogebra.org/m/ePtQrmG8). [Geogebra](https://www.geogebra.org). [Consultado el 11/01/2023].

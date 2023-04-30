@@ -11,6 +11,12 @@
   --text-title-h4: #ff5555;
   --text-title-h5: #f1fa8c;
   --text-title-h6: #bd93f4;
+  --canvas-color-1: 255,  85,  85;
+  --canvas-color-2: 255, 184, 108;
+  --canvas-color-3: 241, 250, 140;
+  --canvas-color-4:  82, 250, 124;
+  --canvas-color-5: 139, 233, 253;
+  --canvas-color-6: 189, 147, 244;
   --text-link: #8be9fd;
   --markup-code: #ffb86c;
   --text-tag: #50fa7b;
@@ -62,8 +68,19 @@ a:not(.internal-link) {
 
 /* horizontal line in preview */
 
+hr {
+  background-color: var(--text-normal);
+  border-color: var(--text-normal);
+}
+
 .markdown-preview-view hr {
   background-color: var(--text-normal);
+  border-color: var(--text-normal);
+}
+
+.markdown-rendered hr {
+  background-color: var(--text-normal);
+  border-color: var(--text-normal);
 }
 
 .markdown-embed {
@@ -79,12 +96,6 @@ a:not(.internal-link) {
   color: var(--text-link);
 }
 
-.markdown-embed {
-  padding-left: 8px !important;
-  padding-right: 4px !important;
-  margin-left: 8px !important;
-  margin-right: 4px !important;
-}
 
 /* NAKED EMBEDS*/
 
@@ -102,9 +113,6 @@ a:not(.internal-link) {
   margin-bottom: 0;
 }
 
-.markdown-embed {
-  background-color: var(--background-primary-alt) !important;
-}
 
 .markdown-embed-link {
   color: var(--text-a) !important;
@@ -142,6 +150,7 @@ a:not(.internal-link) {
 
 pre code {
   padding: 5px !important;
+  color: var(--code-normal) !important;
   line-height: normal;
   display: block;
   background-color: var(--background-primary-alt) !important;
@@ -177,7 +186,7 @@ code,
 /* preview */
 
 .markdown-preview-view code {
-  color: var(--markup-code) !important;
+  color: var(--code-normal);
   background-color: var(--background-primary-alt) !important;
   bottom: -0.1px !important;
 }
@@ -734,4 +743,15 @@ ol {
 
 .is-selected {
   background-color: var(--blockquote-border)!important;
+}
+
+@media print { 
+  @page {
+    margin: 0mm 0mm 0mm 0mm;
+  }
+  .print .markdown-preview-view { 
+      -webkit-print-color-adjust: exact; 
+      background-color: #282a36; 
+      color: #f8f8f2;
+  }
 }

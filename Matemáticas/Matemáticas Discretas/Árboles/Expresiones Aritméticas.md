@@ -11,9 +11,7 @@ last modification date: 12-02-2023
 type: Note
 ---
 
----
-### Expresiones Aritméticas
----
+# Expresiones Aritméticas
 
 Los árboles también nos sirven para representar expresiones aritméticas, para ello debe cumplir con las siguientes condiciones:
 
@@ -27,9 +25,10 @@ Así como vimos las diferentes formas para recorrer un árbol, las expresiones a
 • In fijo: izquierda-raíz-derecha  
 • Pos fijo: izquierda-derecha-raíz
 
-![ | 550](Expresiones%20Aritméticas-1676212453167.jpeg)
+![ | 550](Matemáticas/Matemáticas%20Discretas/Árboles/Ejercicios/Attachments/Expresiones-Aritméticas.jpeg)
 
----
-## Referencias
+<div style="page-break-after: always;"></div>
 
-- [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Expresiones aritméticas_. [Curso de Matemáticas Discretas](https://platzi.com/cursos/discretas/). [Platzi](https://platzi.com/). Recuperado el 08 de enero de 2023].
+# Referencias
+
+- [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Expresiones aritméticas_. [Curso de Matemáticas Discretas](https://platzi.com/cursos/discretas/). [Platzi](https://platzi.com/). Recuperado el 08 de enero de 2023.

@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7edd972f5d35d176",
+        "id": "fc0baca1062864aa",
         "type": "tabs",
         "children": [
           {
-            "id": "4a6ac99a2815ab3d",
+            "id": "65e514809cf002da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programación/Pensamiento lógico/Algoritmos/Diagramas de flujo.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -39,7 +34,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "romb",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,11 +61,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 302.5026054382324
+    "width": 426.5
   },
   "right": {
     "id": "4b702cc4fb11ac6c",
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programación/Pensamiento lógico/Algoritmos/Diagramas de flujo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programación/Pensamiento lógico/Algoritmos/Diagramas de flujo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +116,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programación/Pensamiento lógico/Algoritmos/Diagramas de flujo.md"
-              }
+              "state": {}
             }
           },
           {
@@ -161,53 +153,53 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "4a6ac99a2815ab3d",
+  "active": "65e514809cf002da",
   "lastOpenFiles": [
+    "Attachments/Excalidraw/Drawing 2023-01-23 15.32.06.excalidraw.md",
+    "Matemáticas/Álgebra/Función/1. Función.md",
+    "Attachments/Images/Tabulación completa.webp",
     "Attachments/Images/3. Binomios conjugados-1676210380765.jpeg",
-    "Attachments/Images/1.-Sistema-Binario-1.jpeg",
     "Attachments/Images/1.-Binomio-al-cuadrado-1.jpeg",
-    "Matemáticas/Ecuaciones Diferenciales/1. Ecuación Diferencial.md",
-    "Electricidad y electrónica/1. Electricidad.md",
-    "Electricidad y electrónica/Circuitos electrónicos.md",
-    "Programación/C++/Tipos de datos.md",
+    "Attachments/Images/1.-Sistema-Binario-1.jpeg",
+    "Attachments/Images/Vowel-sounds-1.jpeg",
+    "Attachments/Images/simplificando polinomios-b0ad3a80-32d0-491b-bc75-108124dbed5f.webp",
+    "Attachments/Images/Potenciación-y-sus-propiedades-1.jpeg",
+    "Attachments/Images/Operadores-lógicos-programación.jpeg",
+    "Matemáticas/Aritmética/1. Operaciones básicas.md",
+    "Matemáticas/Aritmética/2. Potenciación y sus propiedades.md",
+    "Matemáticas/Cálculo/Funciones/Funciones, dominio y rango.md",
+    "Matemáticas/Cálculo/Funciones/Funciones Compuestas.md",
+    "Matemáticas/Cálculo/Funciones/Tipos de Funciones.md",
+    "Matemáticas/Cálculo/Límites/Ejercicios/Dónde hay discontinuidades.md",
+    "Matemáticas/Cálculo/Límites/Límites.md",
+    "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Expresiones-Aritméticas.jpeg",
+    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg",
+    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments",
+    "Matemáticas/Matemáticas Discretas/Grafos/Matriz de adyacencia.md",
+    "Matemáticas/Matemáticas Discretas/Grafos/Grados caminos, cadenas y ciclos.md",
+    "Matemáticas/Matemáticas Discretas/Grafos/Clasificación de grafos.md",
+    "Matemáticas/Matemáticas Discretas/Grafos/Caminos y ciclos hamiltoniano.md",
+    "Matemáticas/Matemáticas Discretas/Grafos/Caminos y ciclos eulerianos.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Recorrido de árboles.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Introducción a los árboles.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Árbol binario.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Árbol de expansión mínimo.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Attachments",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo Dijkstra.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de flujo máximo.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Dijakstra.excalidraw.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo de prim.excalidraw.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments",
+    "Untitled 1.md",
     "Español\\Gramática\\2. Palabras",
-    "Programación/Pensamiento lógico/Tablas de verdad/Operadores.md",
-    "Español/Gramática/3. Oraciones/1. Estructura de la oración y tipos de oraciones.md",
-    "Español/Gramática/2. Palabras/4. Tildes Diacriticas.md",
-    "Español/Gramática/3. Oraciones/2. Palabras.md",
-    "Español/Gramática/4. Párrafo/1. Signos de puntuación.md",
-    "Español/Gramática/4. Párrafo/2. Coma criminal.md",
-    "Español/Gramática/5. Texto/1. Texto.md",
-    "Español/Gramática/5. Texto/2. Estructura del texto.md",
-    "Español/Gramática/2. Palabras/1. Acento, sílaba tónica y tílde.md",
-    "Español/Gramática/2. Palabras/2. Diptongo, tripotongo e hiato.md",
-    "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md",
-    "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
-    "Español/Gramática/1. Letras/1. Mayúsculas y minúsculas.md",
-    "Español/Gramática/1. Letras/2 Reglas.webp",
-    "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas - Copy.md",
-    "Untitled.md",
     "Español/Gramática/2. Palabras/tex2pdf.-c5891a0e43087b2f/input.tex",
     "Español/Gramática/2. Palabras/tex2pdf.-c5891a0e43087b2f",
-    "Programación/C++/Memoria Dinámica/Manejo de memoria.md",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/README.md",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/_style.css",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/blackboard.png",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-black.png",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-blue.png",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-green.png",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-orange.png",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-purple.png",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img/boardmarker-red.png",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img",
     "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/plugin (copy).js",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/plugin.js",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/style.css",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chart/README.md",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chart/chart.min.js",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/customcontrols/README.md",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/menu/README.md",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/menu/CONTRIBUTING.md"
+    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/plugin.js"
   ]
 }

@@ -1,5 +1,4 @@
 # ¿Dónde hay discontinudades?
----
 
 **Parte 1**. Resuelve los siguientes límites algebraicamente. Recuerda que el primer paso es evaluar la función en el valor de estudio (el valor al que se aproxima 𝑥). En los casos en que la evaluación resulta en 0/0 debes utilizar una técnica algebraica (factorización o racionalización) para encontrar la respuesta. Claro, también puedes intentar la aproximación numérica para determinar la respuesta (utilizando una calculadora o una hoja electrónica de cálculo), o graficar las funciones con algún recurso en línea (pero no olvides que eso puede ser engañoso en algunos casos.
 
