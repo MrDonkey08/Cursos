@@ -11,12 +11,9 @@
             "id": "65e514809cf002da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Computación/Elección de componentes/RAM/ADATA/Notación.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg"
               }
             }
           }
@@ -95,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computación/Elección de componentes/RAM/ADATA/Notación.md",
+                "file": "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computación/Elección de componentes/RAM/ADATA/Notación.md",
+                "file": "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computación/Elección de componentes/RAM/ADATA/Notación.md"
+                "file": "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg"
               }
             }
           },
@@ -164,6 +161,8 @@
   },
   "active": "65e514809cf002da",
   "lastOpenFiles": [
+    "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md",
+    "Computación/Elección de componentes/RAM/ADATA/Notación.md",
     "Attachments/Excalidraw/Drawing 2023-01-23 15.32.06.excalidraw.md",
     "Matemáticas/Álgebra/Función/1. Función.md",
     "Attachments/Images/Tabulación completa.webp",
@@ -182,7 +181,7 @@
     "Matemáticas/Cálculo/Límites/Ejercicios/Dónde hay discontinuidades.md",
     "Matemáticas/Cálculo/Límites/Límites.md",
     "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Expresiones-Aritméticas.jpeg",
+    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Expresiones-Aritméticas.jpeg",
     "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg",
     "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments",
     "Matemáticas/Matemáticas Discretas/Grafos/Matriz de adyacencia.md",
@@ -192,7 +191,6 @@
     "Matemáticas/Matemáticas Discretas/Grafos/Caminos y ciclos eulerianos.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Recorrido de árboles.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Introducción a los árboles.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Árbol binario.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Árbol de expansión mínimo.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Attachments",
@@ -202,7 +200,6 @@
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Dijakstra.excalidraw.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo de prim.excalidraw.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments",
-    "Untitled 1.md",
     "Español\\Gramática\\2. Palabras",
     "Español/Gramática/2. Palabras/tex2pdf.-c5891a0e43087b2f/input.tex",
     "Español/Gramática/2. Palabras/tex2pdf.-c5891a0e43087b2f",
