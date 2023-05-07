@@ -8,11 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "51284cb3052e3865",
+            "id": "7ca1e17147fa845e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Programación/C++/POO/5. Segmentación de un programa en archivos.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -98,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/Templates/New Note.md",
+                "file": "Programación/C++/POO/5. Segmentación de un programa en archivos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachments/Templates/New Note.md",
+                "file": "Programación/C++/POO/5. Segmentación de un programa en archivos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/Templates/New Note.md"
+                "file": "Programación/C++/POO/5. Segmentación de un programa en archivos.md"
               }
             }
           },
@@ -165,11 +170,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "14b31f7a61e09a38",
+  "active": "7ca1e17147fa845e",
   "lastOpenFiles": [
-    "Programación/C++/Untitled.md",
-    "Attachments/Templates/Meta.md",
+    "Programación/C++/POO/4. Sobrecarga de Constuctores.md",
+    "Programación/C++/POO/2. Clases y Objetos.md",
+    "Programación/C++/POO/5. Segmentación de un programa en archivos.md",
+    "Programación/Definición de un proyecto.md",
+    "Programación/C++/POO/3. Métodos Constructores y Modificadores.md",
+    "Programación/C++/POO/1. Introducción a POO.md",
+    "Programación/C++/POO/3. El puntero this.md",
     "Attachments/Templates/New Note.md",
+    "Attachments/Templates/Meta.md",
     "Attachments/Templates/Page Break.md",
     "Attachments/Templates/Images.md",
     "Attachments/Templates/Excalidraw.md",
@@ -191,12 +202,6 @@
     "Matemáticas/Cálculo/Funciones/Funciones, dominio y rango.md",
     "Matemáticas/Cálculo/Funciones/Tipos de Funciones.md",
     "Matemáticas/Cálculo/Límites/Ejercicios/Dónde hay discontinuidades.md",
-    "Matemáticas/Cálculo/Límites/Límites.md",
-    "Matemáticas/Cálculo/Funciones/Funciones Compuestas.md",
-    "Matemáticas/Álgebra/Función/1. Función.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/Untitled 1.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/7. Propiedad distributiva de la multiplicación.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/6. Simplificación de polinomios.md",
     "Attachments/Images/simplificando polinomios-b0ad3a80-32d0-491b-bc75-108124dbed5f.webp",
     "Matemáticas/Aritmética/Attachments",
     "Matemáticas/Aritmética/Attachments/Potenciación-y-sus-propiedades-1.jpeg",
