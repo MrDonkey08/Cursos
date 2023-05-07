@@ -16,7 +16,7 @@
   "alwaysUpdateLinks": true,
   "showFrontmatter": false,
   "strictLineBreaks": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "showLineNumber": false,
   "newLinkFormat": "relative"
 }

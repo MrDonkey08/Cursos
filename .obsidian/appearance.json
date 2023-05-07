@@ -1,6 +1,6 @@
 {
   "accentColor": "",
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "textFontFamily": "Inter",
   "enabledCssSnippets": [
     "media-aligh",
@@ -9,7 +9,7 @@
   ],
   "theme": "obsidian",
   "nativeMenus": false,
-  "cssTheme": "Obsidian Nord",
+  "cssTheme": "Obsidian gruvbox",
   "interfaceFontFamily": "Inter",
   "baseFontSizeAction": true,
   "showViewHeader": true

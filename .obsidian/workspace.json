@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "02489685c2ee3a16",
+        "id": "bcffec6621f798f5",
         "type": "tabs",
         "children": [
           {
-            "id": "c3c1387d4cfbe716",
+            "id": "51284cb3052e3865",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -39,11 +34,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vowel-",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -65,13 +60,21 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "f67de1091f11d3e4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 426.5
+    "width": 326.5110321044922
   },
   "right": {
     "id": "4b702cc4fb11ac6c",
@@ -95,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
+                "file": "Attachments/Templates/New Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
+                "file": "Attachments/Templates/New Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md"
+                "file": "Attachments/Templates/New Note.md"
               }
             }
           },
@@ -162,53 +165,53 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c3c1387d4cfbe716",
+  "active": "14b31f7a61e09a38",
   "lastOpenFiles": [
-    "Matemáticas/Matemáticas Discretas/Lógica.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de Fleury.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Fleury.excalidraw.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Fleury.png",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-flujo-máximo-1.jpeg",
-    "Matemáticas/Matemáticas Discretas/Árboles/Árbol de expansión mínimo.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Expresiones Aritméticas.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Árbol binario.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Ejercicios.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676211157411.jpeg",
-    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676210754531.jpeg",
-    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Árbol de expansión mínimo.excalidraw.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Árbol - nivel y altura.excalidraw.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Árbol de expresión aritmética.excalidraw.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo Dijkstra.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Algoritmo de flujo máximo.md",
-    "Attachments/Images/Drawing 2023-01-23 15.32.06.excalidraw.md",
-    "Attachments/Images/Vowel-sounds-1.jpeg",
-    "Attachments/Images/Tabulación completa.webp",
-    "Attachments/Images/simplificando polinomios-b0ad3a80-32d0-491b-bc75-108124dbed5f.webp",
-    "Attachments/Images/Potenciación-y-sus-propiedades-1.jpeg",
-    "Attachments/Images/Operadores-lógicos-programación.jpeg",
-    "Attachments/Images/3. Binomios conjugados-1676210380765.jpeg",
-    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Árbol-de-expansión-mínimo-1.jpeg.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo de flujo máximo.excalidraw.md",
-    "Attachments.f.mages",
+    "Programación/C++/Untitled.md",
+    "Attachments/Templates/Meta.md",
+    "Attachments/Templates/New Note.md",
+    "Attachments/Templates/Page Break.md",
+    "Attachments/Templates/Images.md",
+    "Attachments/Templates/Excalidraw.md",
+    "Inglés/Adverbs of frequency.md",
+    "Inglés/CV.md",
     "Computación/Elección de componentes/RAM/ADATA/Notación.md",
-    "Matemáticas/Álgebra/Función/1. Función.md",
-    "Matemáticas/Aritmética/1. Operaciones básicas.md",
-    "Matemáticas/Aritmética/2. Potenciación y sus propiedades.md",
+    "Computación/Elección de componentes/RAM/ADATA/Attachments",
+    "Electricidad y electrónica/Circuitos electrónicos.md",
+    "Electricidad y electrónica/1. Electricidad.md",
+    "Attachments/Images/Drawing 2023-01-23 15.32.06.excalidraw.md",
+    "Attachments/Images/Tabulación completa.webp",
+    "Inglés/Speaking/Letters Pronuntiation/Vowel sounds.md",
+    "Inglés/Speaking/Letters Pronuntiation/Attachments",
+    "Inglés/Speaking/Letters Pronuntiation/Voiced and Voiceless sounds.md",
+    "Inglés/Speaking/Letters Pronuntiation/Attachments/Vowel-sounds-1.jpeg",
+    "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
+    "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 6. Multiplicar y Dividir al Derivar.md",
+    "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 5. Aplicando las Reglas.md",
     "Matemáticas/Cálculo/Funciones/Funciones, dominio y rango.md",
-    "Matemáticas/Cálculo/Funciones/Funciones Compuestas.md",
     "Matemáticas/Cálculo/Funciones/Tipos de Funciones.md",
     "Matemáticas/Cálculo/Límites/Ejercicios/Dónde hay discontinuidades.md",
     "Matemáticas/Cálculo/Límites/Límites.md",
-    "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments",
-    "Matemáticas/Matemáticas Discretas/Grafos/Matriz de adyacencia.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Attachments",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments",
-    "Español\\Gramática\\2. Palabras",
-    "Español/Gramática/2. Palabras/tex2pdf.-c5891a0e43087b2f/input.tex",
-    "Español/Gramática/2. Palabras/tex2pdf.-c5891a0e43087b2f",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/_style.css",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/img",
-    "export/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas/plugin/chalkboard/plugin (copy).js"
+    "Matemáticas/Cálculo/Funciones/Funciones Compuestas.md",
+    "Matemáticas/Álgebra/Función/1. Función.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/Untitled 1.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/7. Propiedad distributiva de la multiplicación.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/6. Simplificación de polinomios.md",
+    "Attachments/Images/simplificando polinomios-b0ad3a80-32d0-491b-bc75-108124dbed5f.webp",
+    "Matemáticas/Aritmética/Attachments",
+    "Matemáticas/Aritmética/Attachments/Potenciación-y-sus-propiedades-1.jpeg",
+    "Programación/Pensamiento lógico/Tablas de verdad/Attachments",
+    "Programación/Pensamiento lógico/Tablas de verdad/Attachments/Operadores-lógicos-programación.jpeg",
+    "Programación/Pensamiento lógico/Binario/Attachments",
+    "Programación/Pensamiento lógico/Binario/Attachments/1.-Sistema-Binario-1.jpeg",
+    "Matemáticas/Álgebra/Productos Notables/Attachments",
+    "Matemáticas/Álgebra/Productos Notables/Attachments/1.-Binomio-al-cuadrado-1.jpeg",
+    "Programación/C++/Estructuras de Datos",
+    "Programación/C++/POO/Memoria Dinámica/Attachments/Curriculum Vitae 1.pdf",
+    "Programación/C++/POO/Memoria Dinámica/Attachments/Curriculum Vitae.pdf",
+    "Programación/C++/POO/Memoria Dinámica/2. Puntero/Programas/puntero.exe",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Fleury.png",
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-flujo-máximo-1.jpeg",
+    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676211157411.jpeg"
   ]
 }

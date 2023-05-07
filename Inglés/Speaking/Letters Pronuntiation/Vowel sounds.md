@@ -1,1 +1,1 @@
-![](../../../Attachments/Images/Vowel-sounds-1.jpeg)
+![](Attachments/Vowel-sounds-1.jpeg)

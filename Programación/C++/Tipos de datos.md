@@ -10,15 +10,12 @@ last modification date: 06-04-2023
 
 type: Note
 ---
----
 
 # Tipos de datos  en C++
 
----
-
 ## Datos primitivos
 
-Los _tipos de dato primitivo_ o  _elementales_ son aquellos  tipos de datos originales de un lenguaje de programación, es decir, aquellos que nos proporciona dicho lenguaje.
+Los _tipos de datos primitivos_, _elementales_ o _integrados_ son aquellos  tipos de datos originales de un lenguaje de programación, es decir, aquellos que nos proporciona dicho lenguaje.
 
 |    Tipo     | Descripción                                 |             Tamaño              | Rango                                                                  |
 |:-----------:|:------------------------------------------- |:-------------------------------:| ---------------------------------------------------------------------- |
@@ -41,8 +38,6 @@ En los tipos de datos númericos tenemos las dos siguientes categorias:
 	- unsigned int a
 
 <div style="page-break-after: always;"></div>
-
----
 
 # Referencias
 

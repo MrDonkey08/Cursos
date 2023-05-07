@@ -37,13 +37,11 @@ Dichas **pendientes** conseguidas a partir del parámetro $h$, se tabularan y a 
 Como podemos observar, estos valores de $h$ tienden a ir a 0, tal como un límite por  lo que de esta observación se puede sacar la siguiente expresión:
 
 $$m = \lim\limits_{h\to 0}\cfrac{f \:(x+h)-f\:(x ) }{h}$$
-A esta funciónse le llama derivada.
-
----
+A esta función se le llama derivada.
 
 ## Definición de derivada
 
-La **derivada** de una función $f\:(x)$ es otra función la cual se denota como $f\:'\:(x)\:$, que representa las **pendientes de las tangentes** para cualquier punto de $f\: (x)$ que representa las pendientes de las tangentes para cualquier punto de $f\:(x)$.
+La **derivada** de una función $f\:(x)$ es otra función la cual se denota como $f\:'\:(x)\:$, que representa las **pendientes de las tangentes** para cualquier punto de $f\: (x)$ 
 
 $$f\:'\:(x) = \lim\limits_{h\to 0}\cfrac{f \:(x+h)-f\:(x ) }{h}$$
 Las **derivada** puede representarse por cualquiera de las siguientes expreciones 
