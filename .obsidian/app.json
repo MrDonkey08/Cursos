@@ -18,5 +18,6 @@
   "strictLineBreaks": false,
   "readableLineLength": false,
   "showLineNumber": false,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "defaultViewMode": "preview"
 }

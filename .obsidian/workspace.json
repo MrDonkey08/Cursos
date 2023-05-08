@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bcffec6621f798f5",
+        "id": "fa7c5ef838e5916c",
         "type": "tabs",
         "children": [
           {
-            "id": "7ca1e17147fa845e",
+            "id": "3c8d003954f2d401",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/C++/POO/5. Métodos Constructores y Modificadores.md",
+                "file": "Programación/C++/POO/1. Introducción a POO.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programación/C++/POO/5. Métodos Constructores y Modificadores.md",
+                "file": "Programación/C++/POO/1. Introducción a POO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programación/C++/POO/5. Métodos Constructores y Modificadores.md",
+                "file": "Programación/C++/POO/1. Introducción a POO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/C++/POO/5. Métodos Constructores y Modificadores.md"
+                "file": "Programación/C++/POO/1. Introducción a POO.md"
               }
             }
           },
@@ -170,38 +170,38 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "7ca1e17147fa845e",
+  "active": "3c8d003954f2d401",
   "lastOpenFiles": [
+    "Programación/C++/Estructuras de Datos/2. Puntero.md",
+    "Programación/C++/Estructuras de Datos/1. Manejo de memoria.md",
+    "Programación/C++/POO/5. Métodos Constructores y Modificadores.md",
+    "Programación/C++/POO/8. Herencia.md",
+    "Programación/C++/POO/6. Segmentación de un programa en archivos.md",
     "Programación/C++/POO/4. Sobrecarga de Constuctores.md",
+    "Programación/C++/POO/1. Introducción a POO.md",
     "Programación/C++/POO/3. Constructor, destructor y encapsulamiento.md",
     "Programación/C++/POO/2. Clases y Objetos.md",
-    "Programación/C++/POO/1. Introducción a POO.md",
-    "Programación/C++/POO/6. Segmentación de un programa en archivos.md",
-    "Programación/C++/POO/5. Métodos Constructores y Modificadores.md",
-    "Programación/C++/Guía de Estudio POO.md",
-    "Programación/C++/Tipos de datos.md",
-    "Programación/Definición de un proyecto.md",
-    "Programación/C++/POO/3. El puntero this.md",
-    "Attachments/Templates/New Note.md",
-    "Attachments/Templates/Meta.md",
-    "Attachments/Templates/Page Break.md",
-    "Attachments/Templates/Images.md",
-    "Attachments/Templates/Excalidraw.md",
-    "Inglés/Adverbs of frequency.md",
-    "Inglés/CV.md",
-    "Computación/Elección de componentes/RAM/ADATA/Notación.md",
-    "Computación/Elección de componentes/RAM/ADATA/Attachments",
+    "Programación/Pensamiento lógico/Algoritmos/Diagramas de flujo.md",
+    "Programación/Pensamiento lógico/Algoritmos/Algoritmos.md",
+    "Programación/Fundamentos de programación/1. Conceptos básicos.md",
+    "Programación/C++/POO/7. Static.md",
+    "Español/Gramática/1. Letras/1. Mayúsculas y minúsculas.md",
+    "Español/Gramática/5. Texto/1. Texto.md",
+    "Español/Gramática/3. Oraciones/2. Palabras.md",
+    "Español/Gramática/3. Oraciones/1. Estructura de la oración y tipos de oraciones.md",
+    "Español/Gramática/2. Palabras/4. Tildes Diacriticas.md",
+    "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
+    "Español/Gramática/2. Palabras/2. Diptongo, tripotongo e hiato.md",
+    "Español/Gramática/2. Palabras/1. Acento, sílaba tónica y tílde.md",
     "Electricidad y electrónica/Circuitos electrónicos.md",
     "Electricidad y electrónica/1. Electricidad.md",
-    "Attachments/Images/Drawing 2023-01-23 15.32.06.excalidraw.md",
+    "Computación/Elección de componentes/RAM/ADATA/Notación.md",
+    "Attachments/Templates/Bibliografía/APA/Static Web.md",
+    "Attachments/Templates/Bibliografía/APA/Sitio Web Estático.md",
     "Attachments/Images/Tabulación completa.webp",
-    "Inglés/Speaking/Letters Pronuntiation/Vowel sounds.md",
+    "Computación/Elección de componentes/RAM/ADATA/Attachments",
     "Inglés/Speaking/Letters Pronuntiation/Attachments",
-    "Inglés/Speaking/Letters Pronuntiation/Voiced and Voiceless sounds.md",
     "Inglés/Speaking/Letters Pronuntiation/Attachments/Vowel-sounds-1.jpeg",
-    "Matemáticas/Cálculo/Derivadas/Introducción a las derivadas.md",
-    "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 6. Multiplicar y Dividir al Derivar.md",
-    "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 5. Aplicando las Reglas.md",
     "Attachments/Images/simplificando polinomios-b0ad3a80-32d0-491b-bc75-108124dbed5f.webp",
     "Matemáticas/Aritmética/Attachments",
     "Matemáticas/Aritmética/Attachments/Potenciación-y-sus-propiedades-1.jpeg",
