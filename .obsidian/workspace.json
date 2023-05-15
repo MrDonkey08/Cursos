@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "fa7c5ef838e5916c",
+        "id": "fe1bba7713e8f30a",
         "type": "tabs",
         "children": [
           {
-            "id": "3c8d003954f2d401",
+            "id": "fd008213f3c5a134",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programación/C++/POO/1. Introducción a POO.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -103,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programación/C++/POO/1. Introducción a POO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programación/C++/POO/1. Introducción a POO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,9 +124,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programación/C++/POO/1. Introducción a POO.md"
-              }
+              "state": {}
             }
           },
           {
@@ -170,15 +161,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "3c8d003954f2d401",
+  "active": "fd008213f3c5a134",
   "lastOpenFiles": [
+    "Programación/Definición de un proyecto.md",
+    "Electricidad y electrónica/Circuitos electrónicos.md",
+    "Electricidad y electrónica/1. Electricidad.md",
+    "Programación/C++/POO/1. Introducción a POO.md",
     "Programación/C++/Estructuras de Datos/2. Puntero.md",
     "Programación/C++/Estructuras de Datos/1. Manejo de memoria.md",
     "Programación/C++/POO/5. Métodos Constructores y Modificadores.md",
     "Programación/C++/POO/8. Herencia.md",
     "Programación/C++/POO/6. Segmentación de un programa en archivos.md",
     "Programación/C++/POO/4. Sobrecarga de Constuctores.md",
-    "Programación/C++/POO/1. Introducción a POO.md",
     "Programación/C++/POO/3. Constructor, destructor y encapsulamiento.md",
     "Programación/C++/POO/2. Clases y Objetos.md",
     "Programación/Pensamiento lógico/Algoritmos/Diagramas de flujo.md",
@@ -193,11 +187,8 @@
     "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
     "Español/Gramática/2. Palabras/2. Diptongo, tripotongo e hiato.md",
     "Español/Gramática/2. Palabras/1. Acento, sílaba tónica y tílde.md",
-    "Electricidad y electrónica/Circuitos electrónicos.md",
-    "Electricidad y electrónica/1. Electricidad.md",
     "Computación/Elección de componentes/RAM/ADATA/Notación.md",
     "Attachments/Templates/Bibliografía/APA/Static Web.md",
-    "Attachments/Templates/Bibliografía/APA/Sitio Web Estático.md",
     "Attachments/Images/Tabulación completa.webp",
     "Computación/Elección de componentes/RAM/ADATA/Attachments",
     "Inglés/Speaking/Letters Pronuntiation/Attachments",

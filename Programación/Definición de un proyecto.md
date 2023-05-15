@@ -2,7 +2,7 @@
 
 ## Qué es un proyecto
 
-Un **proyecto** no es más que un archivo que, por decirlo de una manera, permite _establecer una conexión entre los diferentes archivos de un programa_. Estos archivos pueden incluir código fuente, iconos, imágenes, archivos de datos, etc. Un proyecto también contiene la configuración del compilador y otros archivos de configuración que podrían ser necesarios en diversos servicios o componentes con los que el programa se comunica.
+Un **proyecto** no es más que un archivo que, por decirlo de una manera, permite _establecer una conexión entre los diferentes archivos de un programa_. Estos archivos pueden incluir código fuente, iconos, imágenes, archivos de datos, etc. Un **proyecto** también contiene la configuración del compilador y otros archivos de configuración que podrían ser necesarios en diversos servicios o componentes con los que el programa se comunica.
 
 Cabe mencionar que el _archivo del proyecto_ puede variar según el _entorno de desarrollo_. Para cpp, VS utiliza el _archivo .cppproj_, CodeBlocks usa el _archivo .cbp_ y dev-C++ el _archivo .dev_, por mencionar los entornos más populares; lamentablemente **_VS code y VS para Mac no tienen soporte para trabajar con proyectos_.**
 
