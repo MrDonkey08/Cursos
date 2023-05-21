@@ -11,8 +11,13 @@
             "id": "fd008213f3c5a134",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Inglés/Speaking/Letters Pronuntiation/IPA International Phonetic Alphabet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -98,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Inglés/Speaking/Letters Pronuntiation/IPA International Phonetic Alphabet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Inglés/Speaking/Letters Pronuntiation/IPA International Phonetic Alphabet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Inglés/Speaking/Letters Pronuntiation/IPA International Phonetic Alphabet.md"
+              }
             }
           },
           {
@@ -147,6 +156,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "audio-recorder:Start/stop recording": false,
@@ -163,6 +173,8 @@
   },
   "active": "fd008213f3c5a134",
   "lastOpenFiles": [
+    "Matemáticas/Matemáticas Discretas/Grafos/Caminos y ciclos hamiltoniano.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Árbol - nivel y altura.excalidraw.md",
     "Programación/Definición de un proyecto.md",
     "Electricidad y electrónica/Circuitos electrónicos.md",
     "Electricidad y electrónica/1. Electricidad.md",
@@ -187,8 +199,6 @@
     "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
     "Español/Gramática/2. Palabras/2. Diptongo, tripotongo e hiato.md",
     "Español/Gramática/2. Palabras/1. Acento, sílaba tónica y tílde.md",
-    "Computación/Elección de componentes/RAM/ADATA/Notación.md",
-    "Attachments/Templates/Bibliografía/APA/Static Web.md",
     "Attachments/Images/Tabulación completa.webp",
     "Computación/Elección de componentes/RAM/ADATA/Attachments",
     "Inglés/Speaking/Letters Pronuntiation/Attachments",
