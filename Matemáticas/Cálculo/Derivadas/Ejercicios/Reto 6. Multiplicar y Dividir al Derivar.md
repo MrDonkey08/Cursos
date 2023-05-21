@@ -5,6 +5,7 @@
 
 ---
 Completa las reglas de diferenciación que aparecen a continuación y escribe el nombre de cada una.
+
 | Nombre                   | Expresión                                      | Equivalencia |
 | ------------------------ | ---------------------------------------------- | ------------ |
 | Derivada de una división | $\cfrac{d}{dx}\left[\cfrac{f(x)}{g(x)}\right]$ |              |

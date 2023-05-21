@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fe1bba7713e8f30a",
+        "id": "78343819b040b7be",
         "type": "tabs",
         "children": [
           {
-            "id": "fd008213f3c5a134",
+            "id": "96cc46f61c36ab29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computación/Elección de componentes/RAM/ADATA/Notación.md",
+                "file": "Programación/C++/POO/9. Herencia múltiple/9. Herencia Múltiple.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computación/Elección de componentes/RAM/ADATA/Notación.md",
+                "file": "Programación/C++/POO/9. Herencia múltiple/9. Herencia Múltiple.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computación/Elección de componentes/RAM/ADATA/Notación.md",
+                "file": "Programación/C++/POO/9. Herencia múltiple/9. Herencia Múltiple.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computación/Elección de componentes/RAM/ADATA/Notación.md"
+                "file": "Programación/C++/POO/9. Herencia múltiple/9. Herencia Múltiple.md"
               }
             }
           },
@@ -171,51 +171,51 @@
       "random-note:Open random note": false
     }
   },
-  "active": "fd008213f3c5a134",
+  "active": "14b31f7a61e09a38",
   "lastOpenFiles": [
-    "Matemáticas/Cálculo/Funciones/Funciones, dominio y rango.md",
-    "Computación/Elección de componentes/RAM/ADATA/Notación.md",
-    "Programación/Pensamiento lógico/Estructuras de control/Ciclos.md",
-    "Matemáticas/Aritmética/6. Recta númerica.md",
-    "Matemáticas/Aritmética/Propiedades y orden de las operaciones.md",
-    "Programación/Pensamiento lógico/Lenguajes de programación/Python/Ejercicios.md",
-    "Programación/Pensamiento lógico/Binario/2. Operaciones en el Sistema Binario.md",
-    "Programación/Pensamiento lógico/Estructuras de control/Arrays en las estructuras de control.md",
-    "Matemáticas/Álgebra/Función/1. Función.md",
-    "Inglés/Inglés Básico A1 para principiantes/Subject pronouns.md",
-    "Programación/C++/Estructuras de Datos/4. Uniones y enumeraciones.md",
-    "Programación/C++/POO/2. Clases y Objetos.md",
-    "Attachments/Templates/Page Break.md",
-    "Attachments/Templates/Meta.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/5. Polinomios.md",
-    "Programación/Pensamiento lógico/Algoritmos/Algoritmos.md",
-    "Inglés/Speaking/Letters Pronuntiation/Vowel sounds.md",
-    "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md",
-    "Matemáticas/Álgebra/Productos Notables/3. Binomios conjugados.md",
-    "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md",
-    "Programación/Definición de un proyecto.md",
-    "Programación/Pensamiento lógico/Lenguajes de programación/PHP/Ejercicios.md",
+    "Programación/C++/POO/9. Herencia múltiple",
+    "Programación/C++/POO/8. Herencia/8. Herencia.md",
+    "Programación/C++/POO/9. Herencia múltiple/9. Herencia Múltiple.md",
     "Programación/C++/POO/6. Segmentación de un programa en archivos.md",
-    "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 5. Aplicando las Reglas.md",
-    "Español/Gramática/1. Letras/1. Mayúsculas y minúsculas.md",
-    "Programación/Introducción a la web - Historia y Funcionamiento de la web/Python/Operadores aritméticos.md",
+    "Programación/C++/POO/5. Métodos Constructores y Modificadores.md",
+    "Programación/C++/POO/7. Static.md",
+    "Programación/C++/POO/4. Sobrecarga de Constuctores.md",
+    "Programación/C++/POO/3. Constructor, destructor y encapsulamiento.md",
+    "Programación/C++/POO/2. Clases y Objetos.md",
+    "Programación/C++/POO/1. Introducción a POO.md",
+    "Programa.md",
+    "Programación/C++/POO/8. Herencia/Programa/Herencia.cpp",
+    "Programación/C++/POO/8. Herencia/Programa/Herencia.cbp",
+    "Programación/C++/POO/8. Herencia/Programa/src/Universitario.cpp",
+    "Programación/C++/POO/8. Herencia/Programa/src/Persona.cpp",
+    "Programación/C++/POO/8. Herencia/Programa/src/Estudiante.cpp",
+    "Programación/C++/POO/8. Herencia/Programa/src/Empleado.cpp",
+    "Programación/C++/POO/8. Herencia/Programa/src",
+    "Programación/C++/POO/8. Herencia/Programa/include/Universitario.h",
+    "Programación/C++/POO/8. Herencia/Programa/include/Persona.h",
+    "Programación/C++/POO/8. Herencia/Programa/include/Estudiante.h",
+    "Electricidad y electrónica/1. Electricidad.md",
+    "Programación/C++/Tipos de datos.md",
+    "Programación/Pensamiento lógico/Tipos de datos/Datos.md",
+    "Attachments/Templates/Page Break.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Árbol de expresión aritmética.excalidraw.md",
+    "Programación/Pensamiento lógico/Validaciones/Try & catch.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Árbol de expansión mínimo.md",
+    "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md",
+    "Inglés/Inglés Básico A1 para principiantes/A & An.md",
+    "Attachments/Templates/Images.md",
+    "Matemáticas/Matemáticas Discretas/Grafos/Caminos y ciclos hamiltoniano.md",
+    "Español/Gramática/3. Oraciones/1. Estructura de la oración y tipos de oraciones.md",
+    "Attachments/Templates/Bibliografía/APA/Diccionario en línea.md",
+    "Matemáticas/Álgebra/Logaritmos/Logaritmo.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/1. Principios del Álgebra.md",
     "Attachments/Images/Tabulación completa.webp",
-    "Computación/Elección de componentes/RAM/ADATA/Attachments",
-    "Inglés/Speaking/Letters Pronuntiation/Attachments",
     "Inglés/Speaking/Letters Pronuntiation/Attachments/Vowel-sounds-1.jpeg",
     "Attachments/Images/simplificando polinomios-b0ad3a80-32d0-491b-bc75-108124dbed5f.webp",
-    "Matemáticas/Aritmética/Attachments",
     "Matemáticas/Aritmética/Attachments/Potenciación-y-sus-propiedades-1.jpeg",
-    "Programación/Pensamiento lógico/Tablas de verdad/Attachments",
     "Programación/Pensamiento lógico/Tablas de verdad/Attachments/Operadores-lógicos-programación.jpeg",
-    "Programación/Pensamiento lógico/Binario/Attachments",
     "Programación/Pensamiento lógico/Binario/Attachments/1.-Sistema-Binario-1.jpeg",
-    "Matemáticas/Álgebra/Productos Notables/Attachments",
     "Matemáticas/Álgebra/Productos Notables/Attachments/1.-Binomio-al-cuadrado-1.jpeg",
-    "Programación/C++/Estructuras de Datos",
-    "Programación/C++/POO/Memoria Dinámica/Attachments/Curriculum Vitae 1.pdf",
-    "Programación/C++/POO/Memoria Dinámica/Attachments/Curriculum Vitae.pdf",
-    "Programación/C++/POO/Memoria Dinámica/2. Puntero/Programas/puntero.exe",
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Fleury.png",
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-flujo-máximo-1.jpeg",
     "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676211157411.jpeg"

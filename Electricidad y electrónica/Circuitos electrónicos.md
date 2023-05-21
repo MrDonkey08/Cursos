@@ -20,8 +20,10 @@ type: Note
 
 **Carga:** Propiedad electrica de las partículas atómicas que componen la materia, medida en coulombs (C)
 
-La carga de un electrón es $−1.602\ 176\ 634 × 10^{−19}\ C$
-La carga de un protón es $1.602\ 176\ 634 × 10^{−19}\ C$
+La carga de un electrón es $−1.602\: 176\: 634 × 10^{−19}\: C$
+
+La carga de un protón es $1.602\: 176\: 634 × 10^{−19}\: C$
+
 La carga de un protón es $0$
 
 Corriente
