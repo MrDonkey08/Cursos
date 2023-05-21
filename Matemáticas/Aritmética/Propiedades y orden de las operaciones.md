@@ -21,22 +21,22 @@ $$\displaylines{
 }$$
 
 $$\displaylines{
-3*2*5=30 \\
-(3*2)*5 \\
-6*5=30
+3⋅2⋅5=30 \\
+(3⋅2)⋅5 \\
+6⋅5=30
 }$$
 
 $$\displaylines{
-3*(2*5) \\
-3*10=30}$$
+3⋅(2⋅5) \\
+3⋅10=30}$$
 
 ## Propiedad distributiva
 
 La suma de dos números multiplicada por un tercer número es igual a la suma de cada sumando multiplicando por el tercer número.
 
 $$\displaylines{
-8*(4+15)=(8*4)+(8*15) \\
-8*19=32+120 \\
+8⋅(4+15)=(8⋅4)+(8⋅15) \\
+8⋅19=32+120 \\
 152=152 
 }$$
 
@@ -49,10 +49,10 @@ $$4+0=4$$
 
 El producto de cualquier número y uno da como resultado ese mismo número
 
-$$4*1=4$$
+$$4⋅1=4$$
 
 <div style="page-break-after: always;"></div>
 
 # Referencias
 
--  [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s/i). ["Propiedades y orden de las operaciones"](https://platzi.com/clases/3221-pensamiento-logico/50670-propiedades-y-orden-de-las-operaciones/). [Nuevo Curso de Pensamiento Lógico: Algoritmos y Diagramas de Flujo](https://platzi.com/cursos/pensamiento-logico/). [Platzi](https://platzi.com/home) [Consultado el 12/08/2022]
+-  [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f.). _Propiedades y orden de las operaciones_. [Nuevo Curso de Pensamiento Lógico: Algoritmos y Diagramas de Flujo](https://platzi.com/cursos/pensamiento-logico/). [Platzi](https://platzi.com/home) Recuperado el 12 de agosto de 2022 de https://platzi.com/clases/3221-pensamiento-logico/50670-propiedades-y-orden-de-las-operaciones/
