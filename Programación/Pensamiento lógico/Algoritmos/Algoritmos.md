@@ -1,5 +1,17 @@
 
-***
+---
+title: Algoritmos
+author: Alan Yahir Juárez Rubio
+
+aliases:
+tags:
+
+creation date: 26-04-2023
+last modification date: 21-05-2023
+
+type: Note
+---
+
 # ¿Qué es un algoritmo?
 
 ---
