@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inglés/Speaking/Letters Pronuntiation/IPA International Phonetic Alphabet.md",
+                "file": "Computación/Elección de componentes/RAM/ADATA/Notación.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inglés/Speaking/Letters Pronuntiation/IPA International Phonetic Alphabet.md",
+                "file": "Computación/Elección de componentes/RAM/ADATA/Notación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inglés/Speaking/Letters Pronuntiation/IPA International Phonetic Alphabet.md",
+                "file": "Computación/Elección de componentes/RAM/ADATA/Notación.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inglés/Speaking/Letters Pronuntiation/IPA International Phonetic Alphabet.md"
+                "file": "Computación/Elección de componentes/RAM/ADATA/Notación.md"
               }
             }
           },
@@ -163,42 +163,42 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "graph:Open graph view": false,
-      "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "random-note:Open random note": false
     }
   },
   "active": "fd008213f3c5a134",
   "lastOpenFiles": [
-    "Matemáticas/Matemáticas Discretas/Grafos/Caminos y ciclos hamiltoniano.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Árbol - nivel y altura.excalidraw.md",
-    "Programación/Definición de un proyecto.md",
-    "Electricidad y electrónica/Circuitos electrónicos.md",
-    "Electricidad y electrónica/1. Electricidad.md",
-    "Programación/C++/POO/1. Introducción a POO.md",
-    "Programación/C++/Estructuras de Datos/2. Puntero.md",
-    "Programación/C++/Estructuras de Datos/1. Manejo de memoria.md",
-    "Programación/C++/POO/5. Métodos Constructores y Modificadores.md",
-    "Programación/C++/POO/8. Herencia.md",
-    "Programación/C++/POO/6. Segmentación de un programa en archivos.md",
-    "Programación/C++/POO/4. Sobrecarga de Constuctores.md",
-    "Programación/C++/POO/3. Constructor, destructor y encapsulamiento.md",
+    "Matemáticas/Cálculo/Funciones/Funciones, dominio y rango.md",
+    "Computación/Elección de componentes/RAM/ADATA/Notación.md",
+    "Programación/Pensamiento lógico/Estructuras de control/Ciclos.md",
+    "Matemáticas/Aritmética/6. Recta númerica.md",
+    "Matemáticas/Aritmética/Propiedades y orden de las operaciones.md",
+    "Programación/Pensamiento lógico/Lenguajes de programación/Python/Ejercicios.md",
+    "Programación/Pensamiento lógico/Binario/2. Operaciones en el Sistema Binario.md",
+    "Programación/Pensamiento lógico/Estructuras de control/Arrays en las estructuras de control.md",
+    "Matemáticas/Álgebra/Función/1. Función.md",
+    "Inglés/Inglés Básico A1 para principiantes/Subject pronouns.md",
+    "Programación/C++/Estructuras de Datos/4. Uniones y enumeraciones.md",
     "Programación/C++/POO/2. Clases y Objetos.md",
-    "Programación/Pensamiento lógico/Algoritmos/Diagramas de flujo.md",
+    "Attachments/Templates/Page Break.md",
+    "Attachments/Templates/Meta.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/5. Polinomios.md",
     "Programación/Pensamiento lógico/Algoritmos/Algoritmos.md",
-    "Programación/Fundamentos de programación/1. Conceptos básicos.md",
-    "Programación/C++/POO/7. Static.md",
+    "Inglés/Speaking/Letters Pronuntiation/Vowel sounds.md",
+    "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md",
+    "Matemáticas/Álgebra/Productos Notables/3. Binomios conjugados.md",
+    "Español/Gramática/5. Texto/3. Errores comunes al escribir un texto.md",
+    "Programación/Definición de un proyecto.md",
+    "Programación/Pensamiento lógico/Lenguajes de programación/PHP/Ejercicios.md",
+    "Programación/C++/POO/6. Segmentación de un programa en archivos.md",
+    "Matemáticas/Cálculo/Derivadas/Ejercicios/Reto 5. Aplicando las Reglas.md",
     "Español/Gramática/1. Letras/1. Mayúsculas y minúsculas.md",
-    "Español/Gramática/5. Texto/1. Texto.md",
-    "Español/Gramática/3. Oraciones/2. Palabras.md",
-    "Español/Gramática/3. Oraciones/1. Estructura de la oración y tipos de oraciones.md",
-    "Español/Gramática/2. Palabras/4. Tildes Diacriticas.md",
-    "Español/Gramática/2. Palabras/3. Palabras agudas, llanas, graves, esdrújulas y sobreesdrúdulas.md",
-    "Español/Gramática/2. Palabras/2. Diptongo, tripotongo e hiato.md",
-    "Español/Gramática/2. Palabras/1. Acento, sílaba tónica y tílde.md",
+    "Programación/Introducción a la web - Historia y Funcionamiento de la web/Python/Operadores aritméticos.md",
     "Attachments/Images/Tabulación completa.webp",
     "Computación/Elección de componentes/RAM/ADATA/Attachments",
     "Inglés/Speaking/Letters Pronuntiation/Attachments",
