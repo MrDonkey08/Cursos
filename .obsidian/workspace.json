@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/C++/POO/9. Herencia múltiple/9. Herencia Múltiple.md",
+                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programación/C++/POO/9. Herencia múltiple/9. Herencia Múltiple.md",
+                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programación/C++/POO/9. Herencia múltiple/9. Herencia Múltiple.md",
+                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/C++/POO/9. Herencia múltiple/9. Herencia Múltiple.md"
+                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md"
               }
             }
           },
@@ -171,11 +171,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "14b31f7a61e09a38",
+  "active": "96cc46f61c36ab29",
   "lastOpenFiles": [
+    "Numbers.md",
+    "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md",
+    "Programación/Python/Operadores.md",
+    "Programación/Python/Operadores aritméticos.md",
+    "Programación/C++/POO/9. Herencia múltiple/9. Herencia Múltiple.md",
     "Programación/C++/POO/9. Herencia múltiple",
     "Programación/C++/POO/8. Herencia/8. Herencia.md",
-    "Programación/C++/POO/9. Herencia múltiple/9. Herencia Múltiple.md",
     "Programación/C++/POO/6. Segmentación de un programa en archivos.md",
     "Programación/C++/POO/5. Métodos Constructores y Modificadores.md",
     "Programación/C++/POO/7. Static.md",
@@ -193,7 +197,6 @@
     "Programación/C++/POO/8. Herencia/Programa/src",
     "Programación/C++/POO/8. Herencia/Programa/include/Universitario.h",
     "Programación/C++/POO/8. Herencia/Programa/include/Persona.h",
-    "Programación/C++/POO/8. Herencia/Programa/include/Estudiante.h",
     "Electricidad y electrónica/1. Electricidad.md",
     "Programación/C++/Tipos de datos.md",
     "Programación/Pensamiento lógico/Tipos de datos/Datos.md",
@@ -201,14 +204,11 @@
     "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Árbol de expresión aritmética.excalidraw.md",
     "Programación/Pensamiento lógico/Validaciones/Try & catch.md",
     "Matemáticas/Matemáticas Discretas/Árboles/Árbol de expansión mínimo.md",
-    "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md",
     "Inglés/Inglés Básico A1 para principiantes/A & An.md",
     "Attachments/Templates/Images.md",
     "Matemáticas/Matemáticas Discretas/Grafos/Caminos y ciclos hamiltoniano.md",
     "Español/Gramática/3. Oraciones/1. Estructura de la oración y tipos de oraciones.md",
     "Attachments/Templates/Bibliografía/APA/Diccionario en línea.md",
-    "Matemáticas/Álgebra/Logaritmos/Logaritmo.md",
-    "Matemáticas/Álgebra/Fundamentos de Álgebra/1. Principios del Álgebra.md",
     "Attachments/Images/Tabulación completa.webp",
     "Inglés/Speaking/Letters Pronuntiation/Attachments/Vowel-sounds-1.jpeg",
     "Attachments/Images/simplificando polinomios-b0ad3a80-32d0-491b-bc75-108124dbed5f.webp",
