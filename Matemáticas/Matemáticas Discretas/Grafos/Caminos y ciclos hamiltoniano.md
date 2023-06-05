@@ -19,4 +19,4 @@ Cuando uno de los nodos tiene grado uno, ya se sabe que no es un **grafo hamilto
 
 # Referencias
 
--  [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Caminos y ciclos  hamiltonianos_. [Curso de Matemáticas Discretas](https://platzi.com/cursos/discretas/). [Platzi](https://platzi.com/). Recuperado el 02 de enero de 2023 de https://platzi.com/clases/1319-discretas/12224-caminos-y-ciclos-hamiltonianos/
+- [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Caminos y ciclos  hamiltonianos_. [Curso de Matemáticas Discretas](https://platzi.com/cursos/discretas/). [Platzi](https://platzi.com/). Recuperado el 02 de enero de 2023 de https://platzi.com/clases/1319-discretas/12224-caminos-y-ciclos-hamiltonianos/

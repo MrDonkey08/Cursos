@@ -33,9 +33,8 @@ _We use general determiners when the listener doesn’t know what we are talking
 -   Education is the most relevant aspect for a society.
 -   Water is good for you.
 
+# Referencias
 
+- Becerra, P. (2019). _Vocabulary:Types of determinaters. [Curso de Inglés Práctico: Gramática 2019](https://platzi.com/clases/old/ingles-2-2019/). [Platzi](https://platzi.com/home). https://platzi.com/clases/1500-ingles-2-2019/16777-vocabulary-types-of-determiners/
 
-
-
-https://platzi.com/clases/1500-ingles-2-2019/16777-vocabulary-types-of-determiners/
-https://platzi.com/clases/1500-ingles-2-2019/17350-grammar-how-to-use-determiners/
+- Becerra, P. (2019). _Grammar: How to use determiners_. [Curso de Inglés Práctico: Gramática 2019](https://platzi.com/clases/old/ingles-2-2019/). [Platzi](https://platzi.com/home). https://platzi.com/clases/1500-ingles-2-2019/17350-grammar-how-to-use-determiners/

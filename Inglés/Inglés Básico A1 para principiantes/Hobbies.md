@@ -1,5 +1,7 @@
-Reading
-Playing golf
-Cooking
-Traveling
-Playing videogames
+# Hobbies
+
+- Reading
+- Playing golf
+- Cooking
+- Traveling
+- Playing videogames

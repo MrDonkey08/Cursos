@@ -1,4 +1,6 @@
-## Operadores aritméticos
+# Operadoress
+
+## Aritméticos
 
 | Nombre           |                Símbolo                |
 | ---------------- |:-------------------------------------:|
@@ -11,7 +13,7 @@
 | Potencias        |                  **                   |
 | Raíz cuadrada    | import math $\Rightarrow$ math.sqrt() |
 
-## Operadores de comparación
+## De comparación
 
 |    Nombre     | Símbolo |
 |:-------------:|:-------:|
@@ -22,7 +24,7 @@
 | Mayor o igual |   >=    |
 | Menor o igual |   <=    |
 
-## Operadores boolenaos
+## Boolenaos
 
 |     Nombre      | En código |
 |:---------------:|:---------:|

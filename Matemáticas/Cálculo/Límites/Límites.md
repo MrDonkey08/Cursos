@@ -36,4 +36,4 @@ Se lee "el límite de la función de $x$, cuando $x$ se aproxima a $a$, es $L$".
 
 # Referencias
 
-- [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). [_El concepto de límite_](https://platzi.com/clases/2612-calculo-diferencial/43602-el-concepto-de-limite/). [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/) .[Consultado el 13/01/2023].
+- [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). _El concepto de límite_. [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/). Recuperado el 13 de enero de 2023 de https://platzi.com/clases/2612-calculo-diferencial/43602-el-concepto-de-limite/

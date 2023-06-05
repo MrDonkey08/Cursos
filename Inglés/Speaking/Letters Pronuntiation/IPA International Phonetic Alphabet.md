@@ -20,7 +20,7 @@ type: Note
 | Symbol | Name               | Description                                                                                                                 |
 |:------:| ------------------ | --------------------------------------------------------------------------------------------------------------------------- |
 |   /    | Slash              | All you see between this lines what is beeing pronounced. This stablish the begin and the end of the phonetic transcription |
-| $\mid$ | High Vertical line | It indicates in which syllable is located the accent.                                                                       |
+|   \|   | High Vertical line | It indicates in which syllable is located the accent.                                                                       |
 |   .    | Period             | It separates the syllables.                                                                                                 |
 |   :    | Lenght Mark        | It indicates that the sound of the letter previous to this symbol is an extended one.                                       |
 
@@ -32,16 +32,20 @@ Unfortunalley, the _english is not a phonetic language_, however, thanks to the 
 
 ## Differents pronuntiations of "t" letter
 
-| Word   | USA IPA form    | UK IPA form      | Description                      |
-| ------ | --------------- | ---------------- | -------------------------------- |
-| Fast   | /fæs**t**/      | /fɑːs**t**/      | Is the sound of the Spanish t |
-| Future | /ˈfjuː.**tʃ**ɚ/ | /ˈfjuː.**tʃ**ər/ | Is the sound of the Spanish ch     |
-| Fasten | /ˈfæs.ən/       | /ˈfɑː.sən/       | In this case we have a silent t  |
+| Word   | USA IPA form    | UK IPA form      | Description                     |
+| ------ | --------------- | ---------------- | ------------------------------- |
+| Fast   | /fæs**t**/      | /fɑːs**t**/      | Is the sound of the Spanish t   |
+| Future | /ˈfjuː.**tʃ**ɚ/ | /ˈfjuː.**tʃ**ər/ | Is the sound of the Spanish ch  |
+| Fasten | /ˈfæs.ən/       | /ˈfɑː.sən/       | In this case we have a silent t |
 
 # Referencias
 
 - [Carvajal E.](https://platzi.com/profes/emma-carvajal/) (2020). _Introduction to IPA_. [Curso de pronunciación básica en Inglés 2020](https://platzi.com/clases/old/pronunciacion-ingles-2020/). Recuperado el 04 de diciembe de 2022 de https://platzi.com/clases/1979-pronunciacion-ingles-2020/30249-introduction-to-ipa/
+
 - [Carvajal E.](https://platzi.com/profes/emma-carvajal/) (2020). _Knowing IPA_. [Curso de pronunciación básica en Inglés 2020](https://platzi.com/clases/old/pronunciacion-ingles-2020/). Recuperado el 04 de diciembre de 2022 de https://platzi.com/clases/1979-pronunciacion-ingles-2020/30250-knowing-ipa/
+
 - Cambrige dicionary (s.f.). _Fast_ . Recuperado el 10 de diciembre de 2022 de https://dictionary.cambridge.org/us/dictionary/english/fast
+
 - Cambrige dicionary (s.f.). _Future_ . Recuperado el 10 de diciembre de 2022 de https://dictionary.cambridge.org/us/dictionary/english/future
+
 - Cambrige dicionary (s.f.). _Fasten_ . Recuperado el 10 de diciembre de 2022 de https://dictionary.cambridge.org/us/dictionary/english/fasten?q=Fasten

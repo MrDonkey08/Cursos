@@ -14,6 +14,7 @@ type: Note
 # Circuitos electrónicos
 
 **Circuito electrónico:** Interconección de elementos electrónicos que, por lo general, están diseñados para comunicar o transferir una energía de un punto a otro.
+
 **Elemento :** Componente o dispositivo que hace parte de un circuito electrico.
 
 **Análisis de circuitos:** Estudio del comportamiento del circuito.

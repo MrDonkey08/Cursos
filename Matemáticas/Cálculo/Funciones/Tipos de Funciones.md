@@ -28,5 +28,6 @@ donde $n$ y $m$ $\in \Bbb Z$ y $n-m=h$  y $h$ es un número non. -->
 
 # Referencias
 
-- [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). [Tipos de Funciones_](https://platzi.com/clases/2612-calculo-diferencial/43600-tipos-de-funciones/). [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/) .[Consultado el 11/01/2023].
-- [Alonso R](https://www.geogebra.org/u/raliarte) (s.f). [_Función de proporcionalidad inversa_](https://www.geogebra.org/m/ePtQrmG8). [Geogebra](https://www.geogebra.org). [Consultado el 11/01/2023].
+- [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). _Tipos de Funciones_. [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/). Recuperado el 11 de enero de 2023 de https://platzi.com/clases/2612-calculo-diferencial/43600-tipos-de-funciones/
+
+- [Alonso R](https://www.geogebra.org/u/raliarte) (s.f). _Función de proporcionalidad inversa_. [Geogebra](https://www.geogebra.org). Recuperado el 11 de enero de 2023 de https://www.geogebra.org/m/ePtQrmG8

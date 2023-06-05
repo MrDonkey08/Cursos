@@ -72,6 +72,7 @@
 	}
 
 ## Número máximo de un arreglo
+
 	// Programa que determina el número más grande de un arreglo/lista.
 	   
 	  Creando un arreglo vacío.
@@ -113,5 +114,9 @@
 	  
 	  console.log("El número más grande de la lista " + Lista + " es " + max);
 
-## Referencias
-https://platzi.com/clases/3223-pensamiento-logico-lenguajes/50708-reto-de-diagramas-de-flujo-a-javascript/
+# Referencias
+
+- [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f.). _Reto 9: traduce un algoritmo a JavaScript_. [Nuevo Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/). [Platzi](https://platzi.com/home). https://platzi.com/clases/3223-pensamiento-logico-lenguajes/50708-reto-de-diagramas-de-flujo-a-javascript/
+
+- [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f.). _Programando un algoritmo con Javascript_. [Nuevo Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/). [Platzi](https://platzi.com/home). https://platzi.com/clases/3223-pensamiento-logico-lenguajes/50709-programando-un-algoritmo-con-javascript/
+

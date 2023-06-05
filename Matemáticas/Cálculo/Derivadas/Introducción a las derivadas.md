@@ -41,21 +41,22 @@ A esta función se le llama derivada.
 
 ## Definición de derivada
 
-La **derivada** de una función $f\:(x)$ es otra función la cual se denota como $f\:'\:(x)\:$, que representa las **pendientes de las tangentes** para cualquier punto de $f\: (x)$ 
+La **derivada** de una función $f\:(x)$ es otra función la cual se denota como $f\ '\ (x)\:$, que representa las **pendientes de las tangentes** para cualquier punto de $f\: (x)$ 
 
-$$f\:'\:(x) = \lim\limits_{h\to 0}\cfrac{f \:(x+h)-f\:(x ) }{h}$$
+$$f\ '\ (x) = \lim\limits_{h\to 0}\cfrac{f \:(x+h)-f\:(x ) }{h}$$
 Las **derivada** puede representarse por cualquiera de las siguientes expreciones 
 
 |       Derivada        | Se lee                                 |
 |:---------------------:| -------------------------------------- |
-|        $f\: '(x)$         | derivada de $f\:(x)$                   |
-|        $y\:'$         | $y$ prima                              |
-|   $\cfrac{dy}{dx}$   | derivada de $y$ con respecto de $x$    |
+|       $f\ '(x)$       | derivada de $f\: (x)$                  |
+|        $y\ '$         | $y$ prima                              |
+|   $\cfrac{dy}{dx}$    | derivada de $y$ con respecto de $x$    |
 | $\cfrac{d}{dx}[f(x)]$ | derivada de $f(x)$ con respecto de $x$ |
 
 <div style="page-break-after: always;"></div>
 
 # Referencias
 
-- [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). [_La derivada gráficamente_](https://platzi.com/clases/2612-calculo-diferencial/43607-la-derivada-graficamente/). [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/) .[Consultado el 13/01/2023].
-- [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). [_La definición de derivada_](https://platzi.com/clases/2612-calculo-diferencial/43608-la-definicion-de-derivada/). [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/) .[Consultado el 13/01/2023].
+- [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). _La derivada gráficamente_. [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/). Recuperado el 13 de enero de 2023 de https://platzi.com/clases/2612-calculo-diferencial/43607-la-derivada-graficamente/
+
+- [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). _La definición de derivada_. [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/). Recuperado el 13 de enero de 2023 de https://platzi.com/clases/2612-calculo-diferencial/43608-la-definicion-de-derivada/

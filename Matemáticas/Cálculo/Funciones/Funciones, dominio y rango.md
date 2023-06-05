@@ -81,13 +81,13 @@ Pues, la $x^2$ es una simplificación de la multiplicación de $x$ por $x$. Ento
 
 ### Funciones de tipo trascendente
 
-La [función trascendente](https://es.wikipedia.org/wiki/Funci%C3%B3n$trascendente) es una función que no satisface una ecuación polinómica cuyos coeficientes sean a su vez polinomios; esto contrasta con las funciones algebraicas, las cuales satisfacen dicha ecuación.
+La función trascendente es una función que no satisface una ecuación polinómica cuyos coeficientes sean a su vez polinomios; esto contrasta con las funciones algebraicas, las cuales satisfacen dicha ecuación.
 
-En las [funciones trascendentes](https://www.superprof.es/diccionario/matematicas/calculo/funcion-trascendente.html) la variable independiente figura como exponente, o como índice de la raíz, o se halla afectada del signo logaritmo o de cualquiera de los signos que emplea la trigonometría.
+En las funciones trascendentes la variable independiente figura como exponente, o como índice de la raíz, o se halla afectada del signo logaritmo o de cualquiera de los signos que emplea la trigonometría.
 
 El siguiente es un **ejemplo de una función trascendente:**
 
-$y = 2^x$
+$$y = 2^x$$
 
 Esta función nos muestra un problema, pues, anteriormente decíamos que una $x^2$ representaba la multiplicación de $x$ por $x$, pero en $2^x$ surge la pregunta _¿cuántas veces se va a multiplicar el 2 por sí mismo?_
 
@@ -97,4 +97,4 @@ La respuesta es que no lo sabemos; entonces si te fijas la forma de escribir est
 
 # Referencias
 
-- [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). [_Funciones, dominio y rango_](https://platzi.com/clases/2612-calculo-diferencial/43599-funciones-dominio-y-rango/). [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/). [Consultado el 11/01/2023]
+- [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). _Funciones, dominio y rango_. [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/). Recuperado 11 de enero de 2023 de https://platzi.com/clases/2612-calculo-diferencial/43599-funciones-dominio-y-rango/

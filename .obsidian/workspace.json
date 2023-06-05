@@ -13,8 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md",
+                "file": "Matemáticas/Matemáticas Discretas/Grafos/Grados caminos, cadenas y ciclos.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65f56b37204fbc8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programación/Fundamentos de programación/3. Estructura html.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -39,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vowel-",
+                "query": "displaylines",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -74,8 +87,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -103,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md",
+                "file": "Matemáticas/Matemáticas Discretas/Grafos/Grados caminos, cadenas y ciclos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md",
+                "file": "Matemáticas/Matemáticas Discretas/Grafos/Grados caminos, cadenas y ciclos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md"
+                "file": "Matemáticas/Matemáticas Discretas/Grafos/Grados caminos, cadenas y ciclos.md"
               }
             }
           },
@@ -171,45 +183,46 @@
       "random-note:Open random note": false
     }
   },
-  "active": "96cc46f61c36ab29",
+  "active": "a84eecac7c9ad952",
   "lastOpenFiles": [
-    "Numbers.md",
-    "Programación/Introducción a la web - Historia y Funcionamiento de la web/Ejercicios.md",
+    "Attachments/Templates/Images.md",
+    "Programación/Pensamiento lógico/Validaciones/Try & catch.md",
+    "Inglés/Speaking/Letters Pronuntiation/Pronunciation of the S - excersices.md",
+    "Inglés/B2/Prepositions in, or and at.md",
+    "Matemáticas/Álgebra/Función/Funciones lineales.md",
+    "Matemáticas/Álgebra/Fundamentos de Álgebra/3. Orden de despeje.md",
+    "Programación/Pensamiento lógico/Lenguajes de programación/Python/Python.md",
+    "Matemáticas/Aritmética/3. Radicación.md",
+    "Matemáticas/Aritmética/2. Potenciación y sus propiedades.md",
+    "Matemáticas/Aritmética/1. Operaciones básicas.md",
+    "Programación/Pensamiento lógico/Tablas de verdad/Tablas de verdad.md",
+    "Programación/Pensamiento lógico/Tablas de verdad/Operadores.md",
+    "Programación/Pensamiento lógico/Estructuras de control/Estructuras de control.md",
+    "Programación/Pensamiento lógico/Algoritmos/Diagramas de flujo.md",
     "Programación/Python/Operadores.md",
     "Programación/Python/Operadores aritméticos.md",
-    "Programación/C++/POO/9. Herencia múltiple/9. Herencia Múltiple.md",
+    "Programación/Python/Tipos de dato.md",
+    "Programación/Definición de un proyecto.md",
+    "Programación/Pensamiento lógico/Algoritmos/Algoritmos.md",
+    "Programación/Fundamentos de programación/3. Estructura html.md",
+    "Programación/Fundamentos de programación/2. Programación Web.md",
+    "Programación/Fundamentos de programación/1. Conceptos básicos.md",
+    "Programación/C++/Tipos de datos.md",
+    "Matemáticas/Matemáticas Discretas/Lógica.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Recorrido de árboles.md",
+    "Matemáticas/Matemáticas Discretas/Árboles/Introducción a los árboles.md",
+    "Español/Gramática/1. Letras/2 Reglas.webp",
+    "Attachments/Images/Tabulación completa.webp",
+    "Computación.zip",
+    "Computación.zip.tmp",
+    "Programación.zip",
+    "Programación.zip.tmp",
     "Programación/C++/POO/9. Herencia múltiple",
-    "Programación/C++/POO/8. Herencia/8. Herencia.md",
-    "Programación/C++/POO/6. Segmentación de un programa en archivos.md",
-    "Programación/C++/POO/5. Métodos Constructores y Modificadores.md",
-    "Programación/C++/POO/7. Static.md",
-    "Programación/C++/POO/4. Sobrecarga de Constuctores.md",
-    "Programación/C++/POO/3. Constructor, destructor y encapsulamiento.md",
-    "Programación/C++/POO/2. Clases y Objetos.md",
-    "Programación/C++/POO/1. Introducción a POO.md",
-    "Programa.md",
     "Programación/C++/POO/8. Herencia/Programa/Herencia.cpp",
     "Programación/C++/POO/8. Herencia/Programa/Herencia.cbp",
     "Programación/C++/POO/8. Herencia/Programa/src/Universitario.cpp",
     "Programación/C++/POO/8. Herencia/Programa/src/Persona.cpp",
     "Programación/C++/POO/8. Herencia/Programa/src/Estudiante.cpp",
-    "Programación/C++/POO/8. Herencia/Programa/src/Empleado.cpp",
-    "Programación/C++/POO/8. Herencia/Programa/src",
-    "Programación/C++/POO/8. Herencia/Programa/include/Universitario.h",
-    "Programación/C++/POO/8. Herencia/Programa/include/Persona.h",
-    "Electricidad y electrónica/1. Electricidad.md",
-    "Programación/C++/Tipos de datos.md",
-    "Programación/Pensamiento lógico/Tipos de datos/Datos.md",
-    "Attachments/Templates/Page Break.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Attachments/Árbol de expresión aritmética.excalidraw.md",
-    "Programación/Pensamiento lógico/Validaciones/Try & catch.md",
-    "Matemáticas/Matemáticas Discretas/Árboles/Árbol de expansión mínimo.md",
-    "Inglés/Inglés Básico A1 para principiantes/A & An.md",
-    "Attachments/Templates/Images.md",
-    "Matemáticas/Matemáticas Discretas/Grafos/Caminos y ciclos hamiltoniano.md",
-    "Español/Gramática/3. Oraciones/1. Estructura de la oración y tipos de oraciones.md",
-    "Attachments/Templates/Bibliografía/APA/Diccionario en línea.md",
-    "Attachments/Images/Tabulación completa.webp",
     "Inglés/Speaking/Letters Pronuntiation/Attachments/Vowel-sounds-1.jpeg",
     "Attachments/Images/simplificando polinomios-b0ad3a80-32d0-491b-bc75-108124dbed5f.webp",
     "Matemáticas/Aritmética/Attachments/Potenciación-y-sus-propiedades-1.jpeg",
@@ -217,7 +230,6 @@
     "Programación/Pensamiento lógico/Binario/Attachments/1.-Sistema-Binario-1.jpeg",
     "Matemáticas/Álgebra/Productos Notables/Attachments/1.-Binomio-al-cuadrado-1.jpeg",
     "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-Fleury.png",
-    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-flujo-máximo-1.jpeg",
-    "Matemáticas/Matemáticas Discretas/Árboles/Ejercicios/Attachments/Ejercicios-1676211157411.jpeg"
+    "Matemáticas/Matemáticas Discretas/Árboles/Algoritmos/Attachments/Algoritmo-de-flujo-máximo-1.jpeg"
   ]
 }

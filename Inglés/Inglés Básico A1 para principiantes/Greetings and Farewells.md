@@ -1,5 +1,7 @@
 # Greetings and Farewells
+
 ## Formalities
+
 - Hello
 - Hi
 - Hey
@@ -9,6 +11,7 @@
 - Good evening
 
 ## Farewells
+
 - Good night
 - Bye
 - Good bye

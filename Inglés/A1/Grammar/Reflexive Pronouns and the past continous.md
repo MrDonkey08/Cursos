@@ -11,7 +11,6 @@ last modification date: 10-02-2023
 type: Note
 ---
 
----
 ## Reflixive Prononus
 
 
@@ -26,11 +25,12 @@ When a person does something on their own:
 -   I myself did all these things.
 -   She did the project by herself.
 
----
 ## Past Continuous
 
 We use the past continuous to describe things that were happening at a specific moment in the past:
 
 `+`    **Subject + verb be in past + verb ing + complement.** She was walking when she saw herself in the mirror.
+
 `-`    **Subject + verb be in past + not + verb ing + complement.** They weren’t cooking when the food burned.
+
 `?`    **Wh + verb be in past + subject + verb ing + complement + ?**

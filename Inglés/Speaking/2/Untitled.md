@@ -1,1 +1,0 @@
-- [Carvajal E.](https://platzi.com/profes/emma-carvajal/) (2020). [_Introduction to IPA_](https://platzi.com/clases/1979-pronunciacion-ingles-2020/30249-introduction-to-ipa/). [_Curso de pronunciación Intermedia en Inglés 2020_](https://platzi.com/clases/old/pronunciacion-intermedio-2020/). [Consultado el 13/12/2022].

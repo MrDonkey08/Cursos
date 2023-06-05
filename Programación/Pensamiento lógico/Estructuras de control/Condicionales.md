@@ -27,6 +27,8 @@
 		"Ha introducido un dato no númerico."
 
 
-## Referencias
-- [Belisa, A.]() (s/i). ["Condicionales"](https://platzi.com/clases/3222-pensamiento-logico-estructuras/50892-que-son-las-estructuras-de-control/). [Nuevo Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/). [Platzi](https://platzi.com/home). [Consultado el 16/08/2022].
-- [Belisa, A.]() (s/i). ["Condicionales"](https://platzi.com/clases/3222-pensamiento-logico-estructuras/50892-que-son-las-estructuras-de-control/). [Nuevo Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/). [Platzi](https://platzi.com/home). [Consultado el 16/08/2022].
+# Referencias
+
+- [Belisa, A.](https://platzi.com/profes/anabelisam_/) (s.f.). _Condicionales_. [Nuevo Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/). [Platzi](https://platzi.com/home). Recuperado el 16 agosto 2022 de https://platzi.com/clases/3222-pensamiento-logico-estructuras/50892-que-son-las-estructuras-de-control/
+
+- [Belisa, A.](https://platzi.com/profes/anabelisam_/) (s.f.). _Condicionales_(). [Nuevo Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/). [Platzi](https://platzi.com/home). Recuperado el 16 agosto 2022 de https://platzi.com/clases/3222-pensamiento-logico-estructuras/50892-que-son-las-estructuras-de-control/

@@ -1,7 +1,8 @@
+# Pronounciation of the S
+
 Listen to the statements and put the words ending in s in the correct category.
 
 1.  It’s your turn to do the dishes.
-
 2.  She sings like an angel.
 
 3.  Are all of these books yours?
@@ -28,8 +29,6 @@ Listen to the statements and put the words ending in s in the correct category.
 | kisses |       | dreams |
  
 
----
+# Referencias
 
-## Referencias
-
-- [Gina Pedraza](https://platzi.com/profes/gina-pedraza/) (2020). [_Pronouncing the S_](https://platzi.com/clases/2002-ingles-practico-pronuncia-2020/31362-pronouncing-the-s/).  [_Curso de Inglés Práctico: Pronunciación 2020_](https://platzi.com/clases/old/ingles-practico-pronuncia-2020/). [Consultado el 10/12/2022].
+- [Gina Pedraza](https://platzi.com/profes/gina-pedraza/) (2020). _Pronouncing the S_.  [_Curso de Inglés Práctico: Pronunciación 2020_](https://platzi.com/clases/old/ingles-practico-pronuncia-2020/). Recuperado el 10 de diciembre 2022 de https://platzi.com/clases/2002-ingles-practico-pronuncia-2020/31362-pronouncing-the-s/

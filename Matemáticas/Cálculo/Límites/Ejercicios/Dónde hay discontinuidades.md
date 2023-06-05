@@ -73,5 +73,3 @@ $f(2) = \cfrac{(2)-2}{(2)^2-3(2)+2}$ $=\cfrac{0}{4-6+2}$ $=\cfrac{0}{0}$ $=\text
 $f(1) = \cfrac{\sqrt{5-(1)}-2}{(1)-1}$ $=\cfrac{0}{0}$ $=\text{indeterminado}$
 
 ==Es discontinua==
-
----

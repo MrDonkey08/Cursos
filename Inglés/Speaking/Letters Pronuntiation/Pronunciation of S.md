@@ -1,3 +1,5 @@
+# Pronunciation of S
+
 The s sound is unvoiced. This sounds like a hissing sound,  like a sneak.
 
 ## S+vowel
@@ -32,8 +34,6 @@ It's the same sound that anyone make when someone want to ask to someone to be q
 - Shock
 - Shoulder
 - Shelter
-
----
 
 ## Sibilant
 
@@ -71,9 +71,8 @@ This sounds we use it when the word ends with a voiced sound (b, d, g, l , n, ng
 - Bags
 - Dreams
 
----
+# Referencias
 
-## Referencias
+- [Gina Pedraza](https://platzi.com/profes/gina-pedraza/) (2020). _Words that start with S_. [Curso de Inglés Práctico: Pronunciación 2020](https://platzi.com/clases/old/ingles-practico-pronuncia-2020/). Recuperado el 10 de diciembre de 2022 de https://platzi.com/clases/2002-ingles-practico-pronuncia-2020/31360-words-that-start-with-s/
 
-- [Gina Pedraza](https://platzi.com/profes/gina-pedraza/) (2020). [_Words that start with S_](https://platzi.com/clases/2002-ingles-practico-pronuncia-2020/31360-words-that-start-with-s/).  [_Curso de Inglés Práctico: Pronunciación 2020_](https://platzi.com/clases/old/ingles-practico-pronuncia-2020/). [Consultado el 10/12/2022].
-- [Gina Pedraza](https://platzi.com/profes/gina-pedraza/) (2020). [_Words that end with S_](https://platzi.com/clases/2002-ingles-practico-pronuncia-2020/31361-words-that-end-with-s/).  [_Curso de Inglés Práctico: Pronunciación 2020_](https://platzi.com/clases/old/ingles-practico-pronuncia-2020/). [Consultado el 10/12/2022].
+- [Gina Pedraza](https://platzi.com/profes/gina-pedraza/) (2020). _Words that end with S_. [Curso de Inglés Práctico: Pronunciación 2020](https://platzi.com/clases/old/ingles-practico-pronuncia-2020/). Recuperado el 10 de diciembre de 2022 de https://platzi.com/clases/2002-ingles-practico-pronuncia-2020/31361-words-that-end-with-s/)

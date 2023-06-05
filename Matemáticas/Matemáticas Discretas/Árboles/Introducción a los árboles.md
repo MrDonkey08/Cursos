@@ -35,4 +35,5 @@ Un **subárbol** es una sección de un árbol, una parte de un ábol. Estos sub�
 # Referencias
 
 -  [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Árboles_. [Curso de Matemáticas Discretas](https://platzi.com/cursos/discretas/). [Platzi](https://platzi.com/). Recuperado el 06 de enero de 2023 de https://platzi.com/clases/1319-discretas/12229-arboles/
+
 - [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Sub árboles, vértices, y notación_. [Curso de Matemáticas Discretas](https://platzi.com/cursos/discretas/). [Platzi](https://platzi.com/). Recuperado el 06 de enero de 2023 de https://platzi.com/clases/1319-discretas/12230-sub-arboles-vertices-y-notacion/

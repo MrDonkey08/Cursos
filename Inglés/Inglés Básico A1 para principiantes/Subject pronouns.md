@@ -2,10 +2,10 @@
 
 subject pronoun + verb
 
-I **am**
-You **are**
-He **is**
-She **is**
-It **is**
-They **are**
-We **are**
+- I **am**
+- You **are**
+- He **is**
+- She **is**
+- It **is**
+- They **are**
+- We **are**

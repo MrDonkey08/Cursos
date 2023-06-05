@@ -11,7 +11,7 @@ No es más que una sentencia, oración o enunciado al cual lo puedes catalogar y
 Existen dos tipos de proposiciones, las simples y las compuestas:
 
 -   Las proposiciones simples tienen un valor de verdadero o falso, son representadas por la letra p, q, r, s, t.
--   Las proposiciones compuestas como su nombre lo indica están compuestas por proposiciones simples. Estas proposiciones necesitan conectores lógicos para unir las diferentes proposiciones simples que la integren.
+-   Las proposiciones compuestas, como su nombre lo indica, están compuestas por proposiciones simples. Estas proposiciones necesitan conectores lógicos para unir las diferentes proposiciones simples que la integren.
 
 ## Conectores lógicos
 

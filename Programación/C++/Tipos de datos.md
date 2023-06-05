@@ -42,7 +42,11 @@ En los tipos de datos númericos tenemos las dos siguientes categorias:
 # Referencias
 
 - [Martínez, D.](https://platzi.com/profesores/diananerd/) (s.f.). _Tipos de datos_. [Curso de C++ Básico](https://platzi.com/cursos/c-plus-plus/). [Platzi](https://platzi.com/home). Recuperado el 06 de abril de 2023 de https://platzi.com/clases/2372-c-plus-plus/38890-tipos-de-datos/
+
 - [Wikipedia](https://es.wikipedia.org/wiki/Tipo_de_dato_elemental). (17 de octubre de 2021). _Tipo de dato elemental_. Recuperado el 06 de abril de 2023 de https://es.wikipedia.org/wiki/Tipo_de_dato_elemental
+
 - [Domingo, J.](https://openwebinars.net/autor/jose-domingo-munoz/) (23 de octubre de 2020). _Principales tipos de datos en C++_. Recuperado  el 06 de abril de 2023 de https://openwebinars.net/blog/principales-tipos-de-datos-en-c/
+
 - [DECSAI](https://decsai.ugr.es/) (s.f.). _Capítulo 2: Léxico de C. Tipos básicos de datos, visibilidad y almacenamiento_. Recuperado  el 06 de abril de 2023 de https://ccia.ugr.es/~jfv/ed1/c/cdrom/cap2/cap24.htm
+
 - [García, E.](https://ejercicioscpp.blogspot.com/2012/09/ejercicioscpp.blogspot.com.es) (s.f.). _Programación C++_. Recuperado  el 06 de abril de 2023 de https://ejercicioscpp.blogspot.com/2012/09/tipos-de-datos-en-c.html
