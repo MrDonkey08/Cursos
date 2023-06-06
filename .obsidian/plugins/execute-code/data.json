@@ -1,9 +1,9 @@
 {
-  "lastOpenLanguageTab": "cpp",
+  "lastOpenLanguageTab": "python",
   "timeout": 10000,
   "allowInput": true,
   "wslMode": false,
-  "nodePath": "node",
+  "nodePath": "/usr/local/bin/node",
   "nodeArgs": "",
   "jsInject": "",
   "tsPath": "ts-node",

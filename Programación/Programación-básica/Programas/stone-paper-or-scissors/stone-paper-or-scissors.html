@@ -1,0 +1,56 @@
+<!DOCTYPE html> <!-- Required to work on some old browsers -->
+<html>
+    <meta charset=" uft-8"/>
+    <head>
+        <title>Stone, paper or scissors</title>
+        <script>
+            function random(min, max){ // returns a value between min and max
+                return Math.floor(Math.random() * (max - min + 1) + min) // Math.floor truncate (cut) the the decimal part and Math.random() returns a float number between 0 and 1.
+            }
+
+            function choice(play, player){
+                switch(play){
+                    case 1: alert(player + " picked stone.")
+                        break;
+                    case 2: alert(player + " picked paper.")
+                        break;
+                    case 3: alert(player + " picked scissors.")
+                        break;
+                }
+            }
+
+            function winner(){
+                if(user == pc){
+                alert("Draw.")
+                } 
+                else if((user == 1) && (pc == 3) || (user == 2) && (pc == 1) || (user == 3) && (pc == 2)){
+                    alert("User wins.")
+                }
+                else{
+                    alert("PC wins.")
+                }
+            }
+                
+            let player1 = "User", player2 = "PC"
+            let user = 0, min = 0, max = 0, pc = random(1, 3)
+            let invalid = 0
+
+            do{
+                if(invalid == 1){
+                    alert("Invalid option. Try again.")
+                }
+                user = prompt("Select: 1 for stone, 2 for paper and 3 for scissors.") // prompt converts the variable to string type
+                user = parseInt(user) // parseInt to convert from string to int. If in user's value there's no numbers, it would take the NaN value, which means "Not a Number".
+                invalid = 1
+
+            } while(user < 1 || user > 3 || isNaN(user) ) // isNaN returns true if the value of the paremeter (user) is equal to NaN 
+
+            choice(user, player1)
+            choice(pc, player2)
+            winner()
+        </script>
+    </head>
+    <body>
+        <h1>Stone, paper or scissors</h1>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Mokepon! </title>
+        <script src="./js/mokepon.js"></script>
+    </head>
+    <body>
+        <h1>Mokepon! 🔥💧🌱</h1>
+
+        <section id="select-pet">
+            <h2>Pick your pet</h2>
+
+            <input type="radio" name="pet" id="hipodoge"/> <!-- I can set this `input` to a group (so they can be related) by using `name="nameOfTheGroup"`-->
+            <label for="hipodoge">Hipodoge</label> <br> <!-- Indicates to the user the value of the input. `for` stablish the relation between an input an a label trough the `id` -->
+            
+            <input type="radio" name="pet" id="capipe"/>
+            <label for="capipe">Capipe</label> <br>
+
+            <input type="radio" name="pet" id="ratike"/>
+            <label for="ratike">Ratike</label> <br><br>
+
+
+            <!-- Hipodoge -> Water
+            Capipe -> Ground
+            Ratik -> Fire
+            Langostelvis -> Water and Fire
+            Tucapalm -> Water and Ground
+            Pydos -> Ground and Fire -->
+
+            <button id="bt-pet">Pick</button>
+        </section> 
+
+        <section id="select-attack">
+            <h2>Pick your attack</h2>
+            <p>Your pet has <span>3</span> lives</p> <!-- -->
+            <p>Enemy's pet has <span>3</span> lives</p>
+            <p> <!-- It's a good practice set buttons inside of containers-->
+                <button id="bt-fire">Fire 🔥</button>
+                <button id="bt-water">Water 💧</button>
+                <button id="bt-ground">Ground 🌱</button>      
+            </p>
+        </section>
+
+        <section id="messages">
+            <p>Your pet attacked wit <b>fire</b>. your enemy's pet attacked with <b>ground</b>. Ganaste</p>
+        </section>
+
+        <section id="Restart game"></section>
+            <p>
+                <button id="bt-restart">Restart game</button>
+            </p>
+    </body>
+</html>
