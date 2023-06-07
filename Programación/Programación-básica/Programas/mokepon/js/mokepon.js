@@ -82,6 +82,16 @@ function selectEnemysAttack(){
         default: enemysAttack = 'ground' // I set default instead of 'case 3' because 'ground' is the only left value that 'enemysAttack' can take
             break
     }
+    createMessage()
+}
+
+function createMessage(){ //10:29
+    let sectionMessages = document.getElementById('messages')
+
+    let paragraph = document.createElement('p')
+    paragraph.innerHTML = "Your pet attacked with " + playersAttack + ". Your enemy's pet attacked with " + enemysAttack + "."
+
+    sectionMessages.appendChild(paragraph)
 }
 
 window.addEventListener('load', startGame)
