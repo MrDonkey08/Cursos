@@ -5,20 +5,20 @@ btnPet.addEventListener('click', selectPet)
 }
 
 function selectPet(){
-    let pet = ""
+    let pet = document.getElementById('players-pet')
 
     if (document.getElementById('hipodoge').checked){ // .checked returns true if the element is selected
-        pet = "Hipodoge"
+        pet.innerHTML = 'Hipodoge'
     }
     else if (document.getElementById('capipe').checked){
-        pet = "Capipe"
+        pet.innerHTML = 'Capipe'
     }
     else if (document.getElementById('ratike').checked){
-        pet = "Ratike"
+        pet.innerHTML = 'Ratike'
     }
 
-    if (pet != ""){
-        alert("You choose " + pet + ".")
+    if (pet.innerHTML != ""){
+        alert("You choose " + pet.innerHTML + ".")
     }
     else{
         alert("You haven't choose a pet.")
