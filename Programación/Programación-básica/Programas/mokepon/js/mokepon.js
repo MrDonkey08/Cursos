@@ -1,5 +1,6 @@
 let playersAttack // it doesn't belong to a function so it's a global variable and can be accessed anywhere in this file
 let enemysAttack
+let winnerMessage
 
 function startGame(){
     let btnPet = document.getElementById('btn-pet')
@@ -82,16 +83,34 @@ function selectEnemysAttack(){
         default: enemysAttack = 'ground' // I set default instead of 'case 3' because 'ground' is the only left value that 'enemysAttack' can take
             break
     }
+    roundWinner()
     createMessage()
 }
 
-function createMessage(){ //10:29
+function createMessage(){ 
     let sectionMessages = document.getElementById('messages')
 
     let paragraph = document.createElement('p')
-    paragraph.innerHTML = "Your pet attacked with " + playersAttack + ". Your enemy's pet attacked with " + enemysAttack + "."
+    paragraph.innerHTML = "Your pet attacked with " + playersAttack + ". Your enemy's pet attacked with " + enemysAttack + ". " + winnerMessage + '.'
 
     sectionMessages.appendChild(paragraph)
+}
+
+function roundWinner(){
+    winnerMessage = 'You win'
+
+    if(playersAttack == enemysAttack){
+        winnerMessage = 'Draw'
+    }
+    else if((playersAttack == 'water') && (enemysAttack == 'fire')){
+    }
+    else if((playersAttack == 'fire') && (enemysAttack == 'ground')){
+    } 
+    else if((playersAttack == 'ground') && (enemysAttack == 'water')){
+    }
+    else{
+        winnerMessage = "You loose"
+    }
 }
 
 window.addEventListener('load', startGame)
