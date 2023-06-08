@@ -113,9 +113,12 @@ function lives(){
 
 function createMessage(){ 
     let sectionMessages = document.getElementById('messages')
+    
+    let playersMokepon = document.getElementById('players-mokepon').innerHTML
+    let enemysMokepon = document.getElementById('enemys-mokepon').innerHTML
 
     let paragraph = document.createElement('p')
-    paragraph.innerHTML = "Your mokepon attacked with " + playersAttack + ". Your enemy's mokepon attacked with " + enemysAttack + ". " + winnerMessage + '.'
+    paragraph.innerHTML = "Your mokepon, " + playersMokepon + ", attacked with " + playersAttack + ". Your enemy's mokepon, " + enemysMokepon + ", attacked with " + enemysAttack + ". " + winnerMessage + '.'
 
     sectionMessages.appendChild(paragraph)
 }
