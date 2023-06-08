@@ -1,6 +1,9 @@
 let playersAttack // it doesn't belong to a function so it's a global variable and can be accessed anywhere in this file
 let enemysAttack
 let winnerMessage
+let playersLives
+let enemysLives
+let resultMessage
 
 function startGame(){
     let btnPet = document.getElementById('btn-pet')
@@ -83,8 +86,32 @@ function selectEnemysAttack(){
         default: enemysAttack = 'ground' // I set default instead of 'case 3' because 'ground' is the only left value that 'enemysAttack' can take
             break
     }
-    roundWinner()
-    createMessage()
+    battle()
+}
+
+function battle(){
+    lives()
+    
+    if((enemysLives.innerHTML > 0) && (playersLives.innerHTML > 0)){
+        roundWinner()
+        createMessage()
+    }
+    
+    if(resultMessage != 1){
+        if(enemysLives.innerHTML <= 0){
+            battleResult("Congrulations! You win. You're the champion!")
+            resultMessage = 1
+        }
+        else if(playersLives.innerHTML <= 0){
+            battleResult('You lost the battle, but not the war. Keep going')
+            resultMessage = 1
+        }
+    }
+}
+
+function lives(){
+    playersLives = document.getElementById('players-lives')
+    enemysLives = document.getElementById('enemys-lives')
 }
 
 function createMessage(){ 
@@ -103,14 +130,26 @@ function roundWinner(){
         winnerMessage = 'Draw'
     }
     else if((playersAttack == 'water') && (enemysAttack == 'fire')){
+        enemysLives.innerHTML -= 1
     }
     else if((playersAttack == 'fire') && (enemysAttack == 'ground')){
+        enemysLives.innerHTML -= 1
     } 
     else if((playersAttack == 'ground') && (enemysAttack == 'water')){
+        enemysLives.innerHTML -= 1
     }
     else{
-        winnerMessage = "You loose"
+        winnerMessage = "You loost"
+        playersLives.innerHTML -= 1
     }
+}
+
+function battleResult(result){
+    let sectionMessages = document.getElementById('messages')
+    let paragraph = document.createElement('p')
+    paragraph.innerHTML = result
+
+    sectionMessages.appendChild(paragraph)
 }
 
 window.addEventListener('load', startGame)
