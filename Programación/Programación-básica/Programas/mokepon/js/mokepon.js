@@ -6,6 +6,7 @@ let enemysLives
 let resultMessage
 
 function startGame(){
+    document.getElementById('btn-restart').addEventListener('click', restartGame)
     document.getElementById('btn-mokepon').addEventListener('click', selectmokepons)
     
     disableAttackButtons()
@@ -168,6 +169,10 @@ function disableAttackButtons(){
 
 function disableMokeponButton(){
     document.getElementById('btn-mokepon').disabled = true
+}
+
+function restartGame(){
+    location.reload()
 }
 
 window.addEventListener('load', startGame)
