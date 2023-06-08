@@ -6,58 +6,59 @@ let enemysLives
 let resultMessage
 
 function startGame(){
-    let btnPet = document.getElementById('btn-pet')
-    btnPet.addEventListener('click', selectPets)
+    document.getElementById('btn-mokepon').addEventListener('click', selectmokepons)
+    
+    disableAttackButtons()
 
-    let btnFire = document.getElementById('btn-fire')
-    let btnWater = document.getElementById('btn-water')
-    let btnGround = document.getElementById('btn-ground')
-
-    btnFire.addEventListener('click', fireAttack)
-    btnWater.addEventListener('click', waterAttack)
-    btnGround.addEventListener('click', groundAttack)
+    document.getElementById('btn-fire').addEventListener('click', fireAttack)
+    document.getElementById('btn-water').addEventListener('click', waterAttack)
+    document.getElementById('btn-ground').addEventListener('click', groundAttack)
 }
 
-function selectPets(){
-    let pet = document.getElementById('players-pet')
+function selectmokepons(){
+    let mokepon = document.getElementById('players-mokepon')
 
     if (document.getElementById('hipodoge').checked){ // .checked returns true if the element is selected
-        pet.innerHTML = 'Hipodoge'
+        mokepon.innerHTML = 'Hipodoge'
     }
     else if (document.getElementById('capipe').checked){
-        pet.innerHTML = 'Capipe'
+        mokepon.innerHTML = 'Capipe'
     }
     else if (document.getElementById('ratike').checked){
-        pet.innerHTML = 'Ratike'
+        mokepon.innerHTML = 'Ratike'
     }
 
-    if (pet.innerHTML != ""){
-        alert("You choose " + pet.innerHTML + ".")
-        selectEnemysPet()
+    if (mokepon.innerHTML != ""){
+        alert("You choose " + mokepon.innerHTML + ".")
+        selectEnemysmokepon()
+        enableAttackButtons()
+        disableMokeponButton()
     }
     else{
-        alert("You haven't choose a pet.")
+        alert("You haven't choose a mokepon.")
     }
 }
+
+
 
 function randomNum(min, max){ // returns a value between min and max
     return Math.floor(Math.random() * (max - min + 1) + min) // Math.floor truncate (cut) the the decimal part and Math.random() returns a decimal number between 0 and 1.
 }
 
-function selectEnemysPet(){
-    let pets = document.getElementById('enemys-pet')
+function selectEnemysmokepon(){
+    let mokepons = document.getElementById('enemys-mokepon')
     let opt = randomNum(1, 3)
     
     switch(opt){
-        case 1: pets.innerHTML = 'Hipodoge'
+        case 1: mokepons.innerHTML = 'Hipodoge'
             break
-        case 2: pets.innerHTML = 'Capipe'
+        case 2: mokepons.innerHTML = 'Capipe'
             break
-        case 3: pets.innerHTML = 'Ratike'
+        case 3: mokepons.innerHTML = 'Ratike'
             break
     }
 
-    alert("Enemy's pet is " + pets.innerHTML)
+    alert("Enemy's mokepon is " + mokepons.innerHTML)
 }
 
 function waterAttack(){
@@ -97,15 +98,11 @@ function battle(){
         createMessage()
     }
     
-    if(resultMessage != 1){
-        if(enemysLives.innerHTML <= 0){
-            battleResult("Congrulations! You win. You're the champion!")
-            resultMessage = 1
-        }
-        else if(playersLives.innerHTML <= 0){
-            battleResult('You lost the battle, but not the war. Keep going')
-            resultMessage = 1
-        }
+    if(enemysLives.innerHTML <= 0){
+        battleResult("Congrulations! You win. You're the champion!")
+    }
+    else if(playersLives.innerHTML <= 0){
+        battleResult('You lost the battle, but not the war. Keep going')
     }
 }
 
@@ -118,7 +115,7 @@ function createMessage(){
     let sectionMessages = document.getElementById('messages')
 
     let paragraph = document.createElement('p')
-    paragraph.innerHTML = "Your pet attacked with " + playersAttack + ". Your enemy's pet attacked with " + enemysAttack + ". " + winnerMessage + '.'
+    paragraph.innerHTML = "Your mokepon attacked with " + playersAttack + ". Your enemy's mokepon attacked with " + enemysAttack + ". " + winnerMessage + '.'
 
     sectionMessages.appendChild(paragraph)
 }
@@ -150,6 +147,24 @@ function battleResult(result){
     paragraph.innerHTML = result
 
     sectionMessages.appendChild(paragraph)
+
+    disableAttackButtons()
+}
+
+function enableAttackButtons(){
+    document.getElementById('btn-fire').disabled = false
+    document.getElementById('btn-water').disabled = false
+    document.getElementById('btn-ground').disabled = false
+}
+
+function disableAttackButtons(){
+    document.getElementById('btn-fire').disabled = true
+    document.getElementById('btn-water').disabled = true
+    document.getElementById('btn-ground').disabled = true
+}
+
+function disableMokeponButton(){
+    document.getElementById('btn-mokepon').disabled = true
 }
 
 window.addEventListener('load', startGame)
