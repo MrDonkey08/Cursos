@@ -3,13 +3,13 @@ let enemysAttack
 let winnerMessage
 let playersLives
 let enemysLives
-let resultMessage
 
 function startGame(){
+    document.getElementById('select-attack').style.display = 'none'
+    document.getElementById('btn-restart').style.display = 'none'
+
     document.getElementById('btn-restart').addEventListener('click', restartGame)
     document.getElementById('btn-mokepon').addEventListener('click', selectmokepons)
-    
-    disableAttackButtons()
 
     document.getElementById('btn-fire').addEventListener('click', fireAttack)
     document.getElementById('btn-water').addEventListener('click', waterAttack)
@@ -32,15 +32,13 @@ function selectmokepons(){
     if (mokepon.innerHTML != ""){
         alert("You choose " + mokepon.innerHTML + ".")
         selectEnemysmokepon()
-        enableAttackButtons()
-        disableMokeponButton()
+        document.getElementById('select-mokepon').style.display = 'none'
+        document.getElementById('select-attack').style.display = 'block'
     }
     else{
         alert("You haven't choose a mokepon.")
     }
 }
-
-
 
 function randomNum(min, max){ // returns a value between min and max
     return Math.floor(Math.random() * (max - min + 1) + min) // Math.floor truncate (cut) the the decimal part and Math.random() returns a decimal number between 0 and 1.
@@ -153,22 +151,13 @@ function battleResult(result){
     sectionMessages.appendChild(paragraph)
 
     disableAttackButtons()
-}
-
-function enableAttackButtons(){
-    document.getElementById('btn-fire').disabled = false
-    document.getElementById('btn-water').disabled = false
-    document.getElementById('btn-ground').disabled = false
+    document.getElementById('btn-restart').style.display = 'block'
 }
 
 function disableAttackButtons(){
     document.getElementById('btn-fire').disabled = true
     document.getElementById('btn-water').disabled = true
     document.getElementById('btn-ground').disabled = true
-}
-
-function disableMokeponButton(){
-    document.getElementById('btn-mokepon').disabled = true
 }
 
 function restartGame(){
