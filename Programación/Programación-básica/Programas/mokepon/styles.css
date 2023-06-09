@@ -1,0 +1,13 @@
+h1 { /* type selector */
+    color: #d79921;
+    width: 240px;
+    height: 40px;
+}
+
+.title { /* class selector */
+    color: #458588;
+}
+
+#select-mokepon{ /* id selector */
+    color: #98971a
+}
