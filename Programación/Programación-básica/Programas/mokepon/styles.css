@@ -1,4 +1,4 @@
-h1 { /* type selector */
+h1 { /* type selector | display:block: It takes up the entire available width. It's resizable.*/
     color: #d79921;
     width: 240px;
     height: 40px;
@@ -6,8 +6,32 @@ h1 { /* type selector */
 
 .title { /* class selector */
     color: #458588;
+    width: 240px;
+    height: 40px;
 }
 
-#select-mokepon{ /* id selector */
-    color: #98971a
+#select-mokepon{ /* id selector | displayblock*/
+    color: #98971a;
+    width: 240px;
+    height: 40px;
 }
+
+label{ /* display:inline: It takes up the necessary width to fit their content. It's not resizable */
+    background-color: #cc241d;
+    width: 240px;
+    height: 40px;
+}
+
+input{ /* display inline-block: It takes up the necessary width to fit their content. It's not resizable */
+    background-color: #d65d0e;
+    width: 240px;
+    height: 40px;
+}
+
+button{ /* inline-block.*/
+    background-color: #b16286;
+    width: 240px;
+    height: 40px;
+}
+
+/* https://platzi.com/clases/3208-programacion-basica/52014-tipos-de-display/ */
