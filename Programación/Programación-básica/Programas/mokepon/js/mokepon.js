@@ -33,7 +33,7 @@ function selectmokepons(){
         alert("You choose " + mokepon.innerHTML + ".")
         selectEnemysmokepon()
         document.getElementById('select-mokepon').style.display = 'none'
-        document.getElementById('select-attack').style.display = 'block'
+        document.getElementById('select-attack').style.display = 'flex'
     }
     else{
         alert("You haven't choose a mokepon.")
