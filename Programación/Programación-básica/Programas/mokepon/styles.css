@@ -1,13 +1,34 @@
-h1{ /* type selector | display:block: It takes up the entire available width. It's resizable.*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+*{ /* Global styles (all elements) */
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: #272424;
+}
+
+h1{ /* type selector | display:block: It takes up the entire available width. It's resizable. */
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 50px;
     color: #d79921;
-    width: 250px;
-    height: 40px;
+    width: 392px;
+    height: 60px;
+    margin: 30px 0px 30px 0px;
 }
 
 h2{ /* type selector | display:block */
+    display: flex;
+    justify-content: center;
+
+    font-size: 38px;
     color: #458588;
-    width: 250px;
-    height: 40px;
+    width: 383px;
+    height: 45px;
+    margin: 0px 0px 20px 0px;
 }
 
 section{
@@ -22,13 +43,41 @@ label{
 }
 
 input[type='radio']{
-    margin: 3px 9px 3px 3px /* clockwise */
+    display: none;
 }
 
 button{ /* inline-block.*/
+    font-size: 16px;
     background-color: #ab72ec;
-    width: 250px;
+    width: 120px;
     height: 40px;
 }
 
-/* https://platzi.com/clases/3208-programacion-basica/52015-flexbox/ */
+.mokepon-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: black;
+    width: 120px;
+    height: 60px;
+    background: #6aabe0;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #4365ad;
+    margin: 11px;
+}
+
+#cards-box{
+    margin: 0;
+}
+
+p{
+    color: whitesmoke
+}
+
+/* 
+- https://platzi.com/clases/3208-programacion-basica/52016-modelo-de-caja/ 
+- https://platzi.com/comentario/3872318/
+- https://every-layout.dev/rudiments/global-and-local-styling/
+*/

@@ -11,16 +11,16 @@
             <h1>Mokepon! 🔥💧🌱</h1>
             <h2>Pick your mokepon</h2>
 
-            <p>
-                <label for="hipodoge"> <!-- Indicates to the user the value of the input. `for` stablish the relation between an input an a label trough the `id` -->
+            <p id="cards-box">
+                <label class="mokepon-card" for="hipodoge"> <!-- Indicates to the user the value of the input. `for` stablish the relation between an input an a label trough the `id` -->
                     <input type="radio" name="mokepon" id="hipodoge"/> Hipodoge <!-- I can set this `input` to a group (so they can be related) by using `name="nameOfTheGroup"`-->
                 </label>  
                 
-                <label for="capipe">
+                <label class="mokepon-card" for="capipe">
                     <input type="radio" name="mokepon" id="capipe"/> Capipe
                 </label> 
 
-                <label for="ratike">
+                <label class="mokepon-card" for="ratike">
                     <input type="radio" name="mokepon" id="ratike"/> Ratike
                 </label> 
             </p>
@@ -45,7 +45,7 @@
         <section id="messages">
         </section>
 
-        <section id="Restart game">
+        <section id="restart-game">
             <p>
                 <button id="btn-restart">Restart game</button>
             </p>
