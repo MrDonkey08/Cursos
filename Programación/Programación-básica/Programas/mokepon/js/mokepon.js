@@ -19,14 +19,14 @@ function startGame(){
 function selectmokepons(){
     let mokepon = document.getElementById('players-mokepon')
 
-    if (document.getElementById('hipodoge').checked){ // .checked returns true if the element is selected
-        mokepon.innerHTML = 'Hipodoge'
+    if (document.getElementById('acynonyx').checked){ // .checked returns true if the element is selected
+        mokepon.innerHTML = 'Acynonyx'
     }
-    else if (document.getElementById('capipe').checked){
-        mokepon.innerHTML = 'Capipe'
+    else if (document.getElementById('piwith').checked){
+        mokepon.innerHTML = 'Piwith'
     }
-    else if (document.getElementById('ratike').checked){
-        mokepon.innerHTML = 'Ratike'
+    else if (document.getElementById('berry').checked){
+        mokepon.innerHTML = 'Berry'
     }
 
     if (mokepon.innerHTML != ""){
@@ -49,11 +49,11 @@ function selectEnemysmokepon(){
     let opt = randomNum(1, 3)
     
     switch(opt){
-        case 1: mokepons.innerHTML = 'Hipodoge'
+        case 1: mokepons.innerHTML = 'Acynonyx'
             break
-        case 2: mokepons.innerHTML = 'Capipe'
+        case 2: mokepons.innerHTML = 'Piwith'
             break
-        case 3: mokepons.innerHTML = 'Ratike'
+        case 3: mokepons.innerHTML = 'berry'
             break
     }
 

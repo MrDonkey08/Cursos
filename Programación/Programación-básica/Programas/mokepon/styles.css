@@ -6,10 +6,10 @@
 
 body{
     background-color: #272424;
+    color: whitesmoke
 }
 
 h1{ /* type selector | display:block: It takes up the entire available width. It's resizable. */
-
     display: flex;
     justify-content: center;
 
@@ -37,11 +37,6 @@ section{
     align-items: center;
 }
 
-label{
-    display: flex;
-    align-items: flex-start;
-}
-
 input[type='radio']{
     display: none;
 }
@@ -49,35 +44,52 @@ input[type='radio']{
 button{ /* inline-block.*/
     font-size: 16px;
     background-color: #ab72ec;
-    width: 120px;
-    height: 40px;
-}
-
-.mokepon-card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: black;
-    width: 120px;
-    height: 60px;
-    background: #6aabe0;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 2px solid #4365ad;
+    width: 200px;
+    height: 48px;
+    border-radius: 10px;
     margin: 11px;
 }
 
 #cards-box{
-    margin: 0;
+    display: flex;
+    flex-direction: row;
 }
 
-p{
-    color: whitesmoke
+.mokepon-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 24px;
+    width: 260px;
+    height: 220px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 11px;
+    border-radius: 10px;
+}
+
+.mokepon-card img{
+    width: 180px;
+}
+
+#acynonyx-card{
+    background: #f77462;
+    border: 3px solid #ad5343;
+}
+
+#piwith-card{
+    background: #6aabe0;
+    border: 3px solid #4365ad;
+}
+
+#berry-card{
+    background: #67da67;
+    border: 3px solid #56ad3c;
 }
 
 /* 
-- https://platzi.com/clases/3208-programacion-basica/52016-modelo-de-caja/ 
-- https://platzi.com/comentario/3872318/
-- https://every-layout.dev/rudiments/global-and-local-styling/
+- https://platzi.com/clases/3208-programacion-basica/51976-imagenes-para-los-mokepones/
+- https://platzi.com/clases/3208-programacion-basica/51975-estilos-del-boton/
 */
