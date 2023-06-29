@@ -7,6 +7,8 @@ let enemysLives
 function startGame(){
     document.getElementById('select-attack').style.display = 'none'
     document.getElementById('btn-restart').style.display = 'none'
+    document.getElementById('battle').style.display = 'none'
+    document.getElementById('messages').style.display = 'none'
 
     document.getElementById('btn-restart').addEventListener('click', restartGame)
     document.getElementById('btn-mokepon').addEventListener('click', selectmokepons)
@@ -34,6 +36,8 @@ function selectmokepons(){
         selectEnemysmokepon()
         document.getElementById('select-mokepon').style.display = 'none'
         document.getElementById('select-attack').style.display = 'flex'
+        document.getElementById('battle').style.display= 'flex'
+
     }
     else{
         alert("You haven't choose a mokepon.")
@@ -53,7 +57,7 @@ function selectEnemysmokepon(){
             break
         case 2: mokepons.innerHTML = 'Piwith'
             break
-        case 3: mokepons.innerHTML = 'berry'
+        case 3: mokepons.innerHTML = 'Berry'
             break
     }
 
@@ -61,17 +65,17 @@ function selectEnemysmokepon(){
 }
 
 function waterAttack(){
-    playersAttack = 'water'
+    playersAttack = 'Water'
     selectEnemysAttack()
 }
 
 function fireAttack(){
-    playersAttack = 'fire'
+    playersAttack = 'Fire'
     selectEnemysAttack()
 }
 
 function groundAttack(){
-   playersAttack = 'ground'
+   playersAttack = 'Ground'
    selectEnemysAttack() 
 }
 
@@ -79,11 +83,11 @@ function selectEnemysAttack(){
     let opt = randomNum(1, 3)
 
     switch(opt){
-        case 1: enemysAttack = 'water'
+        case 1: enemysAttack = 'Water'
             break
-        case 2: enemysAttack = 'fire'
+        case 2: enemysAttack = 'Fire'
             break
-        default: enemysAttack = 'ground' // I set default instead of 'case 3' because 'ground' is the only left value that 'enemysAttack' can take
+        default: enemysAttack = 'Ground' // I set default instead of 'case 3' because 'Ground' is the only left value that 'enemysAttack' can take
             break
     }
     battle()
@@ -111,46 +115,51 @@ function lives(){
 }
 
 function createMessage(){ 
-    let sectionMessages = document.getElementById('messages')
-    
-    let playersMokepon = document.getElementById('players-mokepon').innerHTML
-    let enemysMokepon = document.getElementById('enemys-mokepon').innerHTML
+    let playersAttackP = document.createElement('p')
+    playersAttackP.innerHTML = playersAttack
 
-    let paragraph = document.createElement('p')
-    paragraph.innerHTML = "Your mokepon, " + playersMokepon + ", attacked with " + playersAttack + ". Your enemy's mokepon, " + enemysMokepon + ", attacked with " + enemysAttack + ". " + winnerMessage + '.'
+    document.getElementById('players-card').appendChild(playersAttackP)
 
-    sectionMessages.appendChild(paragraph)
+    let battleMessageP = document.createElement('p')
+    battleMessageP.innerHTML = winnerMessage
+
+    document.getElementById('result-card').appendChild(battleMessageP)
+
+    let enemysAttackP = document.createElement('p')
+    enemysAttackP.innerHTML = enemysAttack
+
+    document.getElementById('enemys-card').appendChild(enemysAttackP)
 }
 
 function roundWinner(){
-    winnerMessage = 'You win'
+    winnerMessage = 'Win'
 
     if(playersAttack == enemysAttack){
         winnerMessage = 'Draw'
     }
-    else if((playersAttack == 'water') && (enemysAttack == 'fire')){
+    else if((playersAttack == 'Water') && (enemysAttack == 'Fire')){
         enemysLives.innerHTML -= 1
     }
-    else if((playersAttack == 'fire') && (enemysAttack == 'ground')){
+    else if((playersAttack == 'Fire') && (enemysAttack == 'Ground')){
         enemysLives.innerHTML -= 1
     } 
-    else if((playersAttack == 'ground') && (enemysAttack == 'water')){
+    else if((playersAttack == 'Ground') && (enemysAttack == 'Water')){
         enemysLives.innerHTML -= 1
     }
     else{
-        winnerMessage = "You loost"
+        winnerMessage = "Defeat"
         playersLives.innerHTML -= 1
     }
 }
 
 function battleResult(result){
-    let sectionMessages = document.getElementById('messages')
     let paragraph = document.createElement('p')
     paragraph.innerHTML = result
 
-    sectionMessages.appendChild(paragraph)
+    document.getElementById('messages').appendChild(paragraph)
 
     disableAttackButtons()
+    document.getElementById('messages').style.display = 'flex'
     document.getElementById('btn-restart').style.display = 'block'
 }
 

@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Mokepon! </title>
+        <title>Mokepon!</title>
         <script src="./js/mokepon.js"></script>
         <link rel="stylesheet" href="./styles.css">
     </head>
@@ -28,30 +28,45 @@
                 </label> 
             </div>
 
-            <button id="btn-mokepon">Pick</button>
+            <div><button id="btn-mokepon">Pick</button></div>
         </section> 
 
         <section id="select-attack">
             <h1>Mokepon! 🔥💧🌱</h1>
             <h2>Pick your attack</h2>
 
-            <p>Your mokepon, <span id="players-mokepon"></span>, has <span id="players-lives">3</span> lives</p>
-            <p>Enemy's mokepon, <span id="enemys-mokepon"></span>, has <span id="enemys-lives">3</span> lives</p>
-
-            <p> <!-- It's a good practice set buttons inside of containers-->
+            <div>
                 <button id="btn-fire">Fire 🔥</button>
                 <button id="btn-water">Water 💧</button>
                 <button id="btn-ground">Ground 🌱</button>      
-            </p>
+            </div>
         </section>
 
-        <section id="messages">
+        <section id="battle">
+            <h2>Battle</h2>
+
+            <div id="messages"></div>
+
+            <div><button id="btn-restart">Restart game</button></div>
+
+            <section id="battle-cards">
+                <div id="players-card" class="battle-card">
+                    <p><span id="players-mokepon"></span></p>
+                    <p><span id="players-lives">3</span></p>
+                </div>
+
+                <div id="result-card" class="battle-card">
+                    <p>vs</p>
+                    <p>❤️</p>
+                </div>
+                
+                <div id="enemys-card" class="battle-card">
+                    <p><span id="enemys-mokepon"></span></p>
+                    <p><span id="enemys-lives">3</span></p>
+                </div>
+            </section>
         </section>
 
-        <section id="restart-game">
-            <p>
-                <button id="btn-restart">Restart game</button>
-            </p>
-        </section>
+        
     </body>
 </html>

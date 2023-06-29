@@ -2,33 +2,34 @@
 
 *{ /* Global styles (all elements) */
     font-family: 'Outfit', sans-serif;
+    font-size: 16;
+    color: whitesmoke
 }
 
 body{
     background-color: #272424;
-    color: whitesmoke
 }
 
 h1{ /* type selector | display:block: It takes up the entire available width. It's resizable. */
-    display: flex;
-    justify-content: center;
-
     font-size: 50px;
     color: #d79921;
     width: 392px;
     height: 60px;
     margin: 30px 0px 30px 0px;
+
+    display: flex;
+    justify-content: center;
 }
 
 h2{ /* type selector | display:block */
-    display: flex;
-    justify-content: center;
-
     font-size: 38px;
     color: #458588;
     width: 383px;
     height: 45px;
     margin: 0px 0px 20px 0px;
+
+    display: flex;
+    justify-content: center;
 }
 
 section{
@@ -42,11 +43,10 @@ input[type='radio']{
 }
 
 button{ /* inline-block.*/
-    font-size: 16px;
     background-color: #ab72ec;
     width: 200px;
     height: 48px;
-    border-radius: 10px;
+    border-radius: 16px;
     margin: 11px;
 }
 
@@ -56,11 +56,6 @@ button{ /* inline-block.*/
 }
 
 .mokepon-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
     font-size: 24px;
     width: 260px;
     height: 220px;
@@ -68,6 +63,21 @@ button{ /* inline-block.*/
     box-sizing: border-box;
     margin: 11px;
     border-radius: 10px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mokepon-card:hover{
+    background-color: #d79921;
+    font-size: 30px;
+}
+
+.mokepon-card:active{
+    box-shadow: 2px 2px 5px #fc894d;
 }
 
 .mokepon-card img{
@@ -86,10 +96,53 @@ button{ /* inline-block.*/
 
 #berry-card{
     background: #67da67;
-    border: 3px solid #56ad3c;
+    border: 3px solid #50a138;
+}
+
+#btn-fire{
+    background-color: #f77462;
+}
+
+#btn-water{
+    background-color: #6aabe0;
+}
+
+#btn-ground{
+    background-color: #67da67;
+}
+
+#messages{
+    width: 370px;
+    height: 48px;
+    background-color: goldenrod;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 11px;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#battle-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.battle-card{
+    width: 200px;
+    background: slategray;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* 
-- https://platzi.com/clases/3208-programacion-basica/51976-imagenes-para-los-mokepones/
-- https://platzi.com/clases/3208-programacion-basica/51975-estilos-del-boton/
+- https://platzi.com/clases/3208-programacion-basica/51974-editando-html/
 */
