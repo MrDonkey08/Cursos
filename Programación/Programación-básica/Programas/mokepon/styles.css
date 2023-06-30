@@ -13,7 +13,7 @@ body{
 h1{ /* type selector | display:block: It takes up the entire available width. It's resizable. */
     font-size: 50px;
     color: #d79921;
-    width: 392px;
+    width: 400px;
     height: 60px;
     margin: 30px 0px 30px 0px;
 
@@ -126,22 +126,21 @@ button{ /* inline-block.*/
 }
 
 #battle-cards{
-    display: flex;
-    flex-direction: row;
-    justify-content: center
-}
-
-.battle-card{
-    width: 200px;
     background: slategray;
     margin: 10px 10px 10px 10px;
     border-radius: 10px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-items: center;
 }
+
+
+.battle-card{
+    display: grid;
+    justify-items: center;
+}
+
 
 /* 
 - https://platzi.com/clases/3208-programacion-basica/51974-editando-html/
