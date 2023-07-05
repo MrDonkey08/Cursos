@@ -1,75 +1,73 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Mokepon!</title>
-        <script src="./js/mokepon.js"></script>
-        <link rel="stylesheet" href="./styles.css">
-    </head>
-    <body>
-        <section id="select-mokepon">
-            <h1>Mokepon! 🔥💧🌱</h1>
-            <h2>Pick your mokepon</h2>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Mokepon!</title>
+		<script src="./js/mokepon.js"></script>
+		<link rel="stylesheet" href="./styles.css">
+	</head>
+	<body>
+		<section id="select-mokepon">
+			<h1>Mokepon! 🔥💧🌱</h1>
+			<h2>Pick your mokepon</h2>
 
-            <div id="cards-box">
-                <input type="radio" name="mokepon" id="acynonyx"/> <!-- I can set this `input` to a group (so they can be related) by using `name="nameOfTheGroup"`-->
-                <label class="mokepon-card" for="acynonyx" id="acynonyx-card"> <!-- Indicates to the user the value of the input. `for` stablish the relation between an input an a label trough the `id` -->
-                    <p class="mokepon-name">Acynonyx</p>
-                    <img src="./assets/Acinonyx.png" alt="acynonyx">
-                </label>  
-                
-                <input type="radio" name="mokepon" id="piwith"/>
-                <label class="mokepon-card" for="piwith" id="piwith-card">
-                    <p class="mokepon-name">Piwith</p>
-                    <img src="./assets/Piwith.png" alt="piwith">
-                </label> 
+			<div id="cards-box">
+				<input type="radio" name="mokepon" id="acynonyx"/> <!-- I can set this `input` to a group (so they can be related) by using `name="nameOfTheGroup"`-->
+				<label class="mokepon-card" for="acynonyx" id="acynonyx-card"> <!-- Indicates to the user the value of the input. `for` stablish the relation between an input an a label trough the `id` -->
+					<p class="mokepon-name">Acynonyx</p>
+					<img src="./assets/Acinonyx.png" alt="acynonyx">
+				</label>  
+				
+				<input type="radio" name="mokepon" id="piwith"/>
+				<label class="mokepon-card" for="piwith" id="piwith-card">
+					<p class="mokepon-name">Piwith</p>
+					<img src="./assets/Piwith.png" alt="piwith">
+				</label> 
 
-                <input type="radio" name="mokepon" id="berry"/>
-                <label class="mokepon-card" for="berry" id="berry-card">
-                    <p class="mokepon-name">Berry</p>
-                    <img src="./assets/Berry.png" alt="be">
-                </label> 
-            </div>
+				<input type="radio" name="mokepon" id="berry"/>
+				<label class="mokepon-card" for="berry" id="berry-card">
+					<p class="mokepon-name">Berry</p>
+					<img src="./assets/Berry.png" alt="be">
+				</label> 
+			</div>
 
-            <div><button id="btn-mokepon">Pick</button></div>
-        </section> 
+			<div><button id="btn-mokepon">Pick</button></div>
+		</section> 
 
-        <section id="select-attack">
-            <h1>Mokepon! 🔥💧🌱</h1>
-            <h2>Pick your attack</h2>
+		<section id="select-attack">
+			<h1>Mokepon! 🔥💧🌱</h1>
+			<h2>Pick your attack</h2>
 
-            <div id="attack-buttons">
-                <button id="btn-fire">Fire 🔥</button>
-                <button id="btn-water">Water 💧</button>
-                <button id="btn-ground">Ground 🌱</button>      
-            </div>
-        </section>
+			<div id="attack-buttons">
+				<button id="btn-fire">Fire 🔥</button>
+				<button id="btn-water">Water 💧</button>
+				<button id="btn-ground">Ground 🌱</button>      
+			</div>
+		</section>
 
-        <section id="battle">
-            <h2>Battle</h2>
+		<section id="battle">
+			<h2>Battle</h2>
 
-            <div id="messages"></div>
+			<div id="messages"></div>
 
-            <div><button id="btn-restart">Restart game</button></div>
+			<div><button id="btn-restart">Restart game</button></div>
 
-            <div id="battle-cards">
-                <div id="players-card" class="battle-card">
-                    <p><span id="players-mokepon"></span></p>
-                    <p><span id="players-lives">3</span></p>
-                </div>
+			<div id="battle-cards">
+				<div id="players-card" class="battle-card">
+					<p><span id="players-mokepon"></span></p>
+					<p><span id="players-lives">3</span></p>
+				</div>
 
-                <div id="result-card" class="battle-card">
-                    <p>vs</p>
-                    <p>❤️</p>
-                </div>
-                
-                <div id="enemys-card" class="battle-card">
-                    <p><span id="enemys-mokepon"></span></p>
-                    <p><span id="enemys-lives">3</span></p>
-                </div>
-            </div>
-        </section>
-
-        
-    </body>
+				<div id="result-card" class="battle-card">
+					<p>vs</p>
+					<p>❤️</p>
+				</div>
+				
+				<div id="enemys-card" class="battle-card">
+					<p><span id="enemys-mokepon"></span></p>
+					<p><span id="enemys-lives">3</span></p>
+				</div>
+			</div>
+		</section>
+	</body>
 </html>

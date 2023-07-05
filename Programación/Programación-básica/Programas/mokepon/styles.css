@@ -1,171 +1,171 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
 
 *{ /* Global styles (all elements) */
-    font-family: 'Outfit', sans-serif;
-    font-size: 16;
-    color: whitesmoke
+	font-family: 'Outfit', sans-serif;
+	font-size: 16;
+	color: whitesmoke
 }
 
 body{
-    background-color: #272424;
+	background-color: #272424;
 }
 
 h1{ /* type selector | display:block: It takes up the entire available width. It's resizable. */
-    font-size: 40px;
-    color: #d79921;
-    width: 320px;
-    height: 60px;
-    margin: 30px 0px 30px 0px;
+	font-size: 40px;
+	color: #d79921;
+	width: 320px;
+	height: 60px;
+	margin: 30px 0px 30px 0px;
 
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 h2{ /* type selector | display:block */
-    font-size: 32px;
-    color: #458588;
-    width: 270px;
-    height: 45px;
-    margin: 0px 0px 20px 0px;
+	font-size: 32px;
+	color: #458588;
+	width: 270px;
+	height: 45px;
+	margin: 0px 0px 20px 0px;
 
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 input[type='radio']{
-    display: none;
+	display: none;
 }
 
 input[type='radio']:checked + label{
-    background-color: #d79921;
+	background-color: #d79921;
 }
 
 button{ /* inline-block.*/
-    background-color: #ab72ec;
-    width: 200px;
-    height: 48px;
-    border-radius: 16px;
-    margin: 11px;
+	background-color: #ab72ec;
+	width: 200px;
+	height: 48px;
+	border-radius: 16px;
+	margin: 11px;
 }
 
 #cards-box {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .mokepon-name{
-    margin: 0px;
+	margin: 0px;
 }
 
 .mokepon-card{
-    font-size: 24px;
-    width: 260px;
-    height: 220px;
-    padding: 20px;
-    box-sizing: border-box;
-    margin: 11px;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: #6aabe0;
-    border: 3px solid #4365ad;
+	font-size: 24px;
+	width: 260px;
+	height: 220px;
+	padding: 20px;
+	box-sizing: border-box;
+	margin: 11px;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: #6aabe0;
+	border: 3px solid #4365ad;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .mokepon-card:hover{
-    font-size: 28px;
+	font-size: 28px;
 }
 
 .mokepon-card:active{
-    box-shadow: 2px 2px 5px #fc894d;
+	box-shadow: 2px 2px 5px #fc894d;
 }
 
 .mokepon-card img{
-    width: 180px;
+	width: 180px;
 }
 
 /*#acynonyx-card{
-    background-color: #f77462;
-    border: 3px solid #ad5343;
+	background-color: #f77462;
+	border: 3px solid #ad5343;
 }
 
 #piwith-card{
-    background-color: #6aabe0;
-    border: 3px solid #4365ad;
+	background-color: #6aabe0;
+	border: 3px solid #4365ad;
 }
 
 #berry-card{
-    background-color: #67da67;
-    border: 3px solid #50a138;
+	background-color: #67da67;
+	border: 3px solid #50a138;
 }*/
 
 #attack-buttons{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #btn-fire{
-    background-color: #f77462;
+	background-color: #f77462;
 }
 
 #btn-water{
-    background-color: #6aabe0;
+	background-color: #6aabe0;
 }
 
 #btn-ground{
-    background-color: #67da67;
+	background-color: #67da67;
 }
 
 #messages{
-    width: 370px;
-    height: 48px;
-    background-color: goldenrod;
-    padding: 20px;
-    box-sizing: border-box;
-    margin: 11px;
-    border-radius: 16px;
+	width: 370px;
+	height: 48px;
+	background-color: goldenrod;
+	padding: 20px;
+	box-sizing: border-box;
+	margin: 11px;
+	border-radius: 16px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #battle-cards{
-    background: slategray;
-    margin: 10px 10px 10px 10px;
-    border-radius: 10px;
+	background: slategray;
+	margin: 10px 10px 10px 10px;
+	border-radius: 10px;
 
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    justify-items: center;
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	justify-items: center;
 }
 
 .battle-card{
-    display: grid;
-    justify-items: center;
+	display: grid;
+	justify-items: center;
 }
 
 @media(min-width: 860px){
-    #cards-box{
-        flex-direction: row;
-    }
+	#cards-box{
+		flex-direction: row;
+	}
 }
 
 @media(min-width: 700px){
-    #attack-buttons{
-        flex-direction: row;
-    }
+	#attack-buttons{
+		flex-direction: row;
+	}
 }
 
 /* 
