@@ -13,7 +13,7 @@ body{
 h1{ /* type selector | display:block: It takes up the entire available width. It's resizable. */
     font-size: 50px;
     color: #d79921;
-    width: 400px;
+    width: 320px;
     height: 60px;
     margin: 30px 0px 30px 0px;
 
@@ -22,9 +22,9 @@ h1{ /* type selector | display:block: It takes up the entire available width. It
 }
 
 h2{ /* type selector | display:block */
-    font-size: 38px;
+    font-size: 32px;
     color: #458588;
-    width: 383px;
+    width: 270px;
     height: 45px;
     margin: 0px 0px 20px 0px;
 
@@ -36,6 +36,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 input[type='radio']{
@@ -50,9 +51,13 @@ button{ /* inline-block.*/
     margin: 11px;
 }
 
-#cards-box{
+#cards-box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.mokepon-name{
+    margin: 0px;
 }
 
 .mokepon-card{
@@ -72,8 +77,7 @@ button{ /* inline-block.*/
 }
 
 .mokepon-card:hover{
-    background-color: #d79921;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .mokepon-card:active{
@@ -85,18 +89,24 @@ button{ /* inline-block.*/
 }
 
 #acynonyx-card{
-    background: #f77462;
+    background-color: #f77462;
     border: 3px solid #ad5343;
 }
 
 #piwith-card{
-    background: #6aabe0;
+    background-color: #6aabe0;
     border: 3px solid #4365ad;
 }
 
 #berry-card{
-    background: #67da67;
+    background-color: #67da67;
     border: 3px solid #50a138;
+}
+
+#attack-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #btn-fire{
@@ -135,13 +145,23 @@ button{ /* inline-block.*/
     justify-items: center;
 }
 
-
 .battle-card{
     display: grid;
     justify-items: center;
 }
 
+@media(min-width: 860px){
+    #cards-box{
+        flex-direction: row;
+    }
+}
+
+@media(min-width: 700px){
+    #attack-buttons{
+        flex-direction: row;
+    }
+}
 
 /* 
-- https://platzi.com/clases/3208-programacion-basica/51974-editando-html/
+- https://platzi.com/clases/3208-programacion-basica/51970-responsive-design/
 */
