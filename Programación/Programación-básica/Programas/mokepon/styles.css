@@ -11,7 +11,7 @@ body{
 }
 
 h1{ /* type selector | display:block: It takes up the entire available width. It's resizable. */
-    font-size: 50px;
+    font-size: 40px;
     color: #d79921;
     width: 320px;
     height: 60px;
@@ -43,6 +43,10 @@ input[type='radio']{
     display: none;
 }
 
+input[type='radio']:checked + label{
+    background-color: #d79921;
+}
+
 button{ /* inline-block.*/
     background-color: #ab72ec;
     width: 200px;
@@ -69,6 +73,8 @@ button{ /* inline-block.*/
     margin: 11px;
     border-radius: 10px;
     cursor: pointer;
+    background-color: #6aabe0;
+    border: 3px solid #4365ad;
 
     display: flex;
     flex-direction: column;
@@ -88,7 +94,7 @@ button{ /* inline-block.*/
     width: 180px;
 }
 
-#acynonyx-card{
+/*#acynonyx-card{
     background-color: #f77462;
     border: 3px solid #ad5343;
 }
@@ -101,7 +107,7 @@ button{ /* inline-block.*/
 #berry-card{
     background-color: #67da67;
     border: 3px solid #50a138;
-}
+}*/
 
 #attack-buttons{
     display: flex;
