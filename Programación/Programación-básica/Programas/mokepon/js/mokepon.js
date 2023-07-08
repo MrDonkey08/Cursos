@@ -1,43 +1,62 @@
+const restartBtn = document.getElementById('btn-restart') // we set the variables with const so their value can't be changed
+const selectAttack = document.getElementById('select-attack')
+const battleSection = document.getElementById('battle')
+const messages = document.getElementById('messages')
+
+const mokeponBtn = document.getElementById('btn-mokepon')
+const fireBtn = document.getElementById('btn-fire')
+const waterBtn = document.getElementById('btn-water')
+const groundBtn = document.getElementById('btn-ground')
+
+const playersMokepon = document.getElementById('players-mokepon')
+const acynonyx = document.getElementById('acynonyx')
+const piwith = document.getElementById('piwith')
+const berry = document.getElementById('berry')
+
+const selectMokepon = document.getElementById('select-mokepon')
+const enemysMokepon = document.getElementById('enemys-mokepon')
+
 let playersAttack // it doesn't belong to a function so it's a global variable and can be accessed anywhere in this file
 let enemysAttack
 let winnerMessage
-let playersLives
-let enemysLives
+const playersLives = document.getElementById('players-lives')
+const enemysLives = document.getElementById('enemys-lives')
+
+const playersCard = document.getElementById('players-card')
+const resultCard = document.getElementById('result-card')
+const enemysCard = document.getElementById('enemys-card')
 
 function startGame(){
-	document.getElementById('select-attack').style.display = 'none'
-	document.getElementById('btn-restart').style.display = 'none'
-	document.getElementById('battle').style.display = 'none'
-	document.getElementById('messages').style.display = 'none'
+	selectAttack.style.display = 'none'
+	restartBtn.style.display = 'none'
+	battleSection.style.display = 'none'
+	messages.style.display = 'none'
 
-	document.getElementById('btn-restart').addEventListener('click', restartGame)
-	document.getElementById('btn-mokepon').addEventListener('click', selectmokepons)
+	restartBtn.addEventListener('click', restartGame)
+	mokeponBtn.addEventListener('click', selectmokepons)
 
-	document.getElementById('btn-fire').addEventListener('click', fireAttack)
-	document.getElementById('btn-water').addEventListener('click', waterAttack)
-	document.getElementById('btn-ground').addEventListener('click', groundAttack)
+	fireBtn.addEventListener('click', fireAttack)
+	waterBtn.addEventListener('click', waterAttack)
+	groundBtn.addEventListener('click', groundAttack)
 }
 
 function selectmokepons(){
-	let mokepon = document.getElementById('players-mokepon')
-
-	if (document.getElementById('acynonyx').checked){ // .checked returns true if the element is selected
-		mokepon.innerHTML = 'Acynonyx'
+	if (acynonyx.checked){ // .checked returns true if the element is selected
+		playersMokepon.innerHTML = 'Acynonyx'
 	}
-	else if (document.getElementById('piwith').checked){
-		mokepon.innerHTML = 'Piwith'
+	else if (piwith.checked){
+		playersMokepon.innerHTML = 'Piwith'
 	}
-	else if (document.getElementById('berry').checked){
-		mokepon.innerHTML = 'Berry'
+	else if (berry.checked){
+		playersMokepon.innerHTML = 'Berry'
 	}
 
-	if (mokepon.innerHTML != ""){
-		alert("You choose " + mokepon.innerHTML + ".")
-		selectEnemysmokepon()
-		document.getElementById('select-mokepon').style.display = 'none'
-		document.getElementById('select-attack').style.display = 'flex'
-		document.getElementById('battle').style.display= 'flex'
-
+	if (playersMokepon.innerHTML != ""){
+		alert("You choose " + playersMokepon.innerHTML + ".")
+		selectEnemysMokepon()
+		selectMokepon.style.display = 'none'
+		selectAttack.style.display = 'flex'
+		battleSection.style.display= 'flex'
 	}
 	else{
 		alert("You haven't choose a mokepon.")
@@ -48,20 +67,18 @@ function randomNum(min, max){ // returns a value between min and max
 	return Math.floor(Math.random() * (max - min + 1) + min) // Math.floor truncate (cut) the the decimal part and Math.random() returns a decimal number between 0 and 1.
 }
 
-function selectEnemysmokepon(){
-	let mokepons = document.getElementById('enemys-mokepon')
+function selectEnemysMokepon(){
 	let opt = randomNum(1, 3)
 	
 	switch(opt){
-		case 1: mokepons.innerHTML = 'Acynonyx'
+		case 1: enemysMokepon.innerHTML = 'Acynonyx'
 			break
-		case 2: mokepons.innerHTML = 'Piwith'
+		case 2: enemysMokepon.innerHTML = 'Piwith'
 			break
-		case 3: mokepons.innerHTML = 'Berry'
+		case 3: enemysMokepon.innerHTML = 'Berry'
 			break
 	}
-
-	alert("Enemy's mokepon is " + mokepons.innerHTML)
+	alert("Enemy's mokepon is " + enemysMokepon.innerHTML)
 }
 
 function waterAttack(){
@@ -94,13 +111,11 @@ function selectEnemysAttack(){
 }
 
 function battle(){
-	lives()
 	
 	if((enemysLives.innerHTML > 0) && (playersLives.innerHTML > 0)){
 		roundWinner()
 		createMessage()
 	}
-	
 	if(enemysLives.innerHTML <= 0){
 		battleResult("Congrulations! You win. You're the champion!")
 	}
@@ -109,26 +124,18 @@ function battle(){
 	}
 }
 
-function lives(){
-	playersLives = document.getElementById('players-lives')
-	enemysLives = document.getElementById('enemys-lives')
-}
-
 function createMessage(){ 
 	let playersAttackP = document.createElement('p')
-	playersAttackP.innerHTML = playersAttack
-
-	document.getElementById('players-card').appendChild(playersAttackP)
-
 	let battleMessageP = document.createElement('p')
-	battleMessageP.innerHTML = winnerMessage
-
-	document.getElementById('result-card').appendChild(battleMessageP)
-
 	let enemysAttackP = document.createElement('p')
+
+	playersAttackP.innerHTML = playersAttack
+	battleMessageP.innerHTML = winnerMessage
 	enemysAttackP.innerHTML = enemysAttack
 
-	document.getElementById('enemys-card').appendChild(enemysAttackP)
+	playersCard.appendChild(playersAttackP)
+	resultCard.appendChild(battleMessageP)
+	enemysCard.appendChild(enemysAttackP)
 }
 
 function roundWinner(){
@@ -156,17 +163,17 @@ function battleResult(result){
 	let paragraph = document.createElement('p')
 	paragraph.innerHTML = result
 
-	document.getElementById('messages').appendChild(paragraph)
+	messages.appendChild(paragraph)
 
 	disableAttackButtons()
-	document.getElementById('messages').style.display = 'flex'
-	document.getElementById('btn-restart').style.display = 'block'
+	messages.style.display = 'flex'
+	restartBtn.style.display = 'block'
 }
 
 function disableAttackButtons(){
-	document.getElementById('btn-fire').disabled = true
-	document.getElementById('btn-water').disabled = true
-	document.getElementById('btn-ground').disabled = true
+	fireBtn.disabled = true
+	waterBtn.disabled = true
+	groundBtn.disabled = true
 }
 
 function restartGame(){
