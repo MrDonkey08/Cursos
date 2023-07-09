@@ -9,9 +9,9 @@ const waterBtn = document.getElementById('btn-water')
 const groundBtn = document.getElementById('btn-ground')
 
 const playersMokepon = document.getElementById('players-mokepon')
-const acynonyx = document.getElementById('acynonyx')
-const piwith = document.getElementById('piwith')
-const berry = document.getElementById('berry')
+const inputAcynonyx = document.getElementById('acynonyx')
+const inputPiwith = document.getElementById('piwith')
+const inputBerry = document.getElementById('berry')
 
 const selectMokepon = document.getElementById('select-mokepon')
 const enemysMokepon = document.getElementById('enemys-mokepon')
@@ -25,6 +25,43 @@ const enemysLives = document.getElementById('enemys-lives')
 const playersCard = document.getElementById('players-card')
 const resultCard = document.getElementById('result-card')
 const enemysCard = document.getElementById('enemys-card')
+
+class mokepon{ // we set a prototype (class in other languages) with class
+	constructor(name, image, live){ 
+		this.name = name
+		this.image = image
+		this.live = live
+		this.attacks = []
+	}
+}
+
+let acynonyx = new mokepon('Acynonyx', './assets/Acynonyx.png', 5)
+let piwith = new mokepon('Piwith', './assets/Piwith.png', 5)
+let berry = new mokepon('Berry', './assets/Berry.png', 5)
+
+acynonyx.attacks.push(
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+)
+
+piwith.attacks.push(
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+)
+
+berry.attacks.push(
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+)
 
 function startGame(){
 	selectAttack.style.display = 'none'
@@ -41,13 +78,13 @@ function startGame(){
 }
 
 function selectmokepons(){
-	if (acynonyx.checked){ // .checked returns true if the element is selected
+	if (inputAcynonyx.checked){ // .checked returns true if the element is selected
 		playersMokepon.innerHTML = 'Acynonyx'
 	}
-	else if (piwith.checked){
+	else if (inputPiwith.checked){
 		playersMokepon.innerHTML = 'Piwith'
 	}
-	else if (berry.checked){
+	else if (inputBerry.checked){
 		playersMokepon.innerHTML = 'Berry'
 	}
 
