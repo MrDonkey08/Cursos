@@ -9,22 +9,24 @@ const waterBtn = document.getElementById('btn-water')
 const groundBtn = document.getElementById('btn-ground')
 
 const playersMokepon = document.getElementById('players-mokepon')
-const inputAcynonyx = document.getElementById('acynonyx')
-const inputPiwith = document.getElementById('piwith')
-const inputBerry = document.getElementById('berry')
 
 const selectMokepon = document.getElementById('select-mokepon')
 const enemysMokepon = document.getElementById('enemys-mokepon')
 
-let playersAttack // it doesn't belong to a function so it's a global variable and can be accessed anywhere in this file
-let enemysAttack
-let winnerMessage
 const playersLives = document.getElementById('players-lives')
 const enemysLives = document.getElementById('enemys-lives')
 
 const playersCard = document.getElementById('players-card')
 const resultCard = document.getElementById('result-card')
 const enemysCard = document.getElementById('enemys-card')
+
+const cardsBox = document.getElementById('cards-box')
+
+let mokepons = []
+let playersAttack // it doesn't belong to a function so it's a global variable and can be accessed anywhere in this file
+let enemysAttack
+let winnerMessage
+
 
 class mokepon{ // we set a prototype (class in other languages) with class
 	constructor(name, image, live){ 
@@ -35,11 +37,13 @@ class mokepon{ // we set a prototype (class in other languages) with class
 	}
 }
 
-let acynonyx = new mokepon('Acynonyx', './assets/Acynonyx.png', 5)
-let piwith = new mokepon('Piwith', './assets/Piwith.png', 5)
-let berry = new mokepon('Berry', './assets/Berry.png', 5)
+// Objects
+const acinonyx = new mokepon('Acinonyx', './assets/Acinonyx.png', 5)
+const piwith = new mokepon('Piwith', './assets/Piwith.png', 5)
+const berry = new mokepon('Berry', './assets/Berry.png', 5)
 
-acynonyx.attacks.push(
+// 
+acinonyx.attacks.push(
 	{ name: '🔥', id: 'fire-btn'},
 	{ name: '🔥', id: 'fire-btn'},
 	{ name: '🔥', id: 'fire-btn'},
@@ -63,6 +67,23 @@ berry.attacks.push(
 	{ name: '🌱', id: 'ground-btn'},
 )
 
+mokepons.push(acinonyx, piwith, berry)
+
+mokepons.forEach((mokepon) =>{
+	cardsBox.innerHTML +=`
+		<input type="radio" name="mokepon" id=${mokepon.name} />
+		<label class="mokepon-card" for=${mokepon.name} id=${mokepon.name}-card>
+			<p class="mokepon-name">${mokepon.name}</p>
+			<img src=${mokepon.image} alt=${mokepon.name}>
+		</label> 
+			`
+})
+
+// This variables are established here because in this part the HTML elements (values) have been created
+const inputAcinonyx = document.getElementById('Acinonyx')
+const inputPiwith = document.getElementById('Piwith')
+const inputBerry = document.getElementById('Berry')
+
 function startGame(){
 	selectAttack.style.display = 'none'
 	restartBtn.style.display = 'none'
@@ -78,8 +99,8 @@ function startGame(){
 }
 
 function selectmokepons(){
-	if (inputAcynonyx.checked){ // .checked returns true if the element is selected
-		playersMokepon.innerHTML = 'Acynonyx'
+	if (inputAcinonyx.checked){ // .checked returns true if the element is selected
+		playersMokepon.innerHTML = 'Acinonyx'
 	}
 	else if (inputPiwith.checked){
 		playersMokepon.innerHTML = 'Piwith'
@@ -108,7 +129,7 @@ function selectEnemysMokepon(){
 	let opt = randomNum(1, 3)
 	
 	switch(opt){
-		case 1: enemysMokepon.innerHTML = 'Acynonyx'
+		case 1: enemysMokepon.innerHTML = 'Acinonyx'
 			break
 		case 2: enemysMokepon.innerHTML = 'Piwith'
 			break
