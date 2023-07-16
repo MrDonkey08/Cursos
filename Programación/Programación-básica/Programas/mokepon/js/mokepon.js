@@ -112,6 +112,7 @@ function selectMokepons(){
 	if (playersMokepon.innerHTML != ""){
 		alert("You choose " + playersMokepon.innerHTML)
 		selectEnemysMokepon()
+		mokeponAttacks()
 		selectMokepon.style.display = 'none'
 		selectAttack.style.display = 'flex'
 		battleSection.style.display= 'flex'
@@ -131,6 +132,22 @@ function selectEnemysMokepon(){
 	enemysMokepon.innerHTML = mokepons[opt].name
 	alert("Enemy's mokepon is " + enemysMokepon.innerHTML)
 }
+
+function mokeponAttacks(){
+	let attacks
+	
+	for (let i = 0; i < mokepons.length; i++){
+		if (playersMokepon.innerHTML === mokepons[i].name){
+			attacks = mokepons[i].attacks
+		} 
+	}
+	showAttacks(attacks)
+}
+
+function showAttacks(attacks){
+	
+}
+
 
 function waterAttack(){
 	playersAttack = 'Water'
