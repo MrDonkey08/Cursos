@@ -26,7 +26,9 @@ let mokepons = []
 let playersAttack // it doesn't belong to a function so it's a global variable and can be accessed anywhere in this file
 let enemysAttack
 let winnerMessage
-
+let inputAcinonyx
+let inputPiwith
+let inputBerry
 
 class mokepon{ // we set a prototype (class in other languages) with class
 	constructor(name, image, live){ 
@@ -42,7 +44,6 @@ const acinonyx = new mokepon('Acinonyx', './assets/Acinonyx.png', 5)
 const piwith = new mokepon('Piwith', './assets/Piwith.png', 5)
 const berry = new mokepon('Berry', './assets/Berry.png', 5)
 
-// 
 acinonyx.attacks.push(
 	{ name: '🔥', id: 'fire-btn'},
 	{ name: '🔥', id: 'fire-btn'},
@@ -69,48 +70,47 @@ berry.attacks.push(
 
 mokepons.push(acinonyx, piwith, berry)
 
-mokepons.forEach((mokepon) =>{
-	cardsBox.innerHTML +=`
-		<input type="radio" name="mokepon" id=${mokepon.name} />
-		<label class="mokepon-card" for=${mokepon.name} id=${mokepon.name}-card>
-			<p class="mokepon-name">${mokepon.name}</p>
-			<img src=${mokepon.image} alt=${mokepon.name}>
-		</label> 
-			`
-})
-
-// This variables are established here because in this part the HTML elements (values) have been created
-const inputAcinonyx = document.getElementById('Acinonyx')
-const inputPiwith = document.getElementById('Piwith')
-const inputBerry = document.getElementById('Berry')
-
 function startGame(){
+	mokepons.forEach((mokepon) =>{
+		cardsBox.innerHTML +=`
+			<input type="radio" name="mokepon" id=${mokepon.name} />
+			<label class="mokepon-card" for=${mokepon.name} id=${mokepon.name}-card>
+				<p class="mokepon-name">${mokepon.name}</p>
+				<img src=${mokepon.image} alt=${mokepon.name}>
+			</label> 
+				`
+	})
+
+	inputAcinonyx = document.getElementById('Acinonyx')
+	inputPiwith = document.getElementById('Piwith')
+	inputBerry = document.getElementById('Berry')
+
 	selectAttack.style.display = 'none'
 	restartBtn.style.display = 'none'
 	battleSection.style.display = 'none'
 	messages.style.display = 'none'
 
 	restartBtn.addEventListener('click', restartGame)
-	mokeponBtn.addEventListener('click', selectmokepons)
+	mokeponBtn.addEventListener('click', selectMokepons)
 
 	fireBtn.addEventListener('click', fireAttack)
 	waterBtn.addEventListener('click', waterAttack)
 	groundBtn.addEventListener('click', groundAttack)
 }
 
-function selectmokepons(){
+function selectMokepons(){
 	if (inputAcinonyx.checked){ // .checked returns true if the element is selected
-		playersMokepon.innerHTML = 'Acinonyx'
+		playersMokepon.innerHTML = inputAcinonyx.id
 	}
 	else if (inputPiwith.checked){
-		playersMokepon.innerHTML = 'Piwith'
+		playersMokepon.innerHTML = inputPiwith.id
 	}
 	else if (inputBerry.checked){
-		playersMokepon.innerHTML = 'Berry'
+		playersMokepon.innerHTML = inputBerry.id
 	}
 
 	if (playersMokepon.innerHTML != ""){
-		alert("You choose " + playersMokepon.innerHTML + ".")
+		alert("You choose " + playersMokepon.innerHTML)
 		selectEnemysMokepon()
 		selectMokepon.style.display = 'none'
 		selectAttack.style.display = 'flex'
@@ -129,11 +129,11 @@ function selectEnemysMokepon(){
 	let opt = randomNum(1, 3)
 	
 	switch(opt){
-		case 1: enemysMokepon.innerHTML = 'Acinonyx'
+		case 1: enemysMokepon.innerHTML = inputAcinonyx.id
 			break
-		case 2: enemysMokepon.innerHTML = 'Piwith'
+		case 2: enemysMokepon.innerHTML = inputPiwith.id
 			break
-		case 3: enemysMokepon.innerHTML = 'Berry'
+		case 3: enemysMokepon.innerHTML = inputBerry.id
 			break
 	}
 	alert("Enemy's mokepon is " + enemysMokepon.innerHTML)
