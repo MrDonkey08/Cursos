@@ -126,16 +126,9 @@ function randomNum(min, max){ // returns a value between min and max
 }
 
 function selectEnemysMokepon(){
-	let opt = randomNum(1, 3)
-	
-	switch(opt){
-		case 1: enemysMokepon.innerHTML = inputAcinonyx.id
-			break
-		case 2: enemysMokepon.innerHTML = inputPiwith.id
-			break
-		case 3: enemysMokepon.innerHTML = inputBerry.id
-			break
-	}
+	let opt = randomNum(0, mokepons.length - 1)
+
+	enemysMokepon.innerHTML = mokepons[opt].name
 	alert("Enemy's mokepon is " + enemysMokepon.innerHTML)
 }
 
