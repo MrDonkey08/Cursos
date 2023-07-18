@@ -6,7 +6,6 @@ const messages = document.getElementById('messages')
 const mokeponBtn = document.getElementById('btn-mokepon')
 const attackBtns = document.getElementById('attack-buttons')
 
-
 const playersMokepon = document.getElementById('players-mokepon')
 
 const selectMokepon = document.getElementById('select-mokepon')
@@ -22,7 +21,7 @@ const enemysCard = document.getElementById('enemys-card')
 const cardsBox = document.getElementById('cards-box')
 
 let mokepons = []
-let playersAttack // it doesn't belong to a function so it's a global variable and can be accessed anywhere in this file
+let playersAttack = []
 let enemysAttack
 let winnerMessage
 let inputAcinonyx
@@ -31,6 +30,7 @@ let inputBerry
 let fireBtn
 let waterBtn
 let groundBtn
+let btns = []
 
 class mokepon{ // we set a prototype (class in other languages) with class
 	constructor(name, image, live){ 
@@ -140,51 +140,43 @@ function mokeponAttacks(){
 		} 
 	}
 	showAttacks(attacks)
+	attackSequence()
 }
 
 function showAttacks(attacks){
 	attacks.forEach((attack) =>{ // the parameter 'attack' is the name we can stablish to make reference to each element of the 'attacks' array. We can actually replace 'attack' with any word
 		attackBtns.innerHTML +=`
-		<button id=${attack.id}>${attack.name}</button>
+		<button id=${attack.id} class='attack-btns'>${attack.name}</button>
 		`
 	})
 
 	fireBtn = document.getElementById('fire-btn')
 	waterBtn = document.getElementById('water-btn')
 	groundBtn = document.getElementById('ground-btn')
-
-	fireBtn.addEventListener('click', fireAttack)
-	waterBtn.addEventListener('click', waterAttack)
-	groundBtn.addEventListener('click', groundAttack)
+	btns = document.querySelectorAll('.attack-btns')
 }
 
-
-
-function waterAttack(){
-	playersAttack = 'Water'
-	selectEnemysAttack()
-}
-
-function fireAttack(){
-	playersAttack = 'Fire'
-	selectEnemysAttack()
-}
-
-function groundAttack(){
-   playersAttack = 'Ground'
-   selectEnemysAttack() 
+function attackSequence(){
+	btns.forEach((btn) => {
+		btn.addEventListener('click', (e) => {
+			switch(e.target.textContent){
+				case '🔥': playersAttack.push('Fire'); break
+				case '💧': playersAttack.push('Water'); break
+				default: playersAttack.push('Ground'); break
+			}
+			console.log(playersAttack)
+			btn.style.background = '#112f58'
+		})
+	})
 }
 
 function selectEnemysAttack(){
 	let opt = randomNum(1, 3)
 
 	switch(opt){
-		case 1: enemysAttack = 'Water'
-			break
-		case 2: enemysAttack = 'Fire'
-			break
-		default: enemysAttack = 'Ground' // I set default instead of 'case 3' because 'Ground' is the only left value that 'enemysAttack' can take
-			break
+		case 1: enemysAttack = 'Water'; break
+		case 2: enemysAttack = 'Fire'; break
+		default: enemysAttack = 'Ground'; break // I set default instead of 'case 3' because 'Ground' is the only left value that 'enemysAttack' can take
 	}
 	battle()
 }
