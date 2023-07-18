@@ -4,9 +4,8 @@ const battleSection = document.getElementById('battle')
 const messages = document.getElementById('messages')
 
 const mokeponBtn = document.getElementById('btn-mokepon')
-const fireBtn = document.getElementById('btn-fire')
-const waterBtn = document.getElementById('btn-water')
-const groundBtn = document.getElementById('btn-ground')
+const attackBtns = document.getElementById('attack-buttons')
+
 
 const playersMokepon = document.getElementById('players-mokepon')
 
@@ -29,6 +28,9 @@ let winnerMessage
 let inputAcinonyx
 let inputPiwith
 let inputBerry
+let fireBtn
+let waterBtn
+let groundBtn
 
 class mokepon{ // we set a prototype (class in other languages) with class
 	constructor(name, image, live){ 
@@ -92,10 +94,6 @@ function startGame(){
 
 	restartBtn.addEventListener('click', restartGame)
 	mokeponBtn.addEventListener('click', selectMokepons)
-
-	fireBtn.addEventListener('click', fireAttack)
-	waterBtn.addEventListener('click', waterAttack)
-	groundBtn.addEventListener('click', groundAttack)
 }
 
 function selectMokepons(){
@@ -145,8 +143,21 @@ function mokeponAttacks(){
 }
 
 function showAttacks(attacks){
-	
+	attacks.forEach((attack) =>{ // the parameter 'attack' is the name we can stablish to make reference to each element of the 'attacks' array. We can actually replace 'attack' with any word
+		attackBtns.innerHTML +=`
+		<button id=${attack.id}>${attack.name}</button>
+		`
+	})
+
+	fireBtn = document.getElementById('fire-btn')
+	waterBtn = document.getElementById('water-btn')
+	groundBtn = document.getElementById('ground-btn')
+
+	fireBtn.addEventListener('click', fireAttack)
+	waterBtn.addEventListener('click', waterAttack)
+	groundBtn.addEventListener('click', groundAttack)
 }
+
 
 
 function waterAttack(){
