@@ -22,7 +22,8 @@ const cardsBox = document.getElementById('cards-box')
 
 let mokepons = []
 let playersAttack = []
-let enemysAttack
+let enemysAttack = []
+let enemysAttacks
 let winnerMessage
 let inputAcinonyx
 let inputPiwith
@@ -128,6 +129,8 @@ function selectEnemysMokepon(){
 	let opt = randomNum(0, mokepons.length - 1)
 
 	enemysMokepon.innerHTML = mokepons[opt].name
+	enemysAttacks = mokepons[opt].attacks
+
 	alert("Enemy's mokepon is " + enemysMokepon.innerHTML)
 }
 
@@ -166,17 +169,18 @@ function attackSequence(){
 			}
 			console.log(playersAttack)
 			btn.style.background = '#112f58'
+			selectEnemysAttack()
 		})
 	})
 }
 
 function selectEnemysAttack(){
-	let opt = randomNum(1, 3)
+	let opt = randomNum(0, enemysAttacks.length - 1)
 
 	switch(opt){
-		case 1: enemysAttack = 'Water'; break
-		case 2: enemysAttack = 'Fire'; break
-		default: enemysAttack = 'Ground'; break // I set default instead of 'case 3' because 'Ground' is the only left value that 'enemysAttack' can take
+		case 0: case 1: enemysAttack.push('Water'); break
+		case 3:	case 4: enemysAttack.push('Fire'); break
+		default: enemysAttack.push('Ground'); break // I set default instead of 'case 3' because 'Ground' is the only left value that 'enemysAttack' can take
 	}
 	battle()
 }
