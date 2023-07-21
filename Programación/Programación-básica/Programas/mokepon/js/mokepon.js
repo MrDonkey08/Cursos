@@ -11,8 +11,8 @@ const playersMokepon = document.getElementById('players-mokepon')
 const selectMokepon = document.getElementById('select-mokepon')
 const enemysMokepon = document.getElementById('enemys-mokepon')
 
-const playersLives = document.getElementById('players-lives')
-const enemysLives = document.getElementById('enemys-lives')
+const victoriesTxt = document.getElementById('players-wins')
+const defeatsTxt = document.getElementById('enemys-wins')
 
 const playersCard = document.getElementById('players-card')
 const resultCard = document.getElementById('result-card')
@@ -25,6 +25,8 @@ let mokepons = []
 let playersAttack = []
 let enemysAttack = []
 let enemysAttacks
+let victories = 0
+let defeats = 0
 let winnerMessage
 let inputAcinonyx
 let inputPiwith
@@ -186,16 +188,21 @@ function selectEnemysAttack(){
 }
 
 function battle(){
-	if((enemysLives.innerHTML > 0) && (playersLives.innerHTML > 0)){
+	if(i < 4){
 		roundWinner()
 		createMessage(i)
 		i++
 	}
-	if(enemysLives.innerHTML <= 0){
-		battleResult("Congrulations! You win. You're the champion!")
-	}
-	else if(playersLives.innerHTML <= 0){
-		battleResult('You lost the battle, but not the war. Keep going')
+	else{
+		if(victories > defeats){
+			battleResult("Congrulations! You win. You're the champion!")
+		}
+		else if(victories < defeats){
+			battleResult('You lost the battle, but not the war. Keep going.')
+		}
+		else{
+			battleResult("Awesome! It's a draw. Let's try again.")
+		}
 	}
 }
 
@@ -214,8 +221,6 @@ function createMessage(i){
 }
 
 function roundWinner(){
-	winnerMessage = 'Win'
-
 	switch(true){
 		case playersAttack[i] === enemysAttack[i]:
 			winnerMessage = 'Draw' 
@@ -223,11 +228,14 @@ function roundWinner(){
 		case playersAttack[i] === 'Water' && enemysAttack[i] === 'Fire':
 		case playersAttack[i] === 'Fire' && enemysAttack[i] === 'Ground':
 		case playersAttack[i] === 'Ground' && enemysAttack[i] === 'Water':
-			enemysLives.innerHTML -= 1
+			winnerMessage = 'Win'
+			victories += 1
+			victoriesTxt.innerHTML = victories
 			break
 		default:
 			winnerMessage = "Defeat"
-			playersLives.innerHTML -= 1
+			defeats += 1
+			defeatsTxt.innerHTML = defeats
 			break
 	}
 }
