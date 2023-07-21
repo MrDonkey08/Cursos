@@ -20,6 +20,7 @@ const enemysCard = document.getElementById('enemys-card')
 
 const cardsBox = document.getElementById('cards-box')
 
+let i = 0
 let mokepons = []
 let playersAttack = []
 let enemysAttack = []
@@ -167,7 +168,6 @@ function attackSequence(){
 				case '💧': playersAttack.push('Water'); break
 				default: playersAttack.push('Ground'); break
 			}
-			console.log(playersAttack)
 			btn.style.background = '#112f58'
 			selectEnemysAttack()
 		})
@@ -186,10 +186,10 @@ function selectEnemysAttack(){
 }
 
 function battle(){
-	
 	if((enemysLives.innerHTML > 0) && (playersLives.innerHTML > 0)){
 		roundWinner()
-		createMessage()
+		createMessage(i)
+		i++
 	}
 	if(enemysLives.innerHTML <= 0){
 		battleResult("Congrulations! You win. You're the champion!")
@@ -199,14 +199,14 @@ function battle(){
 	}
 }
 
-function createMessage(){ 
+function createMessage(i){ 
 	let playersAttackP = document.createElement('p')
 	let battleMessageP = document.createElement('p')
 	let enemysAttackP = document.createElement('p')
 
-	playersAttackP.innerHTML = playersAttack
+	playersAttackP.innerHTML = playersAttack[i]
 	battleMessageP.innerHTML = winnerMessage
-	enemysAttackP.innerHTML = enemysAttack
+	enemysAttackP.innerHTML = enemysAttack[i]
 
 	playersCard.appendChild(playersAttackP)
 	resultCard.appendChild(battleMessageP)
@@ -216,21 +216,19 @@ function createMessage(){
 function roundWinner(){
 	winnerMessage = 'Win'
 
-	if(playersAttack == enemysAttack){
-		winnerMessage = 'Draw'
-	}
-	else if((playersAttack == 'Water') && (enemysAttack == 'Fire')){
-		enemysLives.innerHTML -= 1
-	}
-	else if((playersAttack == 'Fire') && (enemysAttack == 'Ground')){
-		enemysLives.innerHTML -= 1
-	} 
-	else if((playersAttack == 'Ground') && (enemysAttack == 'Water')){
-		enemysLives.innerHTML -= 1
-	}
-	else{
-		winnerMessage = "Defeat"
-		playersLives.innerHTML -= 1
+	switch(true){
+		case playersAttack[i] === enemysAttack[i]:
+			winnerMessage = 'Draw' 
+			break
+		case playersAttack[i] === 'Water' && enemysAttack[i] === 'Fire':
+		case playersAttack[i] === 'Fire' && enemysAttack[i] === 'Ground':
+		case playersAttack[i] === 'Ground' && enemysAttack[i] === 'Water':
+			enemysLives.innerHTML -= 1
+			break
+		default:
+			winnerMessage = "Defeat"
+			playersLives.innerHTML -= 1
+			break
 	}
 }
 
