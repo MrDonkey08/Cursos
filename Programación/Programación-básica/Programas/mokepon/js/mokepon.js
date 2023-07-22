@@ -134,8 +134,7 @@ function selectMokepons(){
 		alert("You choose " + playersMokepon.innerHTML)
 		selectEnemysMokepon()
 		mokeponAttacks()
-		drawMokepon()
-		interval = setInterval(drawMokepon, 50)
+		startMap()
 		selectMokepon.style.display = 'none'
 		sectionSeeMap.style.display = 'flex'
 		//selectAttack.style.display = 'flex'
@@ -283,6 +282,12 @@ function restartGame(){
 	location.reload()
 }
 
+function startMap(){
+	interval = setInterval(drawMokepon, 50)
+	window.addEventListener('keydown', keyPressed)
+	window.addEventListener('keyup', stopMovement)
+}
+
 function drawMokepon(){
 	mokepons[j].x += mokepons[j].velX
 	mokepons[j].y += mokepons[j].velY
@@ -315,6 +320,21 @@ function moveRight(){
 function stopMovement(){
 	mokepons[j].velX = 0
 	mokepons[j].velY = 0
+}
+
+function keyPressed(event){ 
+	switch (event.key) {
+		case 'ArrowUp': moveUp()
+			break
+		case 'ArrowDown': moveDown()
+			break
+		case 'ArrowLeft': moveLeft()
+			break
+		case 'ArrowRight': moveRight()
+			break
+		default:
+			break;
+	}
 }
 
 window.addEventListener('load', startGame)
