@@ -32,6 +32,10 @@ h2{ /* type selector | display:block */
 	justify-content: center;
 }
 
+#map-h2{
+	width: 585px;
+}
+
 section{
 	display: flex;
 	flex-direction: column;
@@ -154,6 +158,10 @@ button{ /* inline-block.*/
 .battle-card{
 	display: grid;
 	justify-items: center;
+}
+
+#map{
+	border: 2px solid white;
 }
 
 @media(min-width: 860px){

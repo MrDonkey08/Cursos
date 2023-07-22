@@ -20,6 +20,9 @@ const enemysCard = document.getElementById('enemys-card')
 
 const cardsBox = document.getElementById('cards-box')
 
+const sectionSeeMap = document.getElementById('see-map')
+const map = document.getElementById('map')
+
 let i = 0
 let mokepons = []
 let playersAttack = []
@@ -35,6 +38,7 @@ let fireBtn
 let waterBtn
 let groundBtn
 let btns = []
+let lienzo = map.getContext("2d")
 
 class mokepon{ // we set a prototype (class in other languages) with class
 	constructor(name, image, live){ 
@@ -91,6 +95,7 @@ function startGame(){
 	inputPiwith = document.getElementById('Piwith')
 	inputBerry = document.getElementById('Berry')
 
+	sectionSeeMap.style.display = 'none'
 	selectAttack.style.display = 'none'
 	restartBtn.style.display = 'none'
 	battleSection.style.display = 'none'
@@ -115,9 +120,11 @@ function selectMokepons(){
 		alert("You choose " + playersMokepon.innerHTML)
 		selectEnemysMokepon()
 		mokeponAttacks()
+		canvasMap()
 		selectMokepon.style.display = 'none'
-		selectAttack.style.display = 'flex'
-		battleSection.style.display= 'flex'
+		sectionSeeMap.style.display = 'flex'
+		//selectAttack.style.display = 'flex'
+		//battleSection.style.display= 'flex'
 	}
 	else{
 		alert("You haven't choose a mokepon.")
@@ -259,6 +266,15 @@ function disableAttackButtons(){
 
 function restartGame(){
 	location.reload()
+}
+
+function canvasMap(){
+	let acinonyxImage = new Image()
+	acinonyxImage.src = acinonyx.image
+	lienzo.drawImage( //.fillRect creates a Rectangle; the 1st parameter is x-axis, the 2nd is the y-axis, 3rd width and 4th height
+	acinonyxImage,
+	20, 40, 100, 100
+	)
 }
 
 window.addEventListener('load', startGame)
