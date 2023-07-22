@@ -24,7 +24,9 @@ const sectionSeeMap = document.getElementById('see-map')
 const map = document.getElementById('map')
 
 let i = 0
+let j = 0
 let mokepons = []
+let pMokepon
 let playersAttack = []
 let enemysAttack = []
 let enemysAttacks
@@ -46,6 +48,12 @@ class mokepon{ // we set a prototype (class in other languages) with class
 		this.image = image
 		this.live = live
 		this.attacks = []
+		this.x = 20
+		this.y = 30
+		this.w = 80
+		this.h = 80
+		this.mapImage = new Image()
+		this.mapImage.src = image
 	}
 }
 
@@ -108,19 +116,22 @@ function startGame(){
 function selectMokepons(){
 	if (inputAcinonyx.checked){ // .checked returns true if the element is selected
 		playersMokepon.innerHTML = inputAcinonyx.id
+		j = 0
 	}
 	else if (inputPiwith.checked){
 		playersMokepon.innerHTML = inputPiwith.id
+		j = 1
 	}
 	else if (inputBerry.checked){
 		playersMokepon.innerHTML = inputBerry.id
+		j = 2
 	}
 
 	if (playersMokepon.innerHTML != ""){
 		alert("You choose " + playersMokepon.innerHTML)
 		selectEnemysMokepon()
 		mokeponAttacks()
-		canvasMap()
+		drawMokepon()
 		selectMokepon.style.display = 'none'
 		sectionSeeMap.style.display = 'flex'
 		//selectAttack.style.display = 'flex'
@@ -268,13 +279,35 @@ function restartGame(){
 	location.reload()
 }
 
-function canvasMap(){
-	let acinonyxImage = new Image()
-	acinonyxImage.src = acinonyx.image
+function drawMokepon(){
+	lienzo.clearRect(0, 0, map.width, map.height)
 	lienzo.drawImage( //.fillRect creates a Rectangle; the 1st parameter is x-axis, the 2nd is the y-axis, 3rd width and 4th height
-	acinonyxImage,
-	20, 40, 100, 100
+	mokepons[j].mapImage,
+	mokepons[j].x, 
+	mokepons[j].y, 
+	mokepons[j].w, 
+	mokepons[j].h
 	)
+}
+
+function moveUp(){
+	mokepons[j].y -= 5
+	drawMokepon()
+}
+
+function moveLeft(){
+	mokepons[j].x -= 5
+	drawMokepon()
+}
+
+function moveDown(){
+	mokepons[j].y += 5
+	drawMokepon()
+}
+
+function moveRight(){
+	mokepons[j].x += 5
+	drawMokepon()
 }
 
 window.addEventListener('load', startGame)
