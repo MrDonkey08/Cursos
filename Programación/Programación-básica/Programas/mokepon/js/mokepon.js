@@ -41,6 +41,7 @@ let waterBtn
 let groundBtn
 let btns = []
 let lienzo = map.getContext("2d")
+let interval
 
 class mokepon{ // we set a prototype (class in other languages) with class
 	constructor(name, image, live){ 
@@ -48,12 +49,14 @@ class mokepon{ // we set a prototype (class in other languages) with class
 		this.image = image
 		this.live = live
 		this.attacks = []
-		this.x = 20
-		this.y = 30
-		this.w = 80
-		this.h = 80
+		this.x = 20 // x-axis
+		this.y = 30 // y-axis
+		this.w = 80 // width
+		this.h = 80 // height
 		this.mapImage = new Image()
 		this.mapImage.src = image
+		this.velX = 0
+		this.velY = 0
 	}
 }
 
@@ -132,6 +135,7 @@ function selectMokepons(){
 		selectEnemysMokepon()
 		mokeponAttacks()
 		drawMokepon()
+		interval = setInterval(drawMokepon, 50)
 		selectMokepon.style.display = 'none'
 		sectionSeeMap.style.display = 'flex'
 		//selectAttack.style.display = 'flex'
@@ -280,6 +284,8 @@ function restartGame(){
 }
 
 function drawMokepon(){
+	mokepons[j].x += mokepons[j].velX
+	mokepons[j].y += mokepons[j].velY
 	lienzo.clearRect(0, 0, map.width, map.height)
 	lienzo.drawImage( //.fillRect creates a Rectangle; the 1st parameter is x-axis, the 2nd is the y-axis, 3rd width and 4th height
 	mokepons[j].mapImage,
@@ -291,23 +297,24 @@ function drawMokepon(){
 }
 
 function moveUp(){
-	mokepons[j].y -= 5
-	drawMokepon()
+	mokepons[j].velY = -5
 }
 
 function moveLeft(){
-	mokepons[j].x -= 5
-	drawMokepon()
+	mokepons[j].velX = -5
 }
 
 function moveDown(){
-	mokepons[j].y += 5
-	drawMokepon()
+	mokepons[j].velY = 5
 }
 
 function moveRight(){
-	mokepons[j].x += 5
-	drawMokepon()
+	mokepons[j].velX = 5
+}
+
+function stopMovement(){
+	mokepons[j].velX = 0
+	mokepons[j].velY = 0
 }
 
 window.addEventListener('load', startGame)
