@@ -24,9 +24,9 @@ const sectionSeeMap = document.getElementById('see-map')
 const map = document.getElementById('map')
 
 let i = 0
-let j = 0
 let mokepons = []
 let pMokepon
+let playersMokeponObject
 let playersAttack = []
 let enemysAttack = []
 let enemysAttacks
@@ -42,6 +42,8 @@ let groundBtn
 let btns = []
 let lienzo = map.getContext("2d")
 let interval
+let mapBackground = new Image()
+mapBackground.src = './assets/mokemap.png'
 
 class mokepon{ // we set a prototype (class in other languages) with class
 	constructor(name, image, live){ 
@@ -119,19 +121,17 @@ function startGame(){
 function selectMokepons(){
 	if (inputAcinonyx.checked){ // .checked returns true if the element is selected
 		playersMokepon.innerHTML = inputAcinonyx.id
-		j = 0
 	}
 	else if (inputPiwith.checked){
 		playersMokepon.innerHTML = inputPiwith.id
-		j = 1
 	}
 	else if (inputBerry.checked){
 		playersMokepon.innerHTML = inputBerry.id
-		j = 2
 	}
 
 	if (playersMokepon.innerHTML != ""){
 		alert("You choose " + playersMokepon.innerHTML)
+		playersMokeponObject = pMokeponObject()
 		selectEnemysMokepon()
 		mokeponAttacks()
 		startMap()
@@ -282,44 +282,60 @@ function restartGame(){
 	location.reload()
 }
 
+function pMokeponObject(){
+	for (i = 0; i < mokepons.length; i++) {
+		if (playersMokepon.innerHTML === mokepons[i].name){
+			return mokepons[i]
+		}
+	}
+}
+
 function startMap(){
-	interval = setInterval(drawMokepon, 50)
+	map.width = 600
+	map.height = 400
+	interval = setInterval(drawCanvas, 50)
 	window.addEventListener('keydown', keyPressed)
 	window.addEventListener('keyup', stopMovement)
 }
 
-function drawMokepon(){
-	mokepons[j].x += mokepons[j].velX
-	mokepons[j].y += mokepons[j].velY
+function drawCanvas(){
+	playersMokeponObject.x += playersMokeponObject.velX
+	playersMokeponObject.y += playersMokeponObject.velY
 	lienzo.clearRect(0, 0, map.width, map.height)
+	lienzo.drawImage(mapBackground,
+		0,
+		0,
+		map.width,
+		map.height
+		)
 	lienzo.drawImage( //.fillRect creates a Rectangle; the 1st parameter is x-axis, the 2nd is the y-axis, 3rd width and 4th height
-	mokepons[j].mapImage,
-	mokepons[j].x, 
-	mokepons[j].y, 
-	mokepons[j].w, 
-	mokepons[j].h
+	playersMokeponObject.mapImage,
+	playersMokeponObject.x, 
+	playersMokeponObject.y, 
+	playersMokeponObject.w, 
+	playersMokeponObject.h
 	)
 }
 
 function moveUp(){
-	mokepons[j].velY = -5
+	playersMokeponObject.velY = -5
 }
 
 function moveLeft(){
-	mokepons[j].velX = -5
+	playersMokeponObject.velX = -5
 }
 
 function moveDown(){
-	mokepons[j].velY = 5
+	playersMokeponObject.velY = 5
 }
 
 function moveRight(){
-	mokepons[j].velX = 5
+	playersMokeponObject.velX = 5
 }
 
 function stopMovement(){
-	mokepons[j].velX = 0
-	mokepons[j].velY = 0
+	playersMokeponObject.velX = 0
+	playersMokeponObject.velY = 0
 }
 
 function keyPressed(event){ 
