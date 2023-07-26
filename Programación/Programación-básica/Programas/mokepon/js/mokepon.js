@@ -23,7 +23,6 @@ const cardsBox = document.getElementById('cards-box')
 const sectionSeeMap = document.getElementById('see-map')
 const map = document.getElementById('map')
 
-let i = 0
 let mokepons = []
 let pMokepon
 let playersMokeponObject
@@ -237,10 +236,10 @@ function selectEnemysAttack(){
 }
 
 function battle(){
-	if(i < 4){
-		roundWinner()
-		createMessage(i)
-		i++
+	let used = playersAttack.length - 1
+	if(used < 4){
+		roundWinner(used)
+		createMessage(used)
 	}
 	else{
 		if(victories > defeats){
@@ -255,28 +254,28 @@ function battle(){
 	}
 }
 
-function createMessage(i){ 
+function createMessage(used){ 
 	let playersAttackP = document.createElement('p')
 	let battleMessageP = document.createElement('p')
 	let enemysAttackP = document.createElement('p')
 
-	playersAttackP.innerHTML = playersAttack[i]
+	playersAttackP.innerHTML = playersAttack[used]
 	battleMessageP.innerHTML = winnerMessage
-	enemysAttackP.innerHTML = enemysAttack[i]
+	enemysAttackP.innerHTML = enemysAttack[used]
 
 	playersCard.appendChild(playersAttackP)
 	resultCard.appendChild(battleMessageP)
 	enemysCard.appendChild(enemysAttackP)
 }
 
-function roundWinner(){
+function roundWinner(used){
 	switch(true){
-		case playersAttack[i] === enemysAttack[i]:
+		case playersAttack[used] === enemysAttack[used]:
 			winnerMessage = 'Draw' 
 			break
-		case playersAttack[i] === 'Water' && enemysAttack[i] === 'Fire':
-		case playersAttack[i] === 'Fire' && enemysAttack[i] === 'Ground':
-		case playersAttack[i] === 'Ground' && enemysAttack[i] === 'Water':
+		case playersAttack[used] === 'Water' && enemysAttack[used] === 'Fire':
+		case playersAttack[used] === 'Fire' && enemysAttack[used] === 'Ground':
+		case playersAttack[used] === 'Ground' && enemysAttack[used] === 'Water':
 			winnerMessage = 'Win'
 			victories += 1
 			victoriesTxt.innerHTML = victories
