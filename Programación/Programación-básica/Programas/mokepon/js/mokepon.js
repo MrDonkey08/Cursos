@@ -46,13 +46,13 @@ let mapBackground = new Image()
 mapBackground.src = './assets/mokemap.png'
 
 class mokepon{ // we set a prototype (class in other languages) with class
-	constructor(name, image, live){ 
+	constructor(name, image, live, x = 10, y = 10){ 
 		this.name = name
 		this.image = image
 		this.live = live
 		this.attacks = []
-		this.x = 20 // x-axis
-		this.y = 30 // y-axis
+		this.x = x // x-axis
+		this.y = y // y-axis
 		this.w = 80 // width
 		this.h = 80 // height
 		this.mapImage = new Image()
@@ -60,12 +60,26 @@ class mokepon{ // we set a prototype (class in other languages) with class
 		this.velX = 0
 		this.velY = 0
 	}
+	drawMokepon(){
+		lienzo.drawImage( //.fillRect creates a Rectangle; the 1st parameter is x-axis, the 2nd is the y-axis, 3rd width and 4th height
+		this.mapImage,
+		this.x, 
+		this.y, 
+		this.w, 
+		this.h
+		)
+	}
 }
 
 // Objects
 const acinonyx = new mokepon('Acinonyx', './assets/Acinonyx.png', 5)
 const piwith = new mokepon('Piwith', './assets/Piwith.png', 5)
 const berry = new mokepon('Berry', './assets/Berry.png', 5)
+
+const  acinonyxEnemy = new mokepon('Acinonyx', './assets/Acinonyx.png', 5, 40, 115)
+const  piwithEnemy = new mokepon('Piwith', './assets/Piwith.png', 5, 220, 270)
+const  berryEnemy = new mokepon('Berry', './assets/Berry.png', 5, 520, 165)
+
 
 acinonyx.attacks.push(
 	{ name: '🔥', id: 'fire-btn'},
@@ -308,13 +322,10 @@ function drawCanvas(){
 		map.width,
 		map.height
 		)
-	lienzo.drawImage( //.fillRect creates a Rectangle; the 1st parameter is x-axis, the 2nd is the y-axis, 3rd width and 4th height
-	playersMokeponObject.mapImage,
-	playersMokeponObject.x, 
-	playersMokeponObject.y, 
-	playersMokeponObject.w, 
-	playersMokeponObject.h
-	)
+		playersMokeponObject.drawMokepon()
+		acinonyxEnemy.drawMokepon()
+		piwithEnemy.drawMokepon()
+		berryEnemy.drawMokepon()
 }
 
 function moveUp(){
