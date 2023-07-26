@@ -51,14 +51,22 @@ class mokepon{ // we set a prototype (class in other languages) with class
 		this.image = image
 		this.live = live
 		this.attacks = []
+		
 		this.x = x // x-axis
 		this.y = y // y-axis
 		this.w = 80 // width
 		this.h = 80 // height
+		
 		this.mapImage = new Image()
 		this.mapImage.src = image
+		
 		this.velX = 0
 		this.velY = 0
+
+		this.right = this.x + this.w
+		this.left = this.x
+		this.top = this.y
+		this.bottom = this.y + this.h
 	}
 	drawMokepon(){
 		lienzo.drawImage( //.fillRect creates a Rectangle; the 1st parameter is x-axis, the 2nd is the y-axis, 3rd width and 4th height
@@ -68,6 +76,12 @@ class mokepon{ // we set a prototype (class in other languages) with class
 		this.w, 
 		this.h
 		)
+	}
+	setSides(){
+		this.right = this.x + this.w
+		this.left = this.x
+		this.top = this.y
+		this.bottom = this.y + this.h
 	}
 }
 
@@ -326,6 +340,11 @@ function drawCanvas(){
 		acinonyxEnemy.drawMokepon()
 		piwithEnemy.drawMokepon()
 		berryEnemy.drawMokepon()
+	if(playersMokeponObject.velX !== 0 || playersMokeponObject.velY !== 0){
+		checkColision(acinonyxEnemy)
+		checkColision(piwithEnemy)
+		checkColision(berryEnemy)
+	}
 }
 
 function moveUp(){
@@ -362,6 +381,19 @@ function keyPressed(event){
 		default:
 			break;
 	}
+}
+
+function checkColision(enemy){
+	playersMokeponObject.setSides()
+	if(
+		playersMokeponObject.top > enemy.bottom ||
+		playersMokeponObject.bottom < enemy.top ||
+		playersMokeponObject.left > enemy.right ||
+		playersMokeponObject.right < enemy.left
+	){
+		return
+	}
+	console.log("Hay colisión con " + enemy.name)
 }
 
 window.addEventListener('load', startGame)
