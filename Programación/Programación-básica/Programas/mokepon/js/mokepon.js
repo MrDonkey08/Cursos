@@ -56,19 +56,20 @@ map.width = mapMaxWidth * sizeScale
 map.height = mapMaxHeight * sizeScale
 
 class mokepon{ // we set a prototype (class in other languages) with class
-	constructor(name, image, live){ 
+	constructor(name, image, mapPhoto, live, w, h){ 
 		this.name = name
 		this.image = image
 		this.live = live
+		this.mapPhoto = mapPhoto
 		this.attacks = []
 		
-		this.w = 110 * sizeScale // width
 		this.h = 110 * sizeScale // height
+		this.w = this.h * w / h  // width
 		this.x = randomNum(0, map.width - this.w) // x-axis
 		this.y = randomNum(0, map.height - this.h) // y-axis
 		
 		this.mapImage = new Image()
-		this.mapImage.src = image
+		this.mapImage.src = mapPhoto
 		
 		this.velX = 0
 		this.velY = 0
@@ -96,13 +97,13 @@ class mokepon{ // we set a prototype (class in other languages) with class
 }
 
 // Objects
-const acinonyx = new mokepon('Acinonyx', './assets/Acinonyx.png', 5)
-const piwith = new mokepon('Piwith', './assets/Piwith.png', 5)
-const berry = new mokepon('Berry', './assets/Berry.png', 5)
+const acinonyx = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290)
+const piwith = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283)
+const berry = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238)
 
-const  acinonyxEnemy = new mokepon('Acinonyx', './assets/Acinonyx.png')
-const  piwithEnemy = new mokepon('Piwith', './assets/Piwith.png')
-const  berryEnemy = new mokepon('Berry', './assets/Berry.png')
+const acinonyxEnemy = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290)
+const piwithEnemy = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283)
+const berryEnemy = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238)
 
 
 acinonyx.attacks.push(
