@@ -160,10 +160,6 @@ button{ /* inline-block.*/
 	justify-items: center;
 }
 
-#map{
-	border: 2px solid white;
-}
-
 @media(min-width: 860px){
 	#cards-box{
 		flex-direction: row;

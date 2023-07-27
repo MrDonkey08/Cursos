@@ -22,6 +22,8 @@ const cardsBox = document.getElementById('cards-box')
 
 const sectionSeeMap = document.getElementById('see-map')
 const map = document.getElementById('map')
+const mapMaxWidth = 800
+const mapMaxHeight = 600
 
 let mokepons = []
 let playersMokeponObject
@@ -43,17 +45,27 @@ let interval
 let mapBackground = new Image()
 mapBackground.src = './assets/mokemap.png'
 
+let sizeScale = 1
+
+if(window.innerWidth < mapMaxWidth){
+	sizeScale = (window.innerWidth - 50) / mapMaxWidth
+}
+
+map.width = mapMaxWidth * sizeScale
+
+map.height = mapMaxHeight * sizeScale
+
 class mokepon{ // we set a prototype (class in other languages) with class
-	constructor(name, image, live, x = 10, y = 10){ 
+	constructor(name, image, live){ 
 		this.name = name
 		this.image = image
 		this.live = live
 		this.attacks = []
 		
-		this.x = x // x-axis
-		this.y = y // y-axis
-		this.w = 80 // width
-		this.h = 80 // height
+		this.w = 110 * sizeScale // width
+		this.h = 110 * sizeScale // height
+		this.x = randomNum(0, map.width - this.w) // x-axis
+		this.y = randomNum(0, map.height - this.h) // y-axis
 		
 		this.mapImage = new Image()
 		this.mapImage.src = image
@@ -88,9 +100,9 @@ const acinonyx = new mokepon('Acinonyx', './assets/Acinonyx.png', 5)
 const piwith = new mokepon('Piwith', './assets/Piwith.png', 5)
 const berry = new mokepon('Berry', './assets/Berry.png', 5)
 
-const  acinonyxEnemy = new mokepon('Acinonyx', './assets/Acinonyx.png', 5, 40, 115)
-const  piwithEnemy = new mokepon('Piwith', './assets/Piwith.png', 5, 220, 270)
-const  berryEnemy = new mokepon('Berry', './assets/Berry.png', 5, 520, 165)
+const  acinonyxEnemy = new mokepon('Acinonyx', './assets/Acinonyx.png')
+const  piwithEnemy = new mokepon('Piwith', './assets/Piwith.png')
+const  berryEnemy = new mokepon('Berry', './assets/Berry.png')
 
 
 acinonyx.attacks.push(
@@ -334,9 +346,7 @@ function pMokeponObject(){
 }
 
 function startMap(){
-	map.width = 600
-	map.height = 400
-	interval = setInterval(drawCanvas, 50)
+	interval = setInterval(drawCanvas, 30)
 	window.addEventListener('keydown', keyPressed)
 	window.addEventListener('keyup', stopMovement)
 }
@@ -363,19 +373,19 @@ function drawCanvas(){
 }
 
 function moveUp(){
-	playersMokeponObject.velY = -5
+	playersMokeponObject.velY = -5 * sizeScale
 }
 
 function moveLeft(){
-	playersMokeponObject.velX = -5
+	playersMokeponObject.velX = -5 * sizeScale
 }
 
 function moveDown(){
-	playersMokeponObject.velY = 5
+	playersMokeponObject.velY = 5 * sizeScale
 }
 
 function moveRight(){
-	playersMokeponObject.velX = 5
+	playersMokeponObject.velX = 5 * sizeScale
 }
 
 function stopMovement(){
@@ -416,6 +426,5 @@ function checkColision(enemy){
 	window.removeEventListener('keydown', keyPressed)
 	window.removeEventListener('keyup', stopMovement)
 }
-
 
 window.addEventListener('load', startGame)
