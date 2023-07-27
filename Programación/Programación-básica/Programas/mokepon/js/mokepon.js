@@ -24,7 +24,6 @@ const sectionSeeMap = document.getElementById('see-map')
 const map = document.getElementById('map')
 
 let mokepons = []
-let pMokepon
 let playersMokeponObject
 let playersAttack = []
 let enemysAttack = []
@@ -118,6 +117,30 @@ berry.attacks.push(
 	{ name: '🌱', id: 'ground-btn'},
 )
 
+acinonyxEnemy.attacks.push(
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+)
+
+piwithEnemy.attacks.push(
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+)
+
+berryEnemy.attacks.push(
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+)
+
 mokepons.push(acinonyx, piwith, berry)
 
 function startGame(){
@@ -159,13 +182,10 @@ function selectMokepons(){
 	if (playersMokepon.innerHTML != ""){
 		alert("You choose " + playersMokepon.innerHTML)
 		playersMokeponObject = pMokeponObject()
-		selectEnemysMokepon()
 		mokeponAttacks()
 		startMap()
 		selectMokepon.style.display = 'none'
 		sectionSeeMap.style.display = 'flex'
-		//selectAttack.style.display = 'flex'
-		//battleSection.style.display= 'flex'
 	}
 	else{
 		alert("You haven't choose a mokepon.")
@@ -176,13 +196,9 @@ function randomNum(min, max){ // returns a value between min and max
 	return Math.floor(Math.random() * (max - min + 1) + min) // Math.floor truncate (cut) the the decimal part and Math.random() returns a decimal number between 0 and 1.
 }
 
-function selectEnemysMokepon(){
-	let opt = randomNum(0, mokepons.length - 1)
-
-	enemysMokepon.innerHTML = mokepons[opt].name
-	enemysAttacks = mokepons[opt].attacks
-
-	alert("Enemy's mokepon is " + enemysMokepon.innerHTML)
+function selectEnemysMokepon(enemy){
+	enemysMokepon.innerHTML = enemy.name
+	enemysAttacks = enemy.attacks
 }
 
 function mokeponAttacks(){
@@ -392,7 +408,14 @@ function checkColision(enemy){
 	){
 		return
 	}
-	console.log("Hay colisión con " + enemy.name)
+	clearInterval(interval)
+	sectionSeeMap.style.display = 'none'
+	selectAttack.style.display = 'flex'
+	battleSection.style.display= 'flex'
+	selectEnemysMokepon(enemy)
+	window.removeEventListener('keydown', keyPressed)
+	window.removeEventListener('keyup', stopMovement)
 }
+
 
 window.addEventListener('load', startGame)
