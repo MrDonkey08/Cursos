@@ -25,10 +25,6 @@ const map = document.getElementById('map')
 const mapMaxWidth = 800
 const mapMaxHeight = 600
 
-let cLeft = false
-let cRight = false
-let cUp = false
-let cDown = false
 let mokepons = []
 let playersMokeponObject
 let playersAttack = []
@@ -406,37 +402,34 @@ function drawCanvas(){
 		fence3.draw()
 		mapObj.draw()
 	if(playersMokeponObject.velX !== 0 || playersMokeponObject.velY !== 0){
-		checkColision(acinonyxEnemy)
+		/*checkColision(acinonyxEnemy)
 		checkColision(piwithEnemy)
-		checkColision(berryEnemy)
-		obstacleColision(house)
-		obstacleColision(pool)
-		obstacleColision(fence1)
-		obstacleColision(fence2)
-		obstacleColision(fence3)
+		checkColision(berryEnemy)*/
+		checkColision(house)
+		checkColision(pool)
+		checkColision(fence1)
+		checkColision(fence2)
+		checkColision(fence3)
 	}
 }
 
 function moveUp(){
-	if (cUp === false){
+	input = "up"
 		playersMokeponObject.velY = -5 * sizeScale
-	}
 }
 
 function moveLeft(){
-	if (cLeft === false){
+	input = "left"
 		playersMokeponObject.velX = -5 * sizeScale
-	}
 }
 
 function moveDown(){
-	if (cDown === false){
+	input = "right"
 		playersMokeponObject.velY = 5 * sizeScale
-	}
 }
 
 function moveRight(){
-	if (cRight === false)
+	input = "down"
 		playersMokeponObject.velX = 5 * sizeScale
 }
 
@@ -470,11 +463,12 @@ function checkColision(element){
 	){
 		return
 	}
-	if (element.name !== ""){
-	}
+	obstacleColision(element)
+	
 }
 
-function mokeponColision(){
+
+function mokeponColision(element){
 	clearInterval(interval)
 	sectionSeeMap.style.display = 'none'
 	selectAttack.style.display = 'flex'
@@ -485,15 +479,14 @@ function mokeponColision(){
 }
 
 function obstacleColision(obstacle){
-	console.log(obstacle)
+	console.log(playersMokeponObject.top, obstacle.bottom)
+	console.log(playersMokeponObject.bottom, obstacle.top)
 	switch(true){
-		case obstacle.top < playersMokeponObject.bottom:
-			cDown = true 
-			break
-		default: console.log("Ayuda")
-			break
-	}
-
+		case playersMokeponObject.top < obstacle.bottom &&
+		playersMokeponObject.bottom > obstacle.top:
+			console.log("Ayuda")
+			moveDown()
+		}
 }
 
 window.addEventListener('load', startGame)
