@@ -25,6 +25,10 @@ const map = document.getElementById('map')
 const mapMaxWidth = 800
 const mapMaxHeight = 600
 
+let cLeft = false
+let cRight = false
+let cUp = false
+let cDown = false
 let mokepons = []
 let playersMokeponObject
 let playersAttack = []
@@ -55,15 +59,31 @@ map.width = mapMaxWidth * sizeScale
 
 map.height = mapMaxHeight * sizeScale
 
-class mokepon{ // we set a prototype (class in other languages) with class
-	constructor(name, image, mapPhoto, live, w, h){ 
+class mapElements{
+	constructor(x, y, w, h){
+		this.x = x * sizeScale // left
+		this.y = y * sizeScale // top
+		this.w = w * sizeScale
+		this.h = h * sizeScale
+	}
+	setSides(){
+		this.right = this.x + this.w
+		this.left = this.x
+		this.top = this.y
+		this.bottom = this.y + this.h
+	}
+}
+
+class mokepon extends mapElements{ // we set a prototype (class in other languages) with class
+	constructor(name, image, mapPhoto, live, w, h, x, y){ 
+		super(x, y, w, h)
 		this.name = name
 		this.image = image
 		this.live = live
 		this.mapPhoto = mapPhoto
 		this.attacks = []
 		
-		this.h = 110 * sizeScale // height
+		this.h = 100 * sizeScale // height
 		this.w = this.h * w / h  // width
 		this.x = randomNum(0, map.width - this.w) // x-axis
 		this.y = randomNum(0, map.height - this.h) // y-axis
@@ -74,12 +94,9 @@ class mokepon{ // we set a prototype (class in other languages) with class
 		this.velX = 0
 		this.velY = 0
 
-		this.right = this.x + this.w
-		this.left = this.x
-		this.top = this.y
-		this.bottom = this.y + this.h
+		super.setSides()
 	}
-	drawMokepon(){
+	draw(){
 		lienzo.drawImage( //.fillRect creates a Rectangle; the 1st parameter is x-axis, the 2nd is the y-axis, 3rd width and 4th height
 		this.mapImage,
 		this.x, 
@@ -88,11 +105,21 @@ class mokepon{ // we set a prototype (class in other languages) with class
 		this.h
 		)
 	}
-	setSides(){
-		this.right = this.x + this.w
-		this.left = this.x
-		this.top = this.y
-		this.bottom = this.y + this.h
+}
+
+class obstacle extends mapElements{
+	constructor(x, y, w, h){
+		super(x, y, w, h)
+		super.setSides()
+	}
+	draw(){
+		lienzo.strokeStyle = 'rgba(0, 0, 255, 10)' // Transparent blue stroke
+		lienzo.strokeRect(
+		 this.x,
+		 this.y,
+		 this.w,
+		 this.h,
+		)
 	}
 }
 
@@ -105,6 +132,12 @@ const acinonyxEnemy = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets
 const piwithEnemy = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283)
 const berryEnemy = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238)
 
+const house = new obstacle(403, 35, 345, 137)
+const pool = new obstacle(95, 389, 195, 210)
+const fence1 = new obstacle(47, 0, 195, 30)
+const fence2 = new obstacle(0, 395, 93, 254)
+const fence3 = new obstacle(292, 528, 507, 71)
+const mapObj = new obstacle(0, 0, map.width, map.height)
 
 acinonyx.attacks.push(
 	{ name: '🔥', id: 'fire-btn'},
@@ -362,31 +395,49 @@ function drawCanvas(){
 		map.width,
 		map.height
 		)
-		playersMokeponObject.drawMokepon()
-		acinonyxEnemy.drawMokepon()
-		piwithEnemy.drawMokepon()
-		berryEnemy.drawMokepon()
+		playersMokeponObject.draw()
+		acinonyxEnemy.draw()
+		piwithEnemy.draw()
+		berryEnemy.draw()
+		house.draw()
+		pool.draw()
+		fence1.draw()
+		fence2.draw()
+		fence3.draw()
+		mapObj.draw()
 	if(playersMokeponObject.velX !== 0 || playersMokeponObject.velY !== 0){
 		checkColision(acinonyxEnemy)
 		checkColision(piwithEnemy)
 		checkColision(berryEnemy)
+		obstacleColision(house)
+		obstacleColision(pool)
+		obstacleColision(fence1)
+		obstacleColision(fence2)
+		obstacleColision(fence3)
 	}
 }
 
 function moveUp(){
-	playersMokeponObject.velY = -5 * sizeScale
+	if (cUp === false){
+		playersMokeponObject.velY = -5 * sizeScale
+	}
 }
 
 function moveLeft(){
-	playersMokeponObject.velX = -5 * sizeScale
+	if (cLeft === false){
+		playersMokeponObject.velX = -5 * sizeScale
+	}
 }
 
 function moveDown(){
-	playersMokeponObject.velY = 5 * sizeScale
+	if (cDown === false){
+		playersMokeponObject.velY = 5 * sizeScale
+	}
 }
 
 function moveRight(){
-	playersMokeponObject.velX = 5 * sizeScale
+	if (cRight === false)
+		playersMokeponObject.velX = 5 * sizeScale
 }
 
 function stopMovement(){
@@ -409,23 +460,40 @@ function keyPressed(event){
 	}
 }
 
-function checkColision(enemy){
+function checkColision(element){
 	playersMokeponObject.setSides()
 	if(
-		playersMokeponObject.top > enemy.bottom ||
-		playersMokeponObject.bottom < enemy.top ||
-		playersMokeponObject.left > enemy.right ||
-		playersMokeponObject.right < enemy.left
+		playersMokeponObject.top > element.bottom ||
+		playersMokeponObject.bottom < element.top ||
+		playersMokeponObject.left > element.right ||
+		playersMokeponObject.right < element.left
 	){
 		return
 	}
+	if (element.name !== ""){
+	}
+}
+
+function mokeponColision(){
 	clearInterval(interval)
 	sectionSeeMap.style.display = 'none'
 	selectAttack.style.display = 'flex'
 	battleSection.style.display= 'flex'
-	selectEnemysMokepon(enemy)
+	selectEnemysMokepon(element)
 	window.removeEventListener('keydown', keyPressed)
 	window.removeEventListener('keyup', stopMovement)
+}
+
+function obstacleColision(obstacle){
+	console.log(obstacle)
+	switch(true){
+		case obstacle.top < playersMokeponObject.bottom:
+			cDown = true 
+			break
+		default: console.log("Ayuda")
+			break
+	}
+
 }
 
 window.addEventListener('load', startGame)
