@@ -4,6 +4,7 @@
 		<meta charset="utf-8"/>
 		<title>Mokepon!</title>
 		<link rel="stylesheet" href="./styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> // Para que funcionen los media-query en dispositivos móviles
 	</head>
 	<body>
 		<section id="select-mokepon">
@@ -20,9 +21,11 @@
 			<h2 id="map-h2">Walk around the map</h2>
 			<canvas id="map"></canvas>
 			<button onmouseup="stopMovement()" onmousedown="moveUp()">Up</button>
-			<button onmouseup="stopMovement()" onmousedown="moveLeft()">Left</button>
-			<button onmouseup="stopMovement()" onmousedown="moveDown()">Down</button>
-			<button onmouseup="stopMovement()" onmousedown="moveRight()">Right</button>
+			<div>
+				<button onmouseup="stopMovement()" onmousedown="moveLeft()">Left</button>
+				<button onmouseup="stopMovement()" onmousedown="moveDown()">Down</button>
+				<button onmouseup="stopMovement()" onmousedown="moveRight()">Right</button>
+			</div>
 		</section>
 
 		<section id="select-attack">

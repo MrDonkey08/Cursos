@@ -168,6 +168,23 @@ button{ /* inline-block.*/
 	border: 2px solid white;
 }
 
+#map{
+	margin: 0px 0px 20px 0px
+}
+
+#see-map button{
+	margin: 10px 5px;
+	width: 100px;
+
+}
+
+@media(max-width: 360px){
+	#see-map div{
+	display: flex;
+	flex-direction: column;
+	}
+}
+
 @media(min-width: 860px){
 	#cards-box{
 		flex-direction: row;
@@ -179,7 +196,3 @@ button{ /* inline-block.*/
 		flex-direction: row;
 	}
 }
-
-/* 
-- https://platzi.com/clases/3208-programacion-basica/51970-responsive-design/
-*/
