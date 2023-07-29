@@ -26,7 +26,7 @@ const mapMaxWidth = 800
 const mapMaxHeight = 600
 
 let mokepons = []
-let playersMokeponObject
+let pMokeponObj
 let playersAttack = []
 let enemysAttack = []
 let enemysAttacks
@@ -44,7 +44,7 @@ let lienzo = map.getContext("2d")
 let interval
 let mapBackground = new Image()
 mapBackground.src = './assets/mokemap.png'
-
+let colSides = []
 let sizeScale = 1
 
 if(window.innerWidth < mapMaxWidth){
@@ -223,7 +223,7 @@ function selectMokepons(){
 
 	if (playersMokepon.innerHTML != ""){
 		alert("You choose " + playersMokepon.innerHTML)
-		playersMokeponObject = pMokeponObject()
+		pMokeponObj = pMokeponObject()
 		mokeponAttacks()
 		startMap()
 		selectMokepon.style.display = 'none'
@@ -376,14 +376,14 @@ function pMokeponObject(){
 }
 
 function startMap(){
-	interval = setInterval(drawCanvas, 30)
+	interval = setInterval(drawCanvas, 50)
 	window.addEventListener('keydown', keyPressed)
 	window.addEventListener('keyup', stopMovement)
 }
 
 function drawCanvas(){
-	playersMokeponObject.x += playersMokeponObject.velX
-	playersMokeponObject.y += playersMokeponObject.velY
+	pMokeponObj.x += pMokeponObj.velX
+	pMokeponObj.y += pMokeponObj.velY
 	lienzo.clearRect(0, 0, map.width, map.height)
 	lienzo.drawImage(mapBackground,
 		0,
@@ -391,7 +391,7 @@ function drawCanvas(){
 		map.width,
 		map.height
 		)
-		playersMokeponObject.draw()
+		pMokeponObj.draw()
 		acinonyxEnemy.draw()
 		piwithEnemy.draw()
 		berryEnemy.draw()
@@ -401,7 +401,7 @@ function drawCanvas(){
 		fence2.draw()
 		fence3.draw()
 		mapObj.draw()
-	if(playersMokeponObject.velX !== 0 || playersMokeponObject.velY !== 0){
+	if(pMokeponObj.velX !== 0 || pMokeponObj.velY !== 0){
 		/*checkColision(acinonyxEnemy)
 		checkColision(piwithEnemy)
 		checkColision(berryEnemy)*/
@@ -414,28 +414,32 @@ function drawCanvas(){
 }
 
 function moveUp(){
-	input = "up"
-		playersMokeponObject.velY = -5 * sizeScale
+	if(colSides[0] !== "up"){
+		pMokeponObj.velY = -5 * sizeScale
+	}
 }
 
 function moveLeft(){
-	input = "left"
-		playersMokeponObject.velX = -5 * sizeScale
+	if(colSides[1] !== "left"){
+		pMokeponObj.velX = -5 * sizeScale
+	}
 }
 
 function moveDown(){
-	input = "right"
-		playersMokeponObject.velY = 5 * sizeScale
+	if(colSides[0] !== "down"){
+		pMokeponObj.velY = 5 * sizeScale
+	}
 }
 
 function moveRight(){
-	input = "down"
-		playersMokeponObject.velX = 5 * sizeScale
+	if(colSides[1] !== "right"){
+		pMokeponObj.velX = 5 * sizeScale
+	}
 }
 
 function stopMovement(){
-	playersMokeponObject.velX = 0
-	playersMokeponObject.velY = 0
+	pMokeponObj.velX = 0
+	pMokeponObj.velY = 0
 }
 
 function keyPressed(event){ 
@@ -451,22 +455,37 @@ function keyPressed(event){
 		default:
 			break;
 	}
+	console.log(colSides)
 }
 
 function checkColision(element){
-	playersMokeponObject.setSides()
+	pMokeponObj.setSides()
 	if(
-		playersMokeponObject.top > element.bottom ||
-		playersMokeponObject.bottom < element.top ||
-		playersMokeponObject.left > element.right ||
-		playersMokeponObject.right < element.left
+		pMokeponObj.top > element.bottom ||
+		pMokeponObj.bottom < element.top ||
+		pMokeponObj.left > element.right ||
+		pMokeponObj.right < element.left
 	){
 		return
 	}
-	obstacleColision(element)
-	
+	colisionSide(element)
 }
 
+function colisionSide(obstacle){
+	if (pMokeponObj.top > obstacle.top){
+		colSides[0] = "up"
+	}
+	else if (pMokeponObj.top < obstacle.top){
+		colSides[0] = "down"
+	}
+
+	if (pMokeponObj.left > obstacle.left){
+		colSides[1] = "left"
+	}
+	else if (pMokeponObj.left < obstacle.left){
+		colSides[1] = "right"
+	}
+}
 
 function mokeponColision(element){
 	clearInterval(interval)
@@ -476,17 +495,6 @@ function mokeponColision(element){
 	selectEnemysMokepon(element)
 	window.removeEventListener('keydown', keyPressed)
 	window.removeEventListener('keyup', stopMovement)
-}
-
-function obstacleColision(obstacle){
-	console.log(playersMokeponObject.top, obstacle.bottom)
-	console.log(playersMokeponObject.bottom, obstacle.top)
-	switch(true){
-		case playersMokeponObject.top < obstacle.bottom &&
-		playersMokeponObject.bottom > obstacle.top:
-			console.log("Ayuda")
-			moveDown()
-		}
 }
 
 window.addEventListener('load', startGame)
