@@ -119,6 +119,10 @@ button{ /* inline-block.*/
 	align-items: center;
 }
 
+.attack-btns{
+	width: 80px;
+}
+
 #btn-fire{
 	background-color: #f77462;
 }
@@ -158,6 +162,10 @@ button{ /* inline-block.*/
 .battle-card{
 	display: grid;
 	justify-items: center;
+}
+
+#map{
+	border: 2px solid white;
 }
 
 @media(min-width: 860px){

@@ -247,7 +247,8 @@ function attackSequence(){
 				case '💧': playersAttack.push('Water'); break
 				default: playersAttack.push('Ground'); break
 			}
-			btn.style.background = '#112f58'
+			btn.style.background = '#8051b6'
+			btn.disabled = true
 			selectEnemysAttack()
 		})
 	})
