@@ -26,7 +26,7 @@ const mapMaxWidth = 800
 const mapMaxHeight = 600
 
 let mokepons = []
-let playersMokeponObject
+let pMokeponObj
 let playersAttack = []
 let enemysAttack = []
 let enemysAttacks
@@ -194,7 +194,7 @@ function selectMokepons(){
 
 	if (playersMokepon.innerHTML != ""){
 		alert("You choose " + playersMokepon.innerHTML)
-		playersMokeponObject = pMokeponObject()
+		pMokeponObj = pMokeponObject()
 		mokeponAttacks()
 		startMap()
 		selectMokepon.style.display = 'none'
@@ -353,8 +353,8 @@ function startMap(){
 }
 
 function drawCanvas(){
-	playersMokeponObject.x += playersMokeponObject.velX
-	playersMokeponObject.y += playersMokeponObject.velY
+	pMokeponObj.x += pMokeponObj.velX
+	pMokeponObj.y += pMokeponObj.velY
 	lienzo.clearRect(0, 0, map.width, map.height)
 	lienzo.drawImage(mapBackground,
 		0,
@@ -362,11 +362,11 @@ function drawCanvas(){
 		map.width,
 		map.height
 		)
-		playersMokeponObject.drawMokepon()
+		pMokeponObj.drawMokepon()
 		acinonyxEnemy.drawMokepon()
 		piwithEnemy.drawMokepon()
 		berryEnemy.drawMokepon()
-	if(playersMokeponObject.velX !== 0 || playersMokeponObject.velY !== 0){
+	if(pMokeponObj.velX !== 0 || pMokeponObj.velY !== 0){
 		checkColision(acinonyxEnemy)
 		checkColision(piwithEnemy)
 		checkColision(berryEnemy)
@@ -374,24 +374,23 @@ function drawCanvas(){
 }
 
 function moveUp(){
-	playersMokeponObject.velY = -5 * sizeScale
+	pMokeponObj.velY = -5 * sizeScale
 }
 
 function moveLeft(){
-	playersMokeponObject.velX = -5 * sizeScale
+	pMokeponObj.velX = -5 * sizeScale
 }
 
 function moveDown(){
-	playersMokeponObject.velY = 5 * sizeScale
+	pMokeponObj.velY = 5 * sizeScale
 }
 
 function moveRight(){
-	playersMokeponObject.velX = 5 * sizeScale
+	pMokeponObj.velX = 5 * sizeScale
 }
 
 function stopMovement(){
-	playersMokeponObject.velX = 0
-	playersMokeponObject.velY = 0
+	pMokeponObj.velX = pMokeponObj.velY = 0
 }
 
 function keyPressed(event){ 
@@ -410,12 +409,12 @@ function keyPressed(event){
 }
 
 function checkColision(enemy){
-	playersMokeponObject.setSides()
+	pMokeponObj.setSides()
 	if(
-		playersMokeponObject.top > enemy.bottom ||
-		playersMokeponObject.bottom < enemy.top ||
-		playersMokeponObject.left > enemy.right ||
-		playersMokeponObject.right < enemy.left
+		pMokeponObj.top > enemy.bottom ||
+		pMokeponObj.bottom < enemy.top ||
+		pMokeponObj.left > enemy.right ||
+		pMokeponObj.right < enemy.left
 	){
 		return
 	}
