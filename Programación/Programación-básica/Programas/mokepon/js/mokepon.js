@@ -25,7 +25,9 @@ const map = document.getElementById('map')
 const mapMaxWidth = 800
 const mapMaxHeight = 600
 
+let plyaerId = null
 let mokepons = []
+let pMokepon
 let pMokeponObj
 let playersAttack = []
 let enemysAttack = []
@@ -191,6 +193,7 @@ function joinGame(){
 				res.text()
 					.then(function(answer){
 						console.log(answer)
+						playerId = answer
 					})
 			}
 		})
@@ -208,6 +211,10 @@ function selectMokepons(){
 	}
 
 	if (playersMokepon.innerHTML != ""){
+		pMokepon = playersMokepon.innerHTML
+		selectedMokepon()
+
+
 		alert("You choose " + playersMokepon.innerHTML)
 		pMokeponObj = pMokeponObject()
 		mokeponAttacks()
@@ -218,6 +225,18 @@ function selectMokepons(){
 	else{
 		alert("You haven't choose a mokepon.")
 	}
+}
+
+function selectedMokepon(){
+	fetch(`http://localhost:8080/mokepon/${playerId}`, {
+		method: "post",
+		headers: {
+			"Content-Type": "application/json"
+		},
+		body: JSON.stringify({
+			mokepon: pMokepon
+		})
+	})
 }
 
 function randomNum(min, max){ // returns a value between min and max
