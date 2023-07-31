@@ -25,7 +25,8 @@ const map = document.getElementById('map')
 const mapMaxWidth = 800
 const mapMaxHeight = 600
 
-let plyaerId = null
+let playerId = null
+let enemyId = null
 let mokepons = []
 let enemiesMokepons = []
 let pMokepon
@@ -126,9 +127,9 @@ const berryAttacks = [
 	{ name: '🌱', id: 'ground-btn'},
 ]
 
-const acinonyx = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290)
-const piwith = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283)
-const berry = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238)
+const acinonyx = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290, enemy.id)
+const piwith = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283, enemy.id)
+const berry = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238, enemy.id)
 
 acinonyx.attacks.push(...acinonyxAttacks)
 piwith.attacks.push(...piwithAttacks)
@@ -166,11 +167,9 @@ function startGame(){
 function joinGame(){
 	fetch("http://localhost:8080/join")
 		.then(function(res){
-			console.log(res)
 			if(res.ok){
 				res.text()
 					.then(function(answer){
-						console.log(answer)
 						playerId = answer
 					})
 			}
@@ -261,21 +260,23 @@ function attackSequence(){
 			}
 			btn.style.background = '#8051b6'
 			btn.disabled = true
-			selectEnemysAttack()
+			sendAttacks()
 		})
 	})
 }
 
-function selectEnemysAttack(){
-	let opt = randomNum(0, enemysAttacks.length - 1)
-
-	switch(opt){
-		case 0: case 1: enemysAttack.push('Water'); break
-		case 3:	case 4: enemysAttack.push('Fire'); break
-		default: enemysAttack.push('Ground'); break // I set default instead of 'case 3' because 'Ground' is the only left value that 'enemysAttack' can take
-	}
-	battle()
+function sendAttacks(){
+	fetch(`http://localhost:8080/mokepon/${playerId}/attacks`, {
+		method: "post",
+		headears: {
+			"Content-Type": "application/json"
+		},
+		body: JSON.stringify({
+			attacks: playersAttack
+		})
+	})
 }
+
 
 function battle(){
 	let used = playersAttack.length - 1
@@ -381,13 +382,8 @@ function drawCanvas(){
 
 	enemiesMokepons.forEach(function (mokepon){
 		mokepon.drawMokepon()
+		checkColision(mokepon)
 	})
-
-	if(pMokeponObj.velX !== 0 || pMokeponObj.velY !== 0){
-		/*checkColision(acinonyxEnemy)
-		checkColision(piwithEnemy)
-		checkColision(berryEnemy)*/
-	}
 }
 
 function sendPosition(x, y){
@@ -405,7 +401,6 @@ function sendPosition(x, y){
 		if(res.ok){
 			res.json()
 				.then(function( {enemies }){
-					console.log(enemies)
 					enemiesMokepons = enemies.map(function (enemy){
 						const mokeponName = enemy.mokepon.name
 						let enemyMokepon = null
@@ -467,16 +462,26 @@ function keyPressed(event){
 }
 
 function checkColision(enemy){
-	pMokeponObj.setSides()
+	const upEnemy = enemy.y
+	const downEnemy = enemy.y + enemy.h
+	const rightEnemy = enemy.x + enemy.w
+	const leftEnemy = enemy.x
+
+	const upMokepon = pMokeponObj.y
+	const downMokepon = pMokeponObj.y + pMokeponObj.h
+	const rightMokepon = pMokeponObj.x + pMokeponObj.w
+	const leftMokepon = pMokeponObj.x
+
 	if(
-		pMokeponObj.top > enemy.bottom ||
-		pMokeponObj.bottom < enemy.top ||
-		pMokeponObj.left > enemy.right ||
-		pMokeponObj.right < enemy.left
-	){
+		downMokepon < upEnemy ||
+		upMokepon > downEnemy ||
+		rightMokepon < leftEnemy ||
+		leftMokepon > rightEnemy
+	) {
 		return
 	}
 	clearInterval(interval)
+	enemyId = enemy.id
 	sectionSeeMap.style.display = 'none'
 	selectAttack.style.display = 'flex'
 	battleSection.style.display= 'flex'

@@ -20,6 +20,9 @@ class Player {
 		this.x = x
 		this.y = y
 	}
+	assignAttacks(attacks){
+		this.attacks = attacks
+	}
 }
 
 class Mokepon {
@@ -73,6 +76,21 @@ app.post("/mokepon/:playerId/position", (req, res) => {
 	res.send({
 		enemies
 	})
+})
+
+app.post("/mokepon/:playerId/attacks", (req, res) => {
+	const playerId = req.params.playerId || ""
+	const attacks = req.body.mokepon || []
+	
+	const playerIndex = players.findIndex((player) => playerId === player.id)
+
+	if(playerIndex >= 0){
+		players[playerIndex].assignAttacks(attacks)
+	}
+
+	console.log(players)
+	console.log(playerId)
+	res.end()
 })
 
 app.listen(8080, () => {
