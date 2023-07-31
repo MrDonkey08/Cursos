@@ -58,7 +58,8 @@ map.width = mapMaxWidth * sizeScale
 map.height = mapMaxHeight * sizeScale
 
 class mokepon{ // we set a prototype (class in other languages) with class
-	constructor(name, image, mapPhoto, live, w, h){ 
+	constructor(name, image, mapPhoto, live, w, h, id = null){
+		this.id = id 
 		this.name = name
 		this.image = image
 		this.live = live
@@ -99,62 +100,38 @@ class mokepon{ // we set a prototype (class in other languages) with class
 }
 
 // Objects
+
+const acinonyxAttacks = [
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+]
+
+const piwithAttacks = [
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+]
+
+const berryAttacks = [
+	{ name: '🔥', id: 'fire-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+]
+
 const acinonyx = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290)
 const piwith = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283)
 const berry = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238)
 
-const acinonyxEnemy = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290)
-const piwithEnemy = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283)
-const berryEnemy = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238)
-
-
-acinonyx.attacks.push(
-	{ name: '🔥', id: 'fire-btn'},
-	{ name: '🔥', id: 'fire-btn'},
-	{ name: '🔥', id: 'fire-btn'},
-	{ name: '💧', id: 'water-btn'},
-	{ name: '🌱', id: 'ground-btn'},
-)
-
-piwith.attacks.push(
-	{ name: '🔥', id: 'fire-btn'},
-	{ name: '💧', id: 'water-btn'},
-	{ name: '💧', id: 'water-btn'},
-	{ name: '💧', id: 'water-btn'},
-	{ name: '🌱', id: 'ground-btn'},
-)
-
-berry.attacks.push(
-	{ name: '🔥', id: 'fire-btn'},
-	{ name: '💧', id: 'water-btn'},
-	{ name: '🌱', id: 'ground-btn'},
-	{ name: '🌱', id: 'ground-btn'},
-	{ name: '🌱', id: 'ground-btn'},
-)
-
-acinonyxEnemy.attacks.push(
-	{ name: '🔥', id: 'fire-btn'},
-	{ name: '🔥', id: 'fire-btn'},
-	{ name: '🔥', id: 'fire-btn'},
-	{ name: '💧', id: 'water-btn'},
-	{ name: '🌱', id: 'ground-btn'},
-)
-
-piwithEnemy.attacks.push(
-	{ name: '🔥', id: 'fire-btn'},
-	{ name: '💧', id: 'water-btn'},
-	{ name: '💧', id: 'water-btn'},
-	{ name: '💧', id: 'water-btn'},
-	{ name: '🌱', id: 'ground-btn'},
-)
-
-berryEnemy.attacks.push(
-	{ name: '🔥', id: 'fire-btn'},
-	{ name: '💧', id: 'water-btn'},
-	{ name: '🌱', id: 'ground-btn'},
-	{ name: '🌱', id: 'ground-btn'},
-	{ name: '🌱', id: 'ground-btn'},
-)
+acinonyx.attacks.push(...acinonyxAttacks)
+piwith.attacks.push(...piwithAttacks)
+berry.attacks.push(...berryAttacks)
 
 mokepons.push(acinonyx, piwith, berry)
 
@@ -400,27 +377,52 @@ function drawCanvas(){
 	sendPosition(pMokeponObj.x, pMokeponObj.y)
 
 	pMokeponObj.drawMokepon()
-	acinonyxEnemy.drawMokepon()
-	piwithEnemy.drawMokepon()
-	berryEnemy.drawMokepon()
 
 	if(pMokeponObj.velX !== 0 || pMokeponObj.velY !== 0){
-		checkColision(acinonyxEnemy)
+		/*checkColision(acinonyxEnemy)
 		checkColision(piwithEnemy)
-		checkColision(berryEnemy)
+		checkColision(berryEnemy)*/
 	}
 }
 
 function sendPosition(x, y){
-	fetch(`http://localhost:8080/mokepon/${pMokepon}/position`, {
+	fetch(`http://localhost:8080/mokepon/${playerId}/position`, {
 		method: "post",
 		headers: {
-			"Content-type": "application/json"
+			"Content-Type": "application/json"
 		},
 		body: JSON.stringify({
 			x, // when the code and the value are the same we can just write the value; so x it's equal to x: x
 			y
 		})
+	})
+	.then(function (res){
+		if(res.ok){
+			res.json()
+				.then(function( {enemies }){
+					console.log(enemies)
+					enemies.forEach(function (enemy){
+						const mokeponName = enemy.mokepon.name
+						let enemyMokepon = null
+						switch(mokeponName){
+							case "Acinonyx":
+								enemyMokepon = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290)
+								break
+							case "Piwith":
+								enemyMokepon = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283)
+								break 
+							case "Berry":
+								enemyMokepon = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238)
+								break
+						}
+						enemyMokepon.x = enemy.x
+						enemyMokepon.y = enemy.y
+
+						enemyMokepon.drawMokepon()
+
+					})
+				})
+		}
 	})
 }
 
