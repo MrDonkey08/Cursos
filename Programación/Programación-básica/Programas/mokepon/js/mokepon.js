@@ -27,6 +27,7 @@ const mapMaxHeight = 600
 
 let plyaerId = null
 let mokepons = []
+let enemiesMokepons = []
 let pMokepon
 let pMokeponObj
 let playersAttack = []
@@ -373,10 +374,14 @@ function drawCanvas(){
 		0,
 		map.width,
 		map.height
-		)
+	)
+	pMokeponObj.drawMokepon()
+
 	sendPosition(pMokeponObj.x, pMokeponObj.y)
 
-	pMokeponObj.drawMokepon()
+	enemiesMokepons.forEach(function (mokepon){
+		mokepon.drawMokepon()
+	})
 
 	if(pMokeponObj.velX !== 0 || pMokeponObj.velY !== 0){
 		/*checkColision(acinonyxEnemy)
@@ -401,7 +406,7 @@ function sendPosition(x, y){
 			res.json()
 				.then(function( {enemies }){
 					console.log(enemies)
-					enemies.forEach(function (enemy){
+					enemiesMokepons = enemies.map(function (enemy){
 						const mokeponName = enemy.mokepon.name
 						let enemyMokepon = null
 						switch(mokeponName){
@@ -418,7 +423,7 @@ function sendPosition(x, y){
 						enemyMokepon.x = enemy.x
 						enemyMokepon.y = enemy.y
 
-						enemyMokepon.drawMokepon()
+						return enemyMokepon
 
 					})
 				})
