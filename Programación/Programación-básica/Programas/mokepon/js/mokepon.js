@@ -127,9 +127,9 @@ const berryAttacks = [
 	{ name: '🌱', id: 'ground-btn'},
 ]
 
-const acinonyx = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290, enemy.id)
-const piwith = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283, enemy.id)
-const berry = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238, enemy.id)
+const acinonyx = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290)
+const piwith = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283)
+const berry = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238)
 
 acinonyx.attacks.push(...acinonyxAttacks)
 piwith.attacks.push(...piwithAttacks)
@@ -260,7 +260,9 @@ function attackSequence(){
 			}
 			btn.style.background = '#8051b6'
 			btn.disabled = true
-			sendAttacks()
+			if(playersAttack.length === 5){
+				sendAttacks()
+			}
 		})
 	})
 }
@@ -268,57 +270,72 @@ function attackSequence(){
 function sendAttacks(){
 	fetch(`http://localhost:8080/mokepon/${playerId}/attacks`, {
 		method: "post",
-		headears: {
+		headers: {
 			"Content-Type": "application/json"
 		},
 		body: JSON.stringify({
 			attacks: playersAttack
 		})
 	})
+
+	interval = setInterval(getAttacks, 50)
 }
 
+function getAttacks(){
+	fetch(`http://localhost:8080/mokepon/${enemyId}/attacks`)
+		.then(function (res){
+			if(res.ok){
+				res.json()
+				.then(function({ attacks }){
+					if(attacks.length === 5){
+						enemysAttack = attacks
+						battle()
+					}
+				})
+			}
+		})
+}
 
 function battle(){
-	let used = playersAttack.length - 1
-	if(used < 4){
-		roundWinner(used)
-		createMessage(used)
+	clearInterval(interval)
+	for (i = 0; i < 4; i++) {
+		roundWinner(i)
+		createMessage(i)
+	}
+
+	if(victories > defeats){
+		battleResult("Congrulations! You win. You're the champion!")
+	}
+	else if(victories < defeats){
+		battleResult('You lost the battle, but not the war. Keep going.')
 	}
 	else{
-		if(victories > defeats){
-			battleResult("Congrulations! You win. You're the champion!")
-		}
-		else if(victories < defeats){
-			battleResult('You lost the battle, but not the war. Keep going.')
-		}
-		else{
-			battleResult("Awesome! It's a draw. Let's try again.")
-		}
+		battleResult("Awesome! It's a draw. Let's try again.")
 	}
 }
 
-function createMessage(used){ 
+function createMessage(i){ 
 	let playersAttackP = document.createElement('p')
 	let battleMessageP = document.createElement('p')
 	let enemysAttackP = document.createElement('p')
 
-	playersAttackP.innerHTML = playersAttack[used]
+	playersAttackP.innerHTML = playersAttack[i]
 	battleMessageP.innerHTML = winnerMessage
-	enemysAttackP.innerHTML = enemysAttack[used]
+	enemysAttackP.innerHTML = enemysAttack[i]
 
 	playersCard.appendChild(playersAttackP)
 	resultCard.appendChild(battleMessageP)
 	enemysCard.appendChild(enemysAttackP)
 }
 
-function roundWinner(used){
+function roundWinner(i){
 	switch(true){
-		case playersAttack[used] === enemysAttack[used]:
+		case playersAttack[i] === enemysAttack[i]:
 			winnerMessage = 'Draw' 
 			break
-		case playersAttack[used] === 'Water' && enemysAttack[used] === 'Fire':
-		case playersAttack[used] === 'Fire' && enemysAttack[used] === 'Ground':
-		case playersAttack[used] === 'Ground' && enemysAttack[used] === 'Water':
+		case playersAttack[i] === 'Water' && enemysAttack[i] === 'Fire':
+		case playersAttack[i] === 'Fire' && enemysAttack[i] === 'Ground':
+		case playersAttack[i] === 'Ground' && enemysAttack[i] === 'Water':
 			winnerMessage = 'Win'
 			victories += 1
 			victoriesTxt.innerHTML = victories
@@ -406,13 +423,13 @@ function sendPosition(x, y){
 						let enemyMokepon = null
 						switch(mokeponName){
 							case "Acinonyx":
-								enemyMokepon = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290)
+								enemyMokepon = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290, enemy.id)
 								break
 							case "Piwith":
-								enemyMokepon = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283)
+								enemyMokepon = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283, enemy.id)
 								break 
 							case "Berry":
-								enemyMokepon = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238)
+								enemyMokepon = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238, enemy.id)
 								break
 						}
 						enemyMokepon.x = enemy.x

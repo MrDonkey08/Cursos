@@ -52,9 +52,7 @@ app.post("/mokepon/:playerId", (req, res) => {
 	if(playerIndex >= 0){
 		players[playerIndex].assignMokepon(mokepon)
 	}
-
-	console.log(players)
-	console.log(playerId)
+	
 	res.end()
 })
 
@@ -71,8 +69,6 @@ app.post("/mokepon/:playerId/position", (req, res) => {
 
 	const enemies = players.filter((player) => playerId !== player.id)
 
-	console.log(enemies)
-
 	res.send({
 		enemies
 	})
@@ -80,17 +76,23 @@ app.post("/mokepon/:playerId/position", (req, res) => {
 
 app.post("/mokepon/:playerId/attacks", (req, res) => {
 	const playerId = req.params.playerId || ""
-	const attacks = req.body.mokepon || []
+	const attacks = req.body.attacks || []
 	
 	const playerIndex = players.findIndex((player) => playerId === player.id)
 
 	if(playerIndex >= 0){
 		players[playerIndex].assignAttacks(attacks)
 	}
-
-	console.log(players)
-	console.log(playerId)
 	res.end()
+})
+
+app.get("/mokepon/:playerId/attacks", (req, res) => {
+	const playerId = req.params.playerId || ""
+	const player = players.find((player) => player.id === playerId)
+
+	res.send({
+		attacks: player.attacks || []
+	})
 })
 
 app.listen(8080, () => {
