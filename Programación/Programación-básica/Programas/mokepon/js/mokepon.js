@@ -397,15 +397,31 @@ function drawCanvas(){
 		map.width,
 		map.height
 		)
-		pMokeponObj.drawMokepon()
-		acinonyxEnemy.drawMokepon()
-		piwithEnemy.drawMokepon()
-		berryEnemy.drawMokepon()
+	sendPosition(pMokeponObj.x, pMokeponObj.y)
+
+	pMokeponObj.drawMokepon()
+	acinonyxEnemy.drawMokepon()
+	piwithEnemy.drawMokepon()
+	berryEnemy.drawMokepon()
+
 	if(pMokeponObj.velX !== 0 || pMokeponObj.velY !== 0){
 		checkColision(acinonyxEnemy)
 		checkColision(piwithEnemy)
 		checkColision(berryEnemy)
 	}
+}
+
+function sendPosition(x, y){
+	fetch(`http://localhost:8080/mokepon/${pMokepon}/position`, {
+		method: "post",
+		headers: {
+			"Content-type": "application/json"
+		},
+		body: JSON.stringify({
+			x, // when the code and the value are the same we can just write the value; so x it's equal to x: x
+			y
+		})
+	})
 }
 
 function moveUp(){
