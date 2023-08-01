@@ -109,7 +109,6 @@ class mokepon{ // we set a prototype (class in other languages) with class
 }
 
 // Objects
-
 const chefsaurioAttacks = [
 	{ name: '🔥', id: 'fire-btn'},
 	{ name: '🔥', id: 'fire-btn'},
@@ -173,13 +172,13 @@ const pilotosaurioAttacks = [
 	{ name: '🔥', id: 'fire-btn'},
 ]
 
-const chefsaurio = new mokepon('Chefsaurio', './assets/Chefsaurio.png', 249, 290)
-const bomberosaurio = new mokepon('Bomberosaurio', './assets/Bomberosaurio.png', 146, 283)
-const obrerosaurio = new mokepon('Obrerosaurio', './assets/Obrerosaurio.png', 229, 238)
-const electromecanicosaurio = new mokepon('Electromecanicosaurio', './assets/Electromecanicosaurio.png', 229, 238)
-const electrosaurio = new mokepon('Electrosaurio', './assets/Electrosaurio.png', 229, 238)
-const doctorsaurio = new mokepon('Doctorsaurio', './assets/Doctorsaurio.png', 229, 238)
-const pilotosaurio = new mokepon('Pilotosaurio', './assets/Pilotosaurio.png', 229, 238)
+const chefsaurio = new mokepon('Chefsaurio', './assets/Chefsaurio.png', 505, 639)
+const bomberosaurio = new mokepon('Bomberosaurio', './assets/Bomberosaurio.png', 252, 489)
+const obrerosaurio = new mokepon('Obrerosaurio', './assets/Obrerosaurio.png', 788, 1000)
+const electromecanicosaurio = new mokepon('Electromecanicosaurio', './assets/Electromecanicosaurio.png', 309,442)
+const electrosaurio = new mokepon('Electrosaurio', './assets/Electrosaurio.png', 243, 227)
+const doctorsaurio = new mokepon('Doctorsaurio', './assets/Doctorsaurio.png', 527, 634)
+const pilotosaurio = new mokepon('Pilotosaurio', './assets/Pilotosaurio.png', 591, 619)
 
 chefsaurio.attacks.push(...chefsaurioAttacks)
 bomberosaurio.attacks.push(...bomberosaurioAttacks)
@@ -515,19 +514,8 @@ function battleResult(result){
 
 	messages.appendChild(paragraph)
 
-	disableAttackButtons()
 	messages.style.display = 'flex'
 	restartBtn.style.display = 'block'
-}
-
-function disableAttackButtons(){
-	fireBtn.disabled = true
-	waterBtn.disabled = true
-	groundBtn.disabled = true
-	metalBtn.disabled = true
-	electricityBtn.disabled = true
-	poisonBtn.disabled = true
-	windBtn.disabled = true
 }
 
 function restartGame(){
@@ -589,25 +577,25 @@ function sendPosition(x, y){
 
 						switch(mokeponName){
 							case "Chefsaurio":
-								enemyMokepon = new mokepon('Chefsaurio', './assets/Chefsaurio.png', 249, 290, enemy.id)
+								enemyMokepon = new mokepon('Chefsaurio', './assets/Chefsaurio.png', 505, 639, enemy.id)
 								break
 							case "Bomberosaurio":
-								enemyMokepon = new mokepon('Bomberosaurio', './assets/Bomberosaurio.png', 146, 283, enemy.id)
+								enemyMokepon = new mokepon('Bomberosaurio', './assets/Bomberosaurio.png', 252, 489, enemy.id)
 								break 
 							case "Obrerosaurio":
-								enemyMokepon = new mokepon('Obrerosaurio', './assets/Obrerosaurio.png', 229, 238, enemy.id)
+								enemyMokepon = new mokepon('Obrerosaurio', './assets/Obrerosaurio.png', 788, 1000, enemy.id)
 								break
 							case "Electromecanicosaurio":
-								enemyMokepon = new mokepon('Electromecanicosaurio', './assets/Electromecanicosaurio.png', 229, 238, enemy.id)
+								enemyMokepon = new mokepon('Electromecanicosaurio', './assets/Electromecanicosaurio.png', 309,442, enemy.id)
 								break
 							case "Electrosaurio":
-								enemyMokepon = new mokepon('Electrosaurio', './assets/Electrosaurio.png', 229, 238, enemy.id)
+								enemyMokepon = new mokepon('Electrosaurio', './assets/Electrosaurio.png', 243, 227, enemy.id)
 								break
 							case "Doctorsaurio":
-								enemyMokepon = new mokepon('Doctorsaurio', './assets/Doctorsaurio.png', 229, 238, enemy.id)
+								enemyMokepon = new mokepon('Doctorsaurio', './assets/Doctorsaurio.png', 527, 634, enemy.id)
 								break
 							case "Pilotosaurio":
-								enemyMokepon = new mokepon('Pilotosaurio', './assets/Pilotosaurio.png', 229, 238, enemy.id)
+								enemyMokepon = new mokepon('Pilotosaurio', './assets/Pilotosaurio.png', 591, 619, enemy.id)
 								break
 						}
 						
@@ -615,7 +603,6 @@ function sendPosition(x, y){
 						enemyMokepon.y = enemy.y || 0
 
 						return enemyMokepon
-
 					})
 				})
 		}
