@@ -37,7 +37,11 @@ h2{ /* type selector | display:block */
 	justify-content: center;
 }
 
-#map-h2{
+#battle h2{
+	margin: 20px 0px 20px 0px;
+}
+
+#see-map h2{
 	width: 585px;
 }
 
@@ -66,7 +70,11 @@ button{ /* inline-block.*/
 
 #cards-box {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	max-width: 900px;
 }
 
 .mokepon-name{
@@ -155,13 +163,18 @@ button{ /* inline-block.*/
 }
 
 #battle-cards{
+	font-size: 14px;
 	background: slategray;
 	margin: 10px 10px 10px 10px;
 	border-radius: 10px;
 
 	display: grid;
-	grid-template-columns: 130px 70px 130px;
+	grid-template-columns: auto 70px auto;
 	justify-items: center;
+}
+
+#battle-cards div{
+	padding: 10px;
 }
 
 .battle-card{
@@ -187,12 +200,6 @@ button{ /* inline-block.*/
 	#see-map div{
 	display: flex;
 	flex-direction: column;
-	}
-}
-
-@media(min-width: 860px){
-	#cards-box{
-		flex-direction: row;
 	}
 }
 
