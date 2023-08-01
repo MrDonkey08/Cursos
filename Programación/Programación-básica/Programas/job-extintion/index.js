@@ -12,8 +12,8 @@ class Player {
 	constructor(id){
 		this.id = id
 	}
-	assignMokepon(mokepon){
-		this.mokepon = mokepon
+	assignDino(dino){
+		this.dino = dino
 	}
 	updatePosition(x, y){
 		this.x = x
@@ -24,7 +24,7 @@ class Player {
 	}
 }
 
-class Mokepon {
+class Dino {
 	constructor(name){
 		this.name = name
 	}
@@ -41,21 +41,21 @@ app.get("/join", (req, res) => { // where req is the request and res the object 
 	res.send(id)
 }) // .get for client's requests
 
-app.post("/mokepon/:playerId", (req, res) => {
+app.post("/dino/:playerId", (req, res) => {
 	const playerId = req.params.playerId || ""
-	const name = req.body.mokepon || ""
-	const mokepon = new Mokepon(name)
+	const name = req.body.dino || ""
+	const dino = new Dino(name)
 	
 	const playerIndex = players.findIndex((player) => playerId === player.id)
 
 	if(playerIndex >= 0){
-		players[playerIndex].assignMokepon(mokepon)
+		players[playerIndex].assignDino(dino)
 	}
 
 	res.end()
 })
 
-app.post("/mokepon/:playerId/position", (req, res) => {
+app.post("/dino/:playerId/position", (req, res) => {
 	const playerId = req.params.playerId || ""
 	const x = req.body.x || 0
 	const y = req.body.y || 0
@@ -73,7 +73,7 @@ app.post("/mokepon/:playerId/position", (req, res) => {
 	})
 })
 
-app.post("/mokepon/:playerId/attacks", (req, res) => {
+app.post("/dino/:playerId/attacks", (req, res) => {
 	const playerId = req.params.playerId || ""
 	const attacks = req.body.attacks || []
 	
@@ -85,7 +85,7 @@ app.post("/mokepon/:playerId/attacks", (req, res) => {
 	res.end()
 })
 
-app.get("/mokepon/:playerId/attacks", (req, res) => {
+app.get("/dino/:playerId/attacks", (req, res) => {
 	const playerId = req.params.playerId || ""
 	const player = players.find((player) => player.id === playerId)
 

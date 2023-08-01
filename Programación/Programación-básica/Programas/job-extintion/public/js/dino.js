@@ -3,13 +3,13 @@ const selectAttack = document.getElementById('select-attack')
 const battleSection = document.getElementById('battle')
 const messages = document.getElementById('messages')
 
-const mokeponBtn = document.getElementById('btn-mokepon')
+const dinoBtn = document.getElementById('btn-dino')
 const attackBtns = document.getElementById('attack-buttons')
 
-const playersMokepon = document.getElementById('players-mokepon')
+const playersDino = document.getElementById('players-dino')
 
-const selectMokepon = document.getElementById('select-mokepon')
-const enemysMokepon = document.getElementById('enemys-mokepon')
+const selectDino = document.getElementById('select-dino')
+const enemysDino = document.getElementById('enemys-dino')
 
 const victoriesTxt = document.getElementById('players-wins')
 const defeatsTxt = document.getElementById('enemys-wins')
@@ -27,10 +27,10 @@ const mapMaxHeight = 600
 
 let playerId = null
 let enemyId = null
-let mokepons = []
-let enemiesMokepons = []
-let pMokepon
-let pMokeponObj
+let dinos = []
+let enemiesDinos = []
+let pDino
+let pDinoObj
 let playersAttack = []
 let enemysAttack = []
 let enemysAttacks
@@ -68,7 +68,7 @@ map.width = mapMaxWidth * sizeScale
 
 map.height = mapMaxHeight * sizeScale
 
-class mokepon{ // we set a prototype (class in other languages) with class
+class dino{ // we set a prototype (class in other languages) with class
 	constructor(name, image, w, h, id = null){
 		this.id = id 
 		this.name = name
@@ -91,7 +91,7 @@ class mokepon{ // we set a prototype (class in other languages) with class
 		this.top = this.y
 		this.bottom = this.y + this.h
 	}
-	drawMokepon(){
+	drawDino(){
 		lienzo.drawImage( //.fillRect creates a Rectangle; the 1st parameter is x-axis, the 2nd is the y-axis, 3rd width and 4th height
 		this.mapImage,
 		this.x * sizeScale, 
@@ -166,13 +166,13 @@ const pilotosaurioAttacks = [
 	{ name: '🔥', id: 'fire-btn'},
 ]
 
-const chefsaurio = new mokepon('Chefsaurio', './assets/Chefsaurio.png', 505, 639)
-const bomberosaurio = new mokepon('Bomberosaurio', './assets/Bomberosaurio.png', 252, 489)
-const obrerosaurio = new mokepon('Obrerosaurio', './assets/Obrerosaurio.png', 788, 1000)
-const electromecanicosaurio = new mokepon('Electromecanicosaurio', './assets/Electromecanicosaurio.png', 309,442)
-const electrosaurio = new mokepon('Electrosaurio', './assets/Electrosaurio.png', 243, 227)
-const doctorsaurio = new mokepon('Doctorsaurio', './assets/Doctorsaurio.png', 527, 634)
-const pilotosaurio = new mokepon('Pilotosaurio', './assets/Pilotosaurio.png', 591, 619)
+const chefsaurio = new dino('Chefsaurio', './assets/Chefsaurio.png', 505, 639)
+const bomberosaurio = new dino('Bomberosaurio', './assets/Bomberosaurio.png', 252, 489)
+const obrerosaurio = new dino('Obrerosaurio', './assets/Obrerosaurio.png', 788, 1000)
+const electromecanicosaurio = new dino('Electromecanicosaurio', './assets/Electromecanicosaurio.png', 309,442)
+const electrosaurio = new dino('Electrosaurio', './assets/Electrosaurio.png', 243, 227)
+const doctorsaurio = new dino('Doctorsaurio', './assets/Doctorsaurio.png', 527, 634)
+const pilotosaurio = new dino('Pilotosaurio', './assets/Pilotosaurio.png', 591, 619)
 
 chefsaurio.attacks.push(...chefsaurioAttacks)
 bomberosaurio.attacks.push(...bomberosaurioAttacks)
@@ -183,15 +183,15 @@ doctorsaurio.attacks.push(...doctorsaurioAttacks)
 pilotosaurio.attacks.push(...pilotosaurioAttacks)
 
 
-mokepons.push(chefsaurio, bomberosaurio, obrerosaurio, electromecanicosaurio, electrosaurio, doctorsaurio, pilotosaurio)
+dinos.push(chefsaurio, bomberosaurio, obrerosaurio, electromecanicosaurio, electrosaurio, doctorsaurio, pilotosaurio)
 
 function startGame(){
-	mokepons.forEach((mokepon) =>{
+	dinos.forEach((dino) =>{
 		cardsBox.innerHTML +=`
-			<input type="radio" name="mokepon" id=${mokepon.name} />
-			<label class="mokepon-card" for=${mokepon.name} id=${mokepon.name}-card>
-				<p class="mokepon-name">${mokepon.name}</p>
-				<img src=${mokepon.image} alt=${mokepon.name}>
+			<input type="radio" name="dino" id=${dino.name} />
+			<label class="dino-card" for=${dino.name} id=${dino.name}-card>
+				<p class="dino-name">${dino.name}</p>
+				<img src=${dino.image} alt=${dino.name}>
 			</label> 
 				`
 	})
@@ -211,13 +211,13 @@ function startGame(){
 	messages.style.display = 'none'
 
 	restartBtn.addEventListener('click', restartGame)
-	mokeponBtn.addEventListener('click', selectMokepons)
+	dinoBtn.addEventListener('click', selectDinos)
 
 	joinGame()
 }
 
 function joinGame(){
-	fetch("http://dorotyscomputer.local:8080/join")
+	fetch("http://localhost:8080/join")
 		.then(function(res){
 			if(res.ok){
 				res.text()
@@ -228,52 +228,52 @@ function joinGame(){
 		})
 }
 
-function selectMokepons(){
+function selectDinos(){
 	if (inputChefsaurio.checked){ // .checked returns true if the element is selected
-		pMokepon = inputChefsaurio.id
+		pDino = inputChefsaurio.id
 	}
 	else if (inputBomberosaurio.checked){
-		pMokepon = inputBomberosaurio.id
+		pDino = inputBomberosaurio.id
 	}
 	else if (inputObrerosaurio.checked){
-		pMokepon = inputObrerosaurio.id
+		pDino = inputObrerosaurio.id
 	}
 	else if (inputElectromecanicosaurio.checked){
-		pMokepon = inputElectromecanicosaurio.id
+		pDino = inputElectromecanicosaurio.id
 	}
 	else if (inputElectrosaurio.checked){
-		pMokepon = inputElectrosaurio.id
+		pDino = inputElectrosaurio.id
 	}
 	else if (inputDoctorsaurio.checked){
-		pMokepon = inputDoctorsaurio.id
+		pDino = inputDoctorsaurio.id
 	}
 	else if (inputPilotosaurio.checked){
-		pMokepon = inputPilotosaurio.id
+		pDino = inputPilotosaurio.id
 	}
 	else{
-		alert("You haven't choose a mokepon.")
+		alert("You haven't choose a dino.")
 		return
 	}
 
-		playersMokepon.innerHTML = pMokepon
-		selectedMokepon()
+		playersDino.innerHTML = pDino
+		selectedDino()
 
-		alert("You choose " + pMokepon)
-		pMokeponObj = pMokeponObject()
-		mokeponAttacks()
+		alert("You choose " + pDino)
+		pDinoObj = pDinoObject()
+		dinoAttacks()
 		startMap()
-		selectMokepon.style.display = 'none'
+		selectDino.style.display = 'none'
 		sectionSeeMap.style.display = 'flex'
 }
 
-function selectedMokepon(){
-	fetch(`http://dorotyscomputer.local:8080/mokepon/${playerId}`, {
+function selectedDino(){
+	fetch(`http://localhost:8080/dino/${playerId}`, {
 		method: "post",
 		headers: {
 			"Content-Type": "application/json"
 		},
 		body: JSON.stringify({
-			mokepon: pMokepon
+			dino: pDino
 		})
 	})
 }
@@ -282,17 +282,17 @@ function randomNum(min, max){ // returns a value between min and max
 	return Math.floor(Math.random() * (max - min + 1) + min) // Math.floor truncate (cut) the the decimal part and Math.random() returns a decimal number between 0 and 1.
 }
 
-function selectEnemysMokepon(enemy){
-	enemysMokepon.innerHTML = enemy.name
+function selectEnemysDino(enemy){
+	enemysDino.innerHTML = enemy.name
 	enemysAttacks = enemy.attacks
 }
 
-function mokeponAttacks(){
+function dinoAttacks(){
 	let attacks
 	
-	for (let i = 0; i < mokepons.length; i++){
-		if (pMokepon === mokepons[i].name){
-			attacks = mokepons[i].attacks
+	for (let i = 0; i < dinos.length; i++){
+		if (pDino === dinos[i].name){
+			attacks = dinos[i].attacks
 		} 
 	}
 	showAttacks(attacks)
@@ -340,7 +340,7 @@ function attackSequence(){
 }
 
 function sendAttacks(){
-	fetch(`http://dorotyscomputer.local:8080/mokepon/${playerId}/attacks`, {
+	fetch(`http://localhost:8080/dino/${playerId}/attacks`, {
 		method: "post",
 		headers: {
 			"Content-Type": "application/json"
@@ -354,7 +354,7 @@ function sendAttacks(){
 }
 
 function getAttacks(){
-	fetch(`http://dorotyscomputer.local:8080/mokepon/${enemyId}/attacks`)
+	fetch(`http://localhost:8080/dino/${enemyId}/attacks`)
 		.then(function (res){
 			if(res.ok){
 				res.json()
@@ -515,10 +515,10 @@ function restartGame(){
 	location.reload()
 }
 
-function pMokeponObject(){
-	for (i = 0; i < mokepons.length; i++) {
-		if (pMokepon === mokepons[i].name){
-			return mokepons[i]
+function pDinoObject(){
+	for (i = 0; i < dinos.length; i++) {
+		if (pDino === dinos[i].name){
+			return dinos[i]
 		}
 	}
 }
@@ -530,8 +530,8 @@ function startMap(){
 }
 
 function drawCanvas(){
-	pMokeponObj.x += pMokeponObj.velX
-	pMokeponObj.y += pMokeponObj.velY
+	pDinoObj.x += pDinoObj.velX
+	pDinoObj.y += pDinoObj.velY
 	lienzo.clearRect(0, 0, map.width, map.height)
 	lienzo.drawImage(mapBackground,
 		0,
@@ -539,18 +539,18 @@ function drawCanvas(){
 		map.width,
 		map.height
 	)
-	pMokeponObj.drawMokepon()
+	pDinoObj.drawDino()
 
-	sendPosition(pMokeponObj.x, pMokeponObj.y)
+	sendPosition(pDinoObj.x, pDinoObj.y)
 
-	enemiesMokepons.forEach(function (mokepon){
-		mokepon.drawMokepon()
-		checkColision(mokepon)
+	enemiesDinos.forEach(function (dino){
+		dino.drawDino()
+		checkColision(dino)
 	})
 }
 
 function sendPosition(x, y){
-	fetch(`http://dorotyscomputer.local:8080/mokepon/${playerId}/position`, {
+	fetch(`http://localhost:8080/dino/${playerId}/position`, {
 		method: "post",
 		headers: {
 			"Content-Type": "application/json"
@@ -564,38 +564,38 @@ function sendPosition(x, y){
 		if(res.ok){
 			res.json()
 				.then(function( {enemies }){
-					enemiesMokepons = enemies.map(function (enemy){
-						const mokeponName = enemy.mokepon.name
-						let enemyMokepon = null
+					enemiesDinos = enemies.map(function (enemy){
+						const dinoName = enemy.dino.name
+						let enemyDino = null
 
-						switch(mokeponName){
+						switch(dinoName){
 							case "Chefsaurio":
-								enemyMokepon = new mokepon('Chefsaurio', './assets/Chefsaurio.png', 505, 639, enemy.id)
+								enemyDino = new dino('Chefsaurio', './assets/Chefsaurio.png', 505, 639, enemy.id)
 								break
 							case "Bomberosaurio":
-								enemyMokepon = new mokepon('Bomberosaurio', './assets/Bomberosaurio.png', 252, 489, enemy.id)
+								enemyDino = new dino('Bomberosaurio', './assets/Bomberosaurio.png', 252, 489, enemy.id)
 								break 
 							case "Obrerosaurio":
-								enemyMokepon = new mokepon('Obrerosaurio', './assets/Obrerosaurio.png', 788, 1000, enemy.id)
+								enemyDino = new dino('Obrerosaurio', './assets/Obrerosaurio.png', 788, 1000, enemy.id)
 								break
 							case "Electromecanicosaurio":
-								enemyMokepon = new mokepon('Electromecanicosaurio', './assets/Electromecanicosaurio.png', 309,442, enemy.id)
+								enemyDino = new dino('Electromecanicosaurio', './assets/Electromecanicosaurio.png', 309,442, enemy.id)
 								break
 							case "Electrosaurio":
-								enemyMokepon = new mokepon('Electrosaurio', './assets/Electrosaurio.png', 243, 227, enemy.id)
+								enemyDino = new dino('Electrosaurio', './assets/Electrosaurio.png', 243, 227, enemy.id)
 								break
 							case "Doctorsaurio":
-								enemyMokepon = new mokepon('Doctorsaurio', './assets/Doctorsaurio.png', 527, 634, enemy.id)
+								enemyDino = new dino('Doctorsaurio', './assets/Doctorsaurio.png', 527, 634, enemy.id)
 								break
 							case "Pilotosaurio":
-								enemyMokepon = new mokepon('Pilotosaurio', './assets/Pilotosaurio.png', 591, 619, enemy.id)
+								enemyDino = new dino('Pilotosaurio', './assets/Pilotosaurio.png', 591, 619, enemy.id)
 								break
 						}
 						
-						enemyMokepon.x = enemy.x || 0
-						enemyMokepon.y = enemy.y || 0
+						enemyDino.x = enemy.x || 0
+						enemyDino.y = enemy.y || 0
 
-						return enemyMokepon
+						return enemyDino
 					})
 				})
 		}
@@ -603,23 +603,23 @@ function sendPosition(x, y){
 }
 
 function moveUp(){
-	pMokeponObj.velY = -5 * sizeScale
+	pDinoObj.velY = -5 * sizeScale
 }
 
 function moveLeft(){
-	pMokeponObj.velX = -5 * sizeScale
+	pDinoObj.velX = -5 * sizeScale
 }
 
 function moveDown(){
-	pMokeponObj.velY = 5 * sizeScale
+	pDinoObj.velY = 5 * sizeScale
 }
 
 function moveRight(){
-	pMokeponObj.velX = 5 * sizeScale
+	pDinoObj.velX = 5 * sizeScale
 }
 
 function stopMovement(){
-	pMokeponObj.velX = pMokeponObj.velY = 0
+	pDinoObj.velX = pDinoObj.velY = 0
 }
 
 function keyPressed(event){ 
@@ -643,16 +643,16 @@ function checkColision(enemy){
 	const rightEnemy = enemy.x + enemy.w
 	const leftEnemy = enemy.x
 
-	const upMokepon = pMokeponObj.y
-	const downMokepon = pMokeponObj.y + pMokeponObj.h
-	const rightMokepon = pMokeponObj.x + pMokeponObj.w
-	const leftMokepon = pMokeponObj.x
+	const upDino = pDinoObj.y
+	const downDino = pDinoObj.y + pDinoObj.h
+	const rightDino = pDinoObj.x + pDinoObj.w
+	const leftDino = pDinoObj.x
 
 	if(
-		downMokepon < upEnemy ||
-		upMokepon > downEnemy ||
-		rightMokepon < leftEnemy ||
-		leftMokepon > rightEnemy
+		downDino < upEnemy ||
+		upDino > downEnemy ||
+		rightDino < leftEnemy ||
+		leftDino > rightEnemy
 	) {
 		return
 	}
@@ -661,7 +661,7 @@ function checkColision(enemy){
 	sectionSeeMap.style.display = 'none'
 	selectAttack.style.display = 'flex'
 	battleSection.style.display= 'flex'
-	selectEnemysMokepon(enemy)
+	selectEnemysDino(enemy)
 	window.removeEventListener('keydown', keyPressed)
 	window.removeEventListener('keyup', stopMovement)
 }
