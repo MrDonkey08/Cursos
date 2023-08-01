@@ -10,6 +10,11 @@ body{
 	background-color: #272424;
 }
 
+#cards-box img{
+	height: 228px;
+	width: auto;
+}
+
 h1{ /* type selector | display:block: It takes up the entire available width. It's resizable. */
 	font-size: 40px;
 	color: #d79921;
@@ -71,7 +76,7 @@ button{ /* inline-block.*/
 .mokepon-card{
 	font-size: 24px;
 	width: 260px;
-	height: 220px;
+	height: 300px;
 	padding: 20px;
 	box-sizing: border-box;
 	margin: 11px;
@@ -155,7 +160,7 @@ button{ /* inline-block.*/
 	border-radius: 10px;
 
 	display: grid;
-	grid-template-columns: 100px 100px 100px;
+	grid-template-columns: 130px 70px 130px;
 	justify-items: center;
 }
 

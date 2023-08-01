@@ -37,17 +37,26 @@ let enemysAttacks
 let victories = 0
 let defeats = 0
 let winnerMessage
-let inputAcinonyx
-let inputPiwith
-let inputBerry
+let inputChefsaurio
+let inputBomberosaurio
+let inputObrerosaurio
+let inputElectromecanicosaurio
+let inputElectrosaurio
+let inputDoctorsaurio
+let inputPilotosaurio
 let fireBtn
 let waterBtn
 let groundBtn
+let metalBtn
+let electricityBtn
+let poisonBtn
+let windBtn
+
 let btns = []
 let lienzo = map.getContext("2d")
 let interval
 let mapBackground = new Image()
-mapBackground.src = './assets/mokemap.png'
+mapBackground.src = './assets/map.jpeg'
 
 let sizeScale = 1
 
@@ -60,21 +69,19 @@ map.width = mapMaxWidth * sizeScale
 map.height = mapMaxHeight * sizeScale
 
 class mokepon{ // we set a prototype (class in other languages) with class
-	constructor(name, image, mapPhoto, live, w, h, id = null){
+	constructor(name, image, w, h, id = null){
 		this.id = id 
 		this.name = name
 		this.image = image
-		this.live = live
-		this.mapPhoto = mapPhoto
 		this.attacks = []
 		
-		this.h = 110 * sizeScale // height
+		this.h = 90 * sizeScale // height
 		this.w = this.h * w / h  // width
 		this.x = randomNum(0, mapMaxWidth - this.w) // x-axis
 		this.y = randomNum(0, mapMaxHeight - this.h) // y-axis
 		
 		this.mapImage = new Image()
-		this.mapImage.src = mapPhoto
+		this.mapImage.src = image
 		
 		this.velX = 0
 		this.velY = 0
@@ -103,39 +110,87 @@ class mokepon{ // we set a prototype (class in other languages) with class
 
 // Objects
 
-const acinonyxAttacks = [
+const chefsaurioAttacks = [
 	{ name: '🔥', id: 'fire-btn'},
 	{ name: '🔥', id: 'fire-btn'},
 	{ name: '🔥', id: 'fire-btn'},
+	{ name: '☣️', id: 'poison-btn'},
+	{ name: '☣️', id: 'poison-btn'},
+	{ name: '🔩', id: 'metal-btn'},
+]
+
+const bomberosaurioAttacks = [
+	{ name: '💧', id: 'water-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '🌪️', id: 'wind-btn'},
+	{ name: '🌪️', id: 'wind-btn'},
+	{ name: '🔩', id: 'metal-btn'},
+]
+
+const obrerosaurioAttacks = [
+	{ name: '🌱', id: 'ground-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+	{ name: '🌱', id: 'ground-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '💧', id: 'water-btn'},
+	{ name: '⚡', id: 'electricity-btn'}
+]
+
+const electromecanicosaurioAttacks = [
+	{ name: '🔩', id: 'metal-btn'},
+	{ name: '🔩', id: 'metal-btn'},
+	{ name: '🔩', id: 'metal-btn'},
+	{ name: '⚡', id: 'electricity-btn'},
+	{ name: '⚡', id: 'electricity-btn'},
+	{ name: '🔥', id: 'fire-btn'},
+]
+
+const doctorsaurioAttacks = [
+	{ name: '☣️', id: 'poison-btn'},
+	{ name: '☣️', id: 'poison-btn'},
+	{ name: '☣️', id: 'poison-btn'},
+	{ name: '💧', id: 'water-btn'},
 	{ name: '💧', id: 'water-btn'},
 	{ name: '🌱', id: 'ground-btn'},
 ]
 
-const piwithAttacks = [
-	{ name: '🔥', id: 'fire-btn'},
-	{ name: '💧', id: 'water-btn'},
-	{ name: '💧', id: 'water-btn'},
-	{ name: '💧', id: 'water-btn'},
+const electrosaurioAttacks = [
+	{ name: '⚡', id: 'electricity-btn'},
+	{ name: '⚡', id: 'electricity-btn'},
+	{ name: '⚡', id: 'electricity-btn'},
+	{ name: '🔩', id: 'metal-btn'},
+	{ name: '🔩', id: 'metal-btn'},
 	{ name: '🌱', id: 'ground-btn'},
 ]
 
-const berryAttacks = [
+const pilotosaurioAttacks = [
+	{ name: '🌪️', id: 'wind-btn'},
+	{ name: '🌪️', id: 'wind-btn'},
+	{ name: '🌪️', id: 'wind-btn'},
+	{ name: '🔩', id: 'metal-btn'},
+	{ name: '🔩', id: 'metal-btn'},
 	{ name: '🔥', id: 'fire-btn'},
-	{ name: '💧', id: 'water-btn'},
-	{ name: '🌱', id: 'ground-btn'},
-	{ name: '🌱', id: 'ground-btn'},
-	{ name: '🌱', id: 'ground-btn'},
 ]
 
-const acinonyx = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290)
-const piwith = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283)
-const berry = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238)
+const chefsaurio = new mokepon('Chefsaurio', './assets/Chefsaurio.png', 249, 290)
+const bomberosaurio = new mokepon('Bomberosaurio', './assets/Bomberosaurio.png', 146, 283)
+const obrerosaurio = new mokepon('Obrerosaurio', './assets/Obrerosaurio.png', 229, 238)
+const electromecanicosaurio = new mokepon('Electromecanicosaurio', './assets/Electromecanicosaurio.png', 229, 238)
+const electrosaurio = new mokepon('Electrosaurio', './assets/Electrosaurio.png', 229, 238)
+const doctorsaurio = new mokepon('Doctorsaurio', './assets/Doctorsaurio.png', 229, 238)
+const pilotosaurio = new mokepon('Pilotosaurio', './assets/Pilotosaurio.png', 229, 238)
 
-acinonyx.attacks.push(...acinonyxAttacks)
-piwith.attacks.push(...piwithAttacks)
-berry.attacks.push(...berryAttacks)
+chefsaurio.attacks.push(...chefsaurioAttacks)
+bomberosaurio.attacks.push(...bomberosaurioAttacks)
+obrerosaurio.attacks.push(...obrerosaurioAttacks)
+electromecanicosaurio.attacks.push(...electromecanicosaurioAttacks)
+electrosaurio.attacks.push(...electrosaurioAttacks)
+doctorsaurio.attacks.push(...doctorsaurioAttacks)
+pilotosaurio.attacks.push(...pilotosaurioAttacks)
 
-mokepons.push(acinonyx, piwith, berry)
+
+mokepons.push(chefsaurio, bomberosaurio, obrerosaurio, electromecanicosaurio, electrosaurio, doctorsaurio, pilotosaurio)
 
 function startGame(){
 	mokepons.forEach((mokepon) =>{
@@ -148,9 +203,13 @@ function startGame(){
 				`
 	})
 
-	inputAcinonyx = document.getElementById('Acinonyx')
-	inputPiwith = document.getElementById('Piwith')
-	inputBerry = document.getElementById('Berry')
+	inputChefsaurio = document.getElementById('Chefsaurio')
+	inputBomberosaurio = document.getElementById('Bomberosaurio')
+	inputObrerosaurio = document.getElementById('Obrerosaurio')
+	inputElectromecanicosaurio = document.getElementById('Electromecanicosaurio')
+	inputElectrosaurio = document.getElementById('Electrosaurio')
+	inputDoctorsaurio = document.getElementById('Doctorsaurio')
+	inputPilotosaurio = document.getElementById('Pilotosaurio')
 
 	sectionSeeMap.style.display = 'none'
 	selectAttack.style.display = 'none'
@@ -177,14 +236,26 @@ function joinGame(){
 }
 
 function selectMokepons(){
-	if (inputAcinonyx.checked){ // .checked returns true if the element is selected
-		playersMokepon.innerHTML = inputAcinonyx.id
+	if (inputChefsaurio.checked){ // .checked returns true if the element is selected
+		playersMokepon.innerHTML = inputChefsaurio.id
 	}
-	else if (inputPiwith.checked){
-		playersMokepon.innerHTML = inputPiwith.id
+	else if (inputBomberosaurio.checked){
+		playersMokepon.innerHTML = inputBomberosaurio.id
 	}
-	else if (inputBerry.checked){
-		playersMokepon.innerHTML = inputBerry.id
+	else if (inputObrerosaurio.checked){
+		playersMokepon.innerHTML = inputObrerosaurio.id
+	}
+	else if (inputElectromecanicosaurio.checked){
+		playersMokepon.innerHTML = inputElectromecanicosaurio.id
+	}
+	else if (inputElectrosaurio.checked){
+		playersMokepon.innerHTML = inputElectrosaurio.id
+	}
+	else if (inputDoctorsaurio.checked){
+		playersMokepon.innerHTML = inputDoctorsaurio.id
+	}
+	else if (inputPilotosaurio.checked){
+		playersMokepon.innerHTML = inputPilotosaurio.id
 	}
 	else{
 		alert("You haven't choose a mokepon.")
@@ -245,6 +316,11 @@ function showAttacks(attacks){
 	fireBtn = document.getElementById('fire-btn')
 	waterBtn = document.getElementById('water-btn')
 	groundBtn = document.getElementById('ground-btn')
+	metalBtn = document.getElementById('metal-btn')
+	electricityBtn = document.getElementById('electricity-btn')
+	poisonBtn = document.getElementById('poison-btn')
+	windBtn = document.getElementById('wind-btn')
+
 	btns = document.querySelectorAll('.attack-btns')
 }
 
@@ -254,11 +330,17 @@ function attackSequence(){
 			switch(e.target.textContent){
 				case '🔥': playersAttack.push('Fire'); break
 				case '💧': playersAttack.push('Water'); break
+				case '🔩': playersAttack.push('Metal'); break
+				case '⚡': playersAttack.push('Electricity'); break
+				case '☣️': playersAttack.push('Poison'); break
+				case '🌪️': playersAttack.push('Wind'); break
 				default: playersAttack.push('Ground'); break
 			}
 			btn.style.background = '#8051b6'
 			btn.disabled = true
-			if(playersAttack.length === 5){
+			console.log(playersAttack.length)
+			if(playersAttack.length === 6){
+				console.log("¿Qué paso?")
 				sendAttacks()
 			}
 		})
@@ -285,7 +367,7 @@ function getAttacks(){
 			if(res.ok){
 				res.json()
 				.then(function({ attacks }){
-					if(attacks.length === 5){
+					if(attacks.length === 6){
 						enemysAttack = attacks
 						battle()
 					}
@@ -296,7 +378,7 @@ function getAttacks(){
 
 function battle(){
 	clearInterval(interval)
-	for (i = 0; i < 4; i++) {
+	for (i = 0; i < 5; i++) {
 		roundWinner(i)
 		createMessage(i)
 	}
@@ -327,23 +409,104 @@ function createMessage(i){
 }
 
 function roundWinner(i){
-	switch(true){
-		case playersAttack[i] === enemysAttack[i]:
-			winnerMessage = 'Draw' 
+	switch(playersAttack[i]){
+		case enemysAttack[i]:
+			draw()
 			break
-		case playersAttack[i] === 'Water' && enemysAttack[i] === 'Fire':
-		case playersAttack[i] === 'Fire' && enemysAttack[i] === 'Ground':
-		case playersAttack[i] === 'Ground' && enemysAttack[i] === 'Water':
-			winnerMessage = 'Win'
-			victories += 1
-			victoriesTxt.innerHTML = victories
+		case 'Water':
+			switch(enemysAttack[i]){
+				case 'Fire':
+				case 'Wind':
+					victory(); break
+				case 'Wind':
+				case 'Metal':
+					draw(); break
+				default: defeat(); break
+			}
 			break
-		default:
-			winnerMessage = "Defeat"
-			defeats += 1
-			defeatsTxt.innerHTML = defeats
+		case 'Fire':
+			switch(enemysAttack[i]){
+				case 'Wind':
+				case 'Metal':
+					victory(); break
+				case 'Electricity':
+				case 'Poison':
+					draw(); break
+				default: defeat(); break
+			}
+		case 'Ground':
+			switch(enemysAttack[i]){
+				case 'Fire':
+				case 'Electricity':
+					victory(); break
+				case 'Metal':
+				case 'Ground':
+					draw(); break
+				default: defeat(); break
+			}
+			break
+		case 'Metal':
+			switch(enemysAttack[i]){
+				case 'Poison':
+				case 'Wind':
+					victory(); break
+				case 'Water':
+				case 'Ground':
+					draw(); break
+				default: defeat(); break
+			}
+			break
+		case 'Electricity':
+			switch(enemysAttack[i]){
+				case 'Water':
+				case 'Metal':
+				case 'Wind':
+					victory(); break
+				case 'Fire':
+				case 'Poison':
+					draw(); break
+				default: defeat(); break
+			}
+			break
+		case 'Poison':
+			switch(enemysAttack[i]){
+				case 'Water':
+				case 'Ground':
+					victory(); break
+				case 'Metal':
+				case 'Electricity':
+					draw(); break
+				default: defeat(); break
+			}
+			break
+		case 'Wind':
+			switch(enemysAttack[i]){
+				case 'Metal':
+				case 'Electricity':
+					victory(); break
+				case 'Ground':
+				case 'Poison':
+					draw(); break
+				default: defeat(); break
+			}
 			break
 	}
+}
+
+function victory(){
+	winnerMessage = 'Win'
+	victories += 1
+	victoriesTxt.innerHTML = victories
+}
+
+function defeat(){
+	winnerMessage = "Defeat"
+	defeats += 1
+	defeatsTxt.innerHTML = defeats
+}
+
+function draw(){
+	winnerMessage = 'Draw' 
 }
 
 function battleResult(result){
@@ -361,6 +524,10 @@ function disableAttackButtons(){
 	fireBtn.disabled = true
 	waterBtn.disabled = true
 	groundBtn.disabled = true
+	metalBtn.disabled = true
+	electricityBtn.disabled = true
+	poisonBtn.disabled = true
+	windBtn.disabled = true
 }
 
 function restartGame(){
@@ -421,14 +588,26 @@ function sendPosition(x, y){
 						let enemyMokepon = null
 
 						switch(mokeponName){
-							case "Acinonyx":
-								enemyMokepon = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290, enemy.id)
+							case "Chefsaurio":
+								enemyMokepon = new mokepon('Chefsaurio', './assets/Chefsaurio.png', 249, 290, enemy.id)
 								break
-							case "Piwith":
-								enemyMokepon = new mokepon('Piwith', './assets/Piwith.png', './assets/piwith-map.png', 5, 146, 283, enemy.id)
+							case "Bomberosaurio":
+								enemyMokepon = new mokepon('Bomberosaurio', './assets/Bomberosaurio.png', 146, 283, enemy.id)
 								break 
-							case "Berry":
-								enemyMokepon = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238, enemy.id)
+							case "Obrerosaurio":
+								enemyMokepon = new mokepon('Obrerosaurio', './assets/Obrerosaurio.png', 229, 238, enemy.id)
+								break
+							case "Electromecanicosaurio":
+								enemyMokepon = new mokepon('Electromecanicosaurio', './assets/Electromecanicosaurio.png', 229, 238, enemy.id)
+								break
+							case "Electrosaurio":
+								enemyMokepon = new mokepon('Electrosaurio', './assets/Electrosaurio.png', 229, 238, enemy.id)
+								break
+							case "Doctorsaurio":
+								enemyMokepon = new mokepon('Doctorsaurio', './assets/Doctorsaurio.png', 229, 238, enemy.id)
+								break
+							case "Pilotosaurio":
+								enemyMokepon = new mokepon('Pilotosaurio', './assets/Pilotosaurio.png', 229, 238, enemy.id)
 								break
 						}
 						
