@@ -1,9 +1,8 @@
 const express = require("express") // express library import
 const cors = require("cors")
-
-
 const app = express()
 
+app.use(express.static('public'))
 app.use(cors())
 app.use(express.json())
 
@@ -52,7 +51,7 @@ app.post("/mokepon/:playerId", (req, res) => {
 	if(playerIndex >= 0){
 		players[playerIndex].assignMokepon(mokepon)
 	}
-	
+
 	res.end()
 })
 

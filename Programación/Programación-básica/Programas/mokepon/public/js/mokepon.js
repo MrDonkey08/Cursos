@@ -70,8 +70,8 @@ class mokepon{ // we set a prototype (class in other languages) with class
 		
 		this.h = 110 * sizeScale // height
 		this.w = this.h * w / h  // width
-		this.x = randomNum(0, map.width - this.w) // x-axis
-		this.y = randomNum(0, map.height - this.h) // y-axis
+		this.x = randomNum(0, mapMaxWidth - this.w) // x-axis
+		this.y = randomNum(0, mapMaxHeight - this.h) // y-axis
 		
 		this.mapImage = new Image()
 		this.mapImage.src = mapPhoto
@@ -87,8 +87,8 @@ class mokepon{ // we set a prototype (class in other languages) with class
 	drawMokepon(){
 		lienzo.drawImage( //.fillRect creates a Rectangle; the 1st parameter is x-axis, the 2nd is the y-axis, 3rd width and 4th height
 		this.mapImage,
-		this.x, 
-		this.y, 
+		this.x * sizeScale, 
+		this.y * sizeScale, 
 		this.w, 
 		this.h
 		)
@@ -165,7 +165,7 @@ function startGame(){
 }
 
 function joinGame(){
-	fetch("http://localhost:8080/join")
+	fetch("http://dorotyscomputer.local:8080/join")
 		.then(function(res){
 			if(res.ok){
 				res.text()
@@ -186,11 +186,13 @@ function selectMokepons(){
 	else if (inputBerry.checked){
 		playersMokepon.innerHTML = inputBerry.id
 	}
+	else{
+		alert("You haven't choose a mokepon.")
+		return
+	}
 
-	if (playersMokepon.innerHTML != ""){
 		pMokepon = playersMokepon.innerHTML
 		selectedMokepon()
-
 
 		alert("You choose " + playersMokepon.innerHTML)
 		pMokeponObj = pMokeponObject()
@@ -198,14 +200,10 @@ function selectMokepons(){
 		startMap()
 		selectMokepon.style.display = 'none'
 		sectionSeeMap.style.display = 'flex'
-	}
-	else{
-		alert("You haven't choose a mokepon.")
-	}
 }
 
 function selectedMokepon(){
-	fetch(`http://localhost:8080/mokepon/${playerId}`, {
+	fetch(`http://dorotyscomputer.local:8080/mokepon/${playerId}`, {
 		method: "post",
 		headers: {
 			"Content-Type": "application/json"
@@ -268,7 +266,7 @@ function attackSequence(){
 }
 
 function sendAttacks(){
-	fetch(`http://localhost:8080/mokepon/${playerId}/attacks`, {
+	fetch(`http://dorotyscomputer.local:8080/mokepon/${playerId}/attacks`, {
 		method: "post",
 		headers: {
 			"Content-Type": "application/json"
@@ -282,7 +280,7 @@ function sendAttacks(){
 }
 
 function getAttacks(){
-	fetch(`http://localhost:8080/mokepon/${enemyId}/attacks`)
+	fetch(`http://dorotyscomputer.local:8080/mokepon/${enemyId}/attacks`)
 		.then(function (res){
 			if(res.ok){
 				res.json()
@@ -404,7 +402,7 @@ function drawCanvas(){
 }
 
 function sendPosition(x, y){
-	fetch(`http://localhost:8080/mokepon/${playerId}/position`, {
+	fetch(`http://dorotyscomputer.local:8080/mokepon/${playerId}/position`, {
 		method: "post",
 		headers: {
 			"Content-Type": "application/json"
@@ -421,6 +419,7 @@ function sendPosition(x, y){
 					enemiesMokepons = enemies.map(function (enemy){
 						const mokeponName = enemy.mokepon.name
 						let enemyMokepon = null
+
 						switch(mokeponName){
 							case "Acinonyx":
 								enemyMokepon = new mokepon('Acinonyx', './assets/Acinonyx.png', './assets/acinonyx-map.png', 5, 249, 290, enemy.id)
@@ -432,8 +431,9 @@ function sendPosition(x, y){
 								enemyMokepon = new mokepon('Berry', './assets/Berry.png', './assets/berry-map.png', 5, 229, 238, enemy.id)
 								break
 						}
-						enemyMokepon.x = enemy.x
-						enemyMokepon.y = enemy.y
+						
+						enemyMokepon.x = enemy.x || 0
+						enemyMokepon.y = enemy.y || 0
 
 						return enemyMokepon
 

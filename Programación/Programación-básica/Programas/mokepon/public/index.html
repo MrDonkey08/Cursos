@@ -20,11 +20,34 @@
 			<h1>Mokepon! 🔥💧🌱</h1>
 			<h2 id="map-h2">Walk around the map</h2>
 			<canvas id="map"></canvas>
-			<button onmouseup="stopMovement()" onmousedown="moveUp()">Up</button>
+
+			<button
+				ontouchend="stopMovement()"
+				onmouseup="stopMovement()"
+				ontouchstart="moveUp()"
+				onmousedown="moveUp()">Up
+			</button>
 			<div>
-				<button onmouseup="stopMovement()" onmousedown="moveLeft()">Left</button>
-				<button onmouseup="stopMovement()" onmousedown="moveDown()">Down</button>
-				<button onmouseup="stopMovement()" onmousedown="moveRight()">Right</button>
+				<button
+					ontouchend="stopMovement()" 
+					onmouseup="stopMovement()"
+					ontouchstart="moveLeft()"
+					onmousedown="moveLeft()">Left
+				</button>
+
+				<button
+					ontouchend="stopMovement()" 
+					onmouseup="stopMovement()"
+					ontouchstart="moveDown()"
+					onmousedown="moveDown()">Down
+				</button>
+
+				<button
+					ontouchend="stopMovement()" 
+					onmouseup="stopMovement()"
+					ontouchstart="moveRight()"  
+					onmousedown="moveRight()">Right
+				</button>
 			</div>
 		</section>
 
