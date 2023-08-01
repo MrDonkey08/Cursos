@@ -100,12 +100,6 @@ class mokepon{ // we set a prototype (class in other languages) with class
 		this.h
 		)
 	}
-	setSides(){
-		this.right = this.x + this.w
-		this.left = this.x
-		this.top = this.y
-		this.bottom = this.y + this.h
-	}
 }
 
 // Objects
@@ -236,35 +230,35 @@ function joinGame(){
 
 function selectMokepons(){
 	if (inputChefsaurio.checked){ // .checked returns true if the element is selected
-		playersMokepon.innerHTML = inputChefsaurio.id
+		pMokepon = inputChefsaurio.id
 	}
 	else if (inputBomberosaurio.checked){
-		playersMokepon.innerHTML = inputBomberosaurio.id
+		pMokepon = inputBomberosaurio.id
 	}
 	else if (inputObrerosaurio.checked){
-		playersMokepon.innerHTML = inputObrerosaurio.id
+		pMokepon = inputObrerosaurio.id
 	}
 	else if (inputElectromecanicosaurio.checked){
-		playersMokepon.innerHTML = inputElectromecanicosaurio.id
+		pMokepon = inputElectromecanicosaurio.id
 	}
 	else if (inputElectrosaurio.checked){
-		playersMokepon.innerHTML = inputElectrosaurio.id
+		pMokepon = inputElectrosaurio.id
 	}
 	else if (inputDoctorsaurio.checked){
-		playersMokepon.innerHTML = inputDoctorsaurio.id
+		pMokepon = inputDoctorsaurio.id
 	}
 	else if (inputPilotosaurio.checked){
-		playersMokepon.innerHTML = inputPilotosaurio.id
+		pMokepon = inputPilotosaurio.id
 	}
 	else{
 		alert("You haven't choose a mokepon.")
 		return
 	}
 
-		pMokepon = playersMokepon.innerHTML
+		playersMokepon.innerHTML = pMokepon
 		selectedMokepon()
 
-		alert("You choose " + playersMokepon.innerHTML)
+		alert("You choose " + pMokepon)
 		pMokeponObj = pMokeponObject()
 		mokeponAttacks()
 		startMap()
@@ -297,7 +291,7 @@ function mokeponAttacks(){
 	let attacks
 	
 	for (let i = 0; i < mokepons.length; i++){
-		if (playersMokepon.innerHTML === mokepons[i].name){
+		if (pMokepon === mokepons[i].name){
 			attacks = mokepons[i].attacks
 		} 
 	}
@@ -339,7 +333,6 @@ function attackSequence(){
 			btn.disabled = true
 			console.log(playersAttack.length)
 			if(playersAttack.length === 6){
-				console.log("¿Qué paso?")
 				sendAttacks()
 			}
 		})
@@ -524,7 +517,7 @@ function restartGame(){
 
 function pMokeponObject(){
 	for (i = 0; i < mokepons.length; i++) {
-		if (playersMokepon.innerHTML === mokepons[i].name){
+		if (pMokepon === mokepons[i].name){
 			return mokepons[i]
 		}
 	}
