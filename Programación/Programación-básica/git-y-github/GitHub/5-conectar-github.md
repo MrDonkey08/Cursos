@@ -1,15 +1,34 @@
-# Conectar Github usando SSH
+# Conectar GitHub
+
+Cabe mencionar que usar **pull** para todos los repositorios **públicos**.
+
+El conectar con un repositorio de **Github** permite usar **pull** en repositorios **privados** y hacer **push** en repositorios de tu pertenencia o aquellos en los que colaboras.
+
+## Con SSH
 
 Una vez creamos las llaves procedemos a entrar a la [Configuración de Llaves SSH en GitHub](https://github.com/settings/keys)
 
 En esta sección agregamos una nueva llave SSH, ponemos un título cualquiera y pegamos la llave pública (la que se localiza en el archivo con la extensión `.pub`).
 
-En la carpe ta del repositorio ejecuta
+En la carpeta del repositorio ejecuta
 
 ```shell
 git remote add origin url-ssh-del-repositorio-en-github
-
 ```
+
+## Con https
+
+Una vez creada el _personal access token_, ya puedes acceder por medio de **https** de la siguiente manera:
+
+
+En la carpeta del repositorio ejecuta
+
+```shell
+git remote add origin url-http-del-repositorio-en-github
+```
+
+Desde ahora en adelante, al hacer **push** y **pull** (si el repositorio es privado), te pedirá poner tu usuario y contraseña, sustituiras la contraseña por tu token.
+
 
 ## Referencias 
 
