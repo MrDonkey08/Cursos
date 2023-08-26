@@ -28,3 +28,4 @@ Para resolver este **conflicto** bastaría con editar el archivo, eliminar lo qu
 ```
 
 Una vez resuelto todos los **conflictos** solo restaría aplicar un `add` y un `commit` para que el **merge** sea satisfactorio.
+

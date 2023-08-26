@@ -10,47 +10,53 @@ Estos sistemas permiten generan una **base de datos** en la que, por medio de su
 
 ## Git
 
-**Git** es un **sistema de control de versiones** que, en vez de guardar el archivo completo de cada versión, solo se encarga de guardar los cambios que hay entre las versiones de los archivos. 
-
-P. ej. digamos que creamos el arhivo `ortografia.txt` y en el guardamos el siguiente contenido
+**Git** es un **sistema de control de versiones** que, en vez de guardar el archivo completo de cada versión, solo se encarga de guardar los cambios que hay entre las versiones de los archivos. P. ej:
 
 ```mermaid
-graph LR
+graph TB
 
+T[almacenamiento.txt] --> Versiones
 
+subgraph Versiones
+	direction LR
+	subgraph v.1
+		direction TB
+		t1("Existen dos tipos
+		 de discos duros:
+		HDD y SSD")
+	end
+	
+	subgraph v.2
+		t2["Existen dos tipos
+		 de almacenamiento:
+		 HDD y SSD"]
+	end
+
+	subgraph v.3
+		t3["Existen dos tipos
+		 de almacenamiento:
+		 HDD (disco duro)
+		 y SSD (unidad de
+		  estado sólido)"]
+	end
+end
+
+v.1 -- "discos duros 
+↓
+almacenamiento
+" --> v.2 -- "3. + (disco duro) 
+- y SSD
+					4. + y SSD (unidad
+					de estado sólido)" --> v.3
 ```
 
-```txt
-Acento
+<center>Diagrama del funcionamiento a gran escala de Git</center>
 
-El acento es aquel símbolo que indica en qué sílaba tiene una entonación más fuerte.
 
-No todas las palabras llevan acento.
+Como puedes observar, **Git** se encarga de guardar los cambios de una versión a otra.
 
-```
 
-y después actualizas su contenido
-
-```txt
-Tílde
-
-La tílde es aquel símbolo que indica en qué sílaba tiene una entonación más fuerte.
-
-No todas las palabras llevan tílde.
-
-Las palabras en mayúsculas se los pone tílde
-```
-
-Lo que guardaría Github sería los cambios entre la versión actual y la versión anterior.
-
-```txt
-- Acento > Tílde
-- El acento > La tílde
-- acento > tílde
-+ Las palabras en mayúsculas se los pone tílde
-```
-
-> [!important] Importante
+> [!IMPORTANT]
 >
 > Git solo funciona de esta manera con **texto plano.** Si haces esto con un **binario**, tal como un _archivo word_, _no te guardará las modificaciones_, en cambio remplazará "la versión anterior" con la "versión actual"; esto impide que ahorres espacio y que puedas tener un seguimiento tan eficaz tal como un **texto plano**.
 
