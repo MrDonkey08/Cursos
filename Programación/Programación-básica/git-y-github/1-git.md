@@ -55,10 +55,15 @@ almacenamiento
 
 Como puedes observar, **Git** se encarga de guardar los cambios de una versión a otra.
 
+## Binarios en Git
+
+Los **archivos binarios**, a diferencia de los de **texto plano**, son aquellos que, al abrir con el _bloc de notas_ (o cualquier editor de texto plano), aparecen un montón de símbolos raros, lenguaje que entiende la máquina, pero nosotros no. 
 
 > [!IMPORTANT]
 >
 > Git solo funciona de esta manera con **texto plano.** Si haces esto con un **binario**, tal como un _archivo word_, _no te guardará las modificaciones_, en cambio remplazará "la versión anterior" con la "versión actual"; esto impide que ahorres espacio y que puedas tener un seguimiento tan eficaz tal como un **texto plano**.
+
+En **git** lo ideal sería no trabajar con binarios, sino tenerlos alojados en otro servicio o servidor (e.g. Google Drive). Sin embargo, si es te es necesario trabajar con _binarios en git_, recomiendo utilizar [Git LFS](https://git-lfs.com/) (_Git Long File System_) ya que permite tratar a las imágenes como referencias y con ello reducir el tamaño del repositorio manteniendo el mismo flujo de trabajo.
 
 # Referencias
 
