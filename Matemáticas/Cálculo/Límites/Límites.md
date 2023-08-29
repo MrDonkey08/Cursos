@@ -2,9 +2,9 @@
 
 Cuando estamos evaluando funciones, nos podemos encontrar casos en donde el resultado es indeterminado, p. ej. 
 
-$f(x)=\cfrac{x-2}{x^2-4}$
+$$f(x)=\cfrac{x-2}{x^2-4}$$
 
-$f(2)=\cfrac{2-2}{2^2-4} = \cfrac{0}{4-4} = \cfrac{0}{0}$
+$$f(2)=\cfrac{2-2}{2^2-4} = \cfrac{0}{4-4} = \cfrac{0}{0}$$
 
 Cómo se puede observar, se obtiene una división entre 0, es decir, una indeterminación. Lo que se puede hacer es evaluar la función en valores muy cercanos al valor de interés, tanto del lado derecho como el izquierdo.
 
@@ -28,7 +28,7 @@ Hay tres posibles resultados al estudiar una función con límites:
 
 ## Notación de límites
 
-$\lim\limits_{x\to a} f(x) = L$
+$$\lim\limits_{x\to a} f(x) = L$$
 
 Se lee "el límite de la función de $x$, cuando $x$ se aproxima a $a$, es $L$".
 
