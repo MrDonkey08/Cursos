@@ -21,6 +21,6 @@ Realizan diferentes iteraciones de acuerdo a condiciones o operaciones.
 |       For        | Hace un recorrido de diferentes iteraciones de acuerdo al número de iteraciones epecificadas y a una condición. |
 | While / Do-while |                   Realizan un serie de instrucciones y las repite hasta que se la condición.                    |
 
-# Referencias
+## Referencias
 
 - [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f.)._¿Qué son las estructuras de control?_. [Nuevo Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/). [Platzi](https://platzi.com/home). Recuperado el 16 de agosto de 2022 de https://platzi.com/clases/3222-pensamiento-logico-estructuras/50892-que-son-las-estructuras-de-control/

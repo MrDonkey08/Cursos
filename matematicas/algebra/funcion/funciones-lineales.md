@@ -21,6 +21,6 @@ La pendiente nos define de que manera se comporta nuestra función, ya sea que t
 
 <div style="page-break-after: always;"></div>
 
-# Referencias
+## Referencias
 
 - [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) & López, M. (s.f.). _Funciones lineales_. [Curso de Fundamentos de Matemáticas](https://platzi.com/cursos/fundamentos-matematicas/). [Platzi](https://platzi.com/). Recuperado el 16 de octubre de 2022 de https://platzi.com/clases/1393-fundamentos-matematicas/14430-funciones-lineales1984/

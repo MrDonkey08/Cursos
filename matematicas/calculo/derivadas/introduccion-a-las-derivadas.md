@@ -8,7 +8,7 @@ La **derivada** es una función que te permite encontrar la **pendiente**, el in
 
 $$m = \cfrac{y_1 - y_2}{x_1 - x_2}$$
 
-<!--**Valle:** Puntos mínimos de una grafica.
+<!--**Valle:** Puntos mínimos de una gráfica.
 **Crestas:** Puntos máximos de una recta.-->
 
 ## Pendiente de una recta
@@ -55,7 +55,7 @@ Las **derivada** puede representarse por cualquiera de las siguientes exprecione
 
 <div style="page-break-after: always;"></div>
 
-# Referencias
+## Referencias
 
 - [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). _La derivada gráficamente_. [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/). Recuperado el 13 de enero de 2023 de https://platzi.com/clases/2612-calculo-diferencial/43607-la-derivada-graficamente/
 

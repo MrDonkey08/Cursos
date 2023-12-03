@@ -1,16 +1,16 @@
 # Datos
 
-Porción de información muy concreta y epecífica  que nos permite a traves de diferentes operaciones y estructuras tomar desiciones y hacen parte de un algoritmo en una estructura más grande. Los datos son la base sobre la cual partimos y sobre la cual llevamos y, además, componen todas las estructuras para que puedan funcionar y sean operables.
+Porción de información muy concreta y específica  que nos permite a través de diferentes operaciones y estructuras tomar decisiones y hacen parte de un algoritmo en una estructura más grande. Los datos son la base sobre la cual partimos y sobre la cual llevamos y, además, componen todas las estructuras para que puedan funcionar y sean operables.
 
 ## Tipos de datos
 
 ### Texto
 
-- Compuestos por letras, cadenas de carácteres
-- Los espacios hacen parte de las cadenas de carácteres
+- Compuestos por letras, cadenas de caracteres
+- Los espacios hacen parte de las cadenas de caracteres
 - Podemos unir dos cadenas de texto por medio de la concatenación
 - **Concatenación:** Union entre dos cadenas de texto para formar una sola. Para concatenar es necesario que las unidades sean del mismo tipo de dato.
-- Las cadenas de texto pueden ser alfanúmericos.
+- Las cadenas de texto pueden ser alfanuméricos.
 
 ### Númerico
 
@@ -32,13 +32,13 @@ Contenedor que te permite tener espacios para varios y diferentes tipos de datos
 Para definir un arreglo, es necesario especificar la longitud/cantidad de espacios que lo compondrán pero partiendo de 0, es decir, si quieres un arreglo con 5 datos, tendrías que definirlo con el número 4.
 
 
-# Referencias
+## Referencias
 
 - [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f.). _¿Qué son las tipos de datos?_. [Nuevo Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/). [Platzi](https://platzi.com/home). Recuperado el 14 de agosto de 2022 de https://platzi.com/clases/3222-pensamiento-logico-estructuras/50886-que-son-los-tipos-de-datos/
 
 - [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f.). _Tipos de datos: texto_. [Nuevo Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/). [Platzi](https://www.platzi.com/home). Recuperado el 15 de agosto de 2022 de https://platzi.com/clases/3222-pensamiento-logico-estructuras/50887-tipos-de-datos-texto/
 
-- [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f.). _Tipos de datos: númericos_. [Nuevo Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/). [Platzi](https://www.platzi.com/home). Recuperado el 15 de agosto de 2022 de https://platzi.com/clases/3222-pensamiento-logico-estructuras/50888-tipos-de-datos-numericos/
+- [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f.). _Tipos de datos: numéricos_. [Nuevo Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/). [Platzi](https://www.platzi.com/home). Recuperado el 15 de agosto de 2022 de https://platzi.com/clases/3222-pensamiento-logico-estructuras/50888-tipos-de-datos-numericos/
 
 - [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f.). _Tipos de datos: booleanos_. [Nuevo Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/). [Platzi](https://www.platzi.com/home). Recuperado el 15 de agosto de 2022 de https://platzi.com/clases/3222-pensamiento-logico-estructuras/50889-tipos-de-datos-booleanos/
 

@@ -65,7 +65,7 @@ Los **archivos binarios**, a diferencia de los de **texto plano**, son aquellos 
 
 En **git** lo ideal sería no trabajar con binarios, sino tenerlos alojados en otro servicio o servidor (e.g. Google Drive). Sin embargo, si es te es necesario trabajar con _binarios en git_, recomiendo utilizar [Git LFS](https://git-lfs.com/) (_Git Long File System_) ya que permite tratar a las imágenes como referencias y con ello reducir el tamaño del repositorio manteniendo el mismo flujo de trabajo.
 
-# Referencias
+## Referencias
 
 - [Vega, F.](https://platzi.com/profes/freddier/) (s.f.). _¿Por qué usar un sistema de control de versiones como Git?_. Platzi. https://platzi.com/clases/1557-git-github/19934-por-que-usar-un-sistema-de-control-de-versiones-co/
 

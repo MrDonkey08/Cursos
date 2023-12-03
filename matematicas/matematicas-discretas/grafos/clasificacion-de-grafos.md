@@ -21,6 +21,6 @@ Un **gráfico** o **grafo** es un conjunto de vértices, o nodos, que están con
 
 <div style="page-break-after: always;"></div>
 
-# Referencias
+## Referencias
 
 - [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Teoría de grafos_. [Curso de Matemáticas Discretas](https://platzi.com/cursos/discretas/). [Platzi](https://platzi.com/). Recuperado el 02 de enero de 2023 de https://platzi.com/clases/1319-discretas/12221-teoria-de-grafos/

@@ -1,27 +1,28 @@
 <html>
-<head> <!-- Inside of the head comes what is not seen. This loads the script -->
-	<meta charset="utf-8"/> <!-- Setting the attribute utf-8 to add support to 
+	<head> <!-- Inside of the head comes what is not seen. This loads the script -->
+		<meta charset="utf-8" />
+		<!-- Setting the attribute utf-8 to add support to 
 		some Non-English characters, like Spanish characters. When there is a tag 
-		with no parameters, you have to close it with '/>'--> 
-	<title>My first webpage</title> 
-	<script> // Here there is js code
-		a = 1
-		b = 2
-		alert("The value of a + b is equal to " + (a+b)) /* Always execute first 
+		with no parameters, you have to close it with '/>'-->
+		<title>My first webpage</title>
+		<script>
+			// Here there is js code
+			a = 1;
+			b = 2;
+			alert("The value of a + b is equal to " + (a + b)); /* Always execute first 
 			the parenthesis. If instead of (a+b) would be a+b, therefore would 
 			interpreate a and b like strings and would concatenate them, this 
 			because there is a string concatenating before. */
-		let name = "" /* We use 'let' to declare variables that we will use later
+			let name = ""; /* We use 'let' to declare variables that we will use later
 			in the code; this is a good practice. With "" we specify the variable
 			is text type */
-		name = prompt("What is your name?")
-		alert("Nice to meet you " + name) // Alert to display an input	
-	</script>
-</head>
-<body> <!-- Inside of the body comes what is seen.-->
-	<h1>First attempt of website</h1>
-	<p>This is our first full and professional program!</p>
-	<p>Testing spanish symbols with "utf-8": ¿Me servirías un café, por favor? 
-		¡Tengo mucho sueño!</p>
-</body>
-</html> 
+			name = prompt("What is your name?");
+			alert("Nice to meet you, " + name); // Alert to display an input
+		</script>
+	</head>
+	<body> <!-- Inside of the body comes what is seen.-->
+		<h1>First attempt of website</h1>
+		<p>This is our first full and professional program!</p>
+		<p>Testing spanish symbols with "utf-8": ¿Me servirías un café, por favor? ¡Tengo mucho sueño!</p>
+	</body>
+</html>

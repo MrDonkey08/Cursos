@@ -25,6 +25,6 @@ Si en un grafo tenemos más de dos vértices con grado impar es imposible recorr
 
 <div style="page-break-after: always;"></div>
 
-# Referencias
+## Referencias
 
 - [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Grados, caminos, cadenas y ciclos_. [Curso de Matemáticas Discretas](https://platzi.com/cursos/discretas/). [Platzi](https://platzi.com/). Recuperado el 02 de enero de 2023 de https://platzi.com/clases/1319-discretas/12222-grados-caminos-cadenas-y-ciclos/

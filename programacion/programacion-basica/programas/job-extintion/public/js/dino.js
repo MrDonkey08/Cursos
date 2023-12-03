@@ -56,7 +56,7 @@ let btns = []
 let lienzo = map.getContext("2d")
 let interval
 let mapBackground = new Image()
-mapBackground.src = './assets/map.jpeg'
+mapBackground.src = './assets/map.web'
 
 let sizeScale = 1
 
@@ -166,13 +166,13 @@ const pilotosaurioAttacks = [
 	{ name: '🔥', id: 'fire-btn'},
 ]
 
-const chefsaurio = new dino('Chefsaurio', './assets/Chefsaurio.png', 505, 639)
-const bomberosaurio = new dino('Bomberosaurio', './assets/Bomberosaurio.png', 252, 489)
-const obrerosaurio = new dino('Obrerosaurio', './assets/Obrerosaurio.png', 788, 1000)
-const electromecanicosaurio = new dino('Electromecanicosaurio', './assets/Electromecanicosaurio.png', 309,442)
-const electrosaurio = new dino('Electrosaurio', './assets/Electrosaurio.png', 243, 227)
-const doctorsaurio = new dino('Doctorsaurio', './assets/Doctorsaurio.png', 527, 634)
-const pilotosaurio = new dino('Pilotosaurio', './assets/Pilotosaurio.png', 591, 619)
+const chefsaurio = new dino('Chefsaurio', './assets/chefsaurio.webp', 505, 639)
+const bomberosaurio = new dino('Bomberosaurio', './assets/bomberosaurio.webp', 252, 489)
+const obrerosaurio = new dino('Obrerosaurio', './assets/obrerosaurio.webp', 788, 1000)
+const electromecanicosaurio = new dino('Electromecanicosaurio', './assets/electromecanicosaurio.webp', 309,442)
+const electrosaurio = new dino('Electrosaurio', './assets/electrosaurio.webp', 243, 227)
+const doctorsaurio = new dino('Doctorsaurio', './assets/doctorsaurio.webp', 527, 634)
+const pilotosaurio = new dino('Pilotosaurio', './assets/pilotosaurio.webp', 591, 619)
 
 chefsaurio.attacks.push(...chefsaurioAttacks)
 bomberosaurio.attacks.push(...bomberosaurioAttacks)
@@ -570,25 +570,25 @@ function sendPosition(x, y){
 
 						switch(dinoName){
 							case "Chefsaurio":
-								enemyDino = new dino('Chefsaurio', './assets/Chefsaurio.png', 505, 639, enemy.id)
+								enemyDino = new dino('Chefsaurio', './assets/chefsaurio.webp', 505, 639, enemy.id)
 								break
 							case "Bomberosaurio":
-								enemyDino = new dino('Bomberosaurio', './assets/Bomberosaurio.png', 252, 489, enemy.id)
+								enemyDino = new dino('Bomberosaurio', './assets/bomberosaurio.webp', 252, 489, enemy.id)
 								break 
 							case "Obrerosaurio":
-								enemyDino = new dino('Obrerosaurio', './assets/Obrerosaurio.png', 788, 1000, enemy.id)
+								enemyDino = new dino('Obrerosaurio', './assets/obrerosaurio.webp', 788, 1000, enemy.id)
 								break
 							case "Electromecanicosaurio":
-								enemyDino = new dino('Electromecanicosaurio', './assets/Electromecanicosaurio.png', 309,442, enemy.id)
+								enemyDino = new dino('Electromecanicosaurio', './assets/electromecanicosaurio.webp', 309,442, enemy.id)
 								break
 							case "Electrosaurio":
-								enemyDino = new dino('Electrosaurio', './assets/Electrosaurio.png', 243, 227, enemy.id)
+								enemyDino = new dino('Electrosaurio', './assets/electrosaurio.webp', 243, 227, enemy.id)
 								break
 							case "Doctorsaurio":
-								enemyDino = new dino('Doctorsaurio', './assets/Doctorsaurio.png', 527, 634, enemy.id)
+								enemyDino = new dino('Doctorsaurio', './assets/doctorsaurio.webp', 527, 634, enemy.id)
 								break
 							case "Pilotosaurio":
-								enemyDino = new dino('Pilotosaurio', './assets/Pilotosaurio.png', 591, 619, enemy.id)
+								enemyDino = new dino('Pilotosaurio', './assets/pilotosaurio.webp', 591, 619, enemy.id)
 								break
 						}
 						

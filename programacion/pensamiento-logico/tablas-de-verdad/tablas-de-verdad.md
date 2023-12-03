@@ -35,7 +35,7 @@ Será verdadera cuando al menos una de las proposiciones es verdadera, de lo con
 |  F  |  V  |    V     |
 |  F  |  F  |    F     |
 
-# Referencias
+## Referencias
 
 - [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f). _¿Qué son las Tablas de Verdad?_. [Nuevo Curso de Pensamiento Lógico: Algoritmos y Diagramas de Flujo](https://platzi.com/cursos/pensamiento-logico/). [Platzi](https://platzi.com/home). Recuperado el 14 de agosto de 2022 de https://platzi.com/clases/3221-pensamiento-logico/50676-que-son-las-tablas-de-verdad/
 

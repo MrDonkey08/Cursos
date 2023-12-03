@@ -64,7 +64,7 @@ print(p)
 
 <div style="page-break-after: always;"></div>
 
-# Referencias
+## Referencias
 
 - [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f.). _Primeros pasos con Python_. [Nuevo Curso de Pensamiento Lógico: Lenguajes de Programación](https://platzi.com/cursos/pensamiento-logico-lenguajes/). [Platzi](https://www.platzi.com/home). Recuperado el 21 de agosto de 2022 de https://platzi.com/clases/3223-pensamiento-logico-lenguajes/50711-primeros-pasos-con-python/
 

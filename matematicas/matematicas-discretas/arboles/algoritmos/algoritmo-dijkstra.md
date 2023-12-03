@@ -13,13 +13,13 @@ Los pasos de este algoritmo son los siguientes:
 ---
 Encontrar la ruta menos costosa de $a$ a $f$ 
 
-![Algoritmo-Dijkstra](Attachments/Algoritmo-Dijkstra.jpeg)
+![algoritmo-dijkstra | center](attachments/algoritmo-dijkstra.webp)
 
-![Algoritmo-Dijkstra-1](Attachments/Algoritmo-Dijkstra-1.jpeg)
+![algoritmo-dijkstra-1 | center](attachments/algoritmo-dijkstra-1.webp)
 <div style="page-break-after: always;"></div>
 <div style="page-break-after: always;"></div>
 
-# Referencias
+## Referencias
 
 - [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Algoritmo de Dijkstra_. [Curso de Matemáticas Discretas](). [Platzi](https://platzi.com/). Recuperado el 08 de enero de 2023 de https://platzi.com/clases/1319-discretas/12237-algoritmo-de-dijkstra1686/
 

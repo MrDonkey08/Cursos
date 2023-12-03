@@ -38,6 +38,6 @@ type: Note
 
 <div style="page-break-after: always;"></div>
 
-# Referencias
+## Referencias
 
 - Becerra, P. (2019). _Grammar: Expressions to give directions in the city_. [Curso de Inglés Práctico: Gramática 2019](https://platzi.com/clases/old/ingles-2-2019/). [Platzi](https://platzi.com/home). https://platzi.com/clases/1500-ingles-2-2019/17352-grammar-expressions-to-give-directions-in-the-city/

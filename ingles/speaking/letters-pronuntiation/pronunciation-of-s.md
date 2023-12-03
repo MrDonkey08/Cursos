@@ -71,7 +71,7 @@ This sounds we use it when the word ends with a voiced sound (b, d, g, l , n, ng
 - Bags
 - Dreams
 
-# Referencias
+## Referencias
 
 - [Gina Pedraza](https://platzi.com/profes/gina-pedraza/) (2020). _Words that start with S_. [Curso de Inglés Práctico: Pronunciación 2020](https://platzi.com/clases/old/ingles-practico-pronuncia-2020/). Recuperado el 10 de diciembre de 2022 de https://platzi.com/clases/2002-ingles-practico-pronuncia-2020/31360-words-that-start-with-s/
 

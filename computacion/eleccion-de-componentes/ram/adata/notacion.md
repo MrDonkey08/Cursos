@@ -1,3 +1,3 @@
-![](Attachments/ADATA_FAE_PNDecoder.jpg)
+![adata-fae-pndecoder | center ](attachments/adata-fae-pndecoder.webp)
 
-![](Attachments/XPG_FAE_PNDecoder.jpg)
+![xpg-fae-pndecoder | center ](attachments/xpg-fae-pndecoder.webp)

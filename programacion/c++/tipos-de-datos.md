@@ -39,7 +39,7 @@ En los tipos de datos númericos tenemos las dos siguientes categorias:
 
 <div style="page-break-after: always;"></div>
 
-# Referencias
+## Referencias
 
 - [Martínez, D.](https://platzi.com/profesores/diananerd/) (s.f.). _Tipos de datos_. [Curso de C++ Básico](https://platzi.com/cursos/c-plus-plus/). [Platzi](https://platzi.com/home). Recuperado el 06 de abril de 2023 de https://platzi.com/clases/2372-c-plus-plus/38890-tipos-de-datos/
 

@@ -52,7 +52,7 @@ Volviendo a la imagen de conjuntos anterior, el **dominio** $(x)$ se encuentra e
 
 Vamos a realizar un ejercicio práctico para visualizar mejor todo lo visto hasta este momento. Supongamos la función siguiente:
 
-$f(x) = 2x + 1$
+$$f(x) = 2x + 1$$
 
 Hallar los valores de $f(x)$ para $x$ igual a 1, 2, 3 y 4.
 
@@ -71,11 +71,11 @@ En este caso práctico, se identifican claramente los siguientes elementos:
 
 Las **funciones algebraicas** se pueden escribir en términos de operaciones algebraicas (potenciación, radicación, suma, resta, multiplicación, división). Por ejemplo:
 
-$y = 3x^2 z$
+$$y = 3x^2 z$$
 
 Esta expresión algebraica en realidad está representándonos algo que se encuentra simplificado, pues esta expresión lo que nos está indicando es que tenemos repetida tres veces la expresión $x^2z$, es decir:
 
-$y = 3x^2 z = xxz + xxz + xxz$
+$$y = 3x^2 z = xxz + xxz + xxz$$
 
 Pues, la $x^2$ es una simplificación de la multiplicación de $x$ por $x$. Entonces, nos indica que una función algebraica podemos separarla en otros elementos.
 
@@ -95,6 +95,6 @@ La respuesta es que no lo sabemos; entonces si te fijas la forma de escribir est
 
 <div style="page-break-after: always;"></div>
 
-# Referencias
+## Referencias
 
 - [Carrión, M.](https://platzi.com/profes/mcarrion/) (s.f). _Funciones, dominio y rango_. [Curso Básico de Cálculo Diferencial](https://platzi.com/cursos/calculo-diferencial/). [Platzi](https://platzi.com/). Recuperado 11 de enero de 2023 de https://platzi.com/clases/2612-calculo-diferencial/43599-funciones-dominio-y-rango/

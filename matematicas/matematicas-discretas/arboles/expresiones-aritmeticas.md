@@ -25,10 +25,12 @@ Así como vimos las diferentes formas para recorrer un árbol, las expresiones a
 • In fijo: izquierda-raíz-derecha  
 • Pos fijo: izquierda-derecha-raíz
 
-![Expresiones-Aritméticas | 550](Attachments/Expresiones-Aritméticas.jpeg)
+![expresiones-aritmeticas | center | 550](attachments/expresiones-aritmeticas.webp)
+
+
 
 <div style="page-break-after: always;"></div>
 
-# Referencias
+## Referencias
 
 - [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Expresiones aritméticas_. [Curso de Matemáticas Discretas](https://platzi.com/cursos/discretas/). [Platzi](https://platzi.com/). Recuperado el 08 de enero de 2023.

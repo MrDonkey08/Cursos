@@ -14,6 +14,6 @@ Para crear un _proyecto_, es importante que investigues cómo hacerlo en tu _ent
 - [CodeBlocks](https://aprendiendoprogramacion.wordpress.com/2010/12/17/tutorial-crear-proyecto-en-codeblocks/)
 - [VS](https://learn.microsoft.com/es-es/visualstudio/ide/create-new-project?view=vs-2022)
 
-# Referencias
+## Referencias
 
 - [Microsoft Learn](https://learn.microsoft.com/es-MX/) (27 de septiembre de 2022). _¿Qué son las soluciones y los proyectos en Visual Studio?_. https://learn.microsoft.com/es-es/visualstudio/ide/solutions-and-projects-in-visual-studio?view=vs-2022

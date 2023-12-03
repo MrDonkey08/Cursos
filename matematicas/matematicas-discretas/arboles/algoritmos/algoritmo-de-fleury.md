@@ -22,7 +22,7 @@ Los pasos que seguir son:
 3. En cada nueva iteración realizar un nuevo camino cerrado visitando aristas que no han sido visitadas.
 4. Reemplazar cada nuevo circuito en el inicial hasta visitar todas las aristas.
 
-![Algoritmo-de-Fleury](Attachments/Algoritmo-de-Fleury.png)
+![algoritmo-de-fleury | center](attachments/algoritmo-de-fleury.webp)
 
 > [!note]+ Condición para determinar si se hizo bien el ciclo
 > 
@@ -30,6 +30,6 @@ Los pasos que seguir son:
 
 <div style="page-break-after: always;"></div>
 
-# Referencias
+## Referencias
 
 - [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Algoritmo de Fleury_. [Curso de Matemáticas Discretas](). [Platzi](https://platzi.com/). Recuperado el 09 de enero de 2023 de https://platzi.com/clases/1319-discretas/12239-algoritmo-de-fleury/

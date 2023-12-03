@@ -38,7 +38,7 @@ Unfortunalley, the _english is not a phonetic language_, however, thanks to the 
 | Future | /ˈfjuː.**tʃ**ɚ/ | /ˈfjuː.**tʃ**ər/ | Is the sound of the Spanish ch  |
 | Fasten | /ˈfæs.ən/       | /ˈfɑː.sən/       | In this case we have a silent t |
 
-# Referencias
+## Referencias
 
 - [Carvajal E.](https://platzi.com/profes/emma-carvajal/) (2020). _Introduction to IPA_. [Curso de pronunciación básica en Inglés 2020](https://platzi.com/clases/old/pronunciacion-ingles-2020/). Recuperado el 04 de diciembe de 2022 de https://platzi.com/clases/1979-pronunciacion-ingles-2020/30249-introduction-to-ipa/
 

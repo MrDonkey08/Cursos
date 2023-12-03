@@ -14,7 +14,7 @@ Catch
 	"Error: no existe la división entre 0."
 ```
 
-# Referencias
+## Referencias
 
 - [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f.). _Try Catch_. [Nuevo Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/). Recuperado el 16 de agosto de 2022 de https://platzi.com/clases/3222-pensamiento-logico-estructuras/50897-try-catch/
 

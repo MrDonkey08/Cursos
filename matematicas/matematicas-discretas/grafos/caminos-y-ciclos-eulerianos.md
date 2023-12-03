@@ -16,6 +16,6 @@ Para saber si existe un **ciclo euleriano**, tenemos que analizar los nodos de u
 
 <div style="page-break-after: always;"></div>
 
-# Referencias
+## Referencias
 
 - [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Caminos y ciclos eulerianos_. [Curso de Matemáticas Discretas](https://platzi.com/cursos/discretas/). [Platzi](https://platzi.com/). Recuperado el 02 de enero de 2023 de https://platzi.com/clases/1319-discretas/12223-caminos-y-ciclos-eulerianos/

@@ -36,7 +36,7 @@ ssh-add ~/.ssh/id_ed25519
 2. Crea un archivo config en la ruta ~/.ssh
 	1. Insértale el siguiente contenido
 
-```
+```shell
 Host *
   AddKeysToAgent yes
   UseKeychain yes

@@ -18,7 +18,7 @@ C --> E([Fin])
 D --> E([Fin])
 ```
 
----
-# Referencias
+
+## Referencias
 
 - [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f.). _¿Qué es un diagrama de flujo?"_. [Nuevo Curso de Pensamiento Lógico: Algoritmos y Diagramas de Flujo](https://platzi.com/cursos/pensamiento-logico/).[Platzi](https://platzi.com/home). Recuperado el 15 de agosto de 2022 de https://platzi.com/clases/3221-pensamiento-logico/50682-que-es-un-diagrama-de-flujo/

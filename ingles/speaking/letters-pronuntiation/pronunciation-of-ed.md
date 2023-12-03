@@ -44,7 +44,7 @@ We use it with words that ends with voiced sounds (l, n, r, g, v, s, z, b, m).
 - Arrived
 - Enjoyed
 
-# Referencias
+## Referencias
 
 - [Gina Pedraza](https://platzi.com/profes/gina-pedraza/) (2020). _Different ED pronunciations_.  [Curso de Inglés Práctico: Pronunciación 2020](https://platzi.com/clases/old/ingles-practico-pronuncia-2020/). Recuperado el 10 de diciembre de 2022 de https://platzi.com/clases/2002-ingles-practico-pronuncia-2020/31363-different-ed-pronunciations/
 

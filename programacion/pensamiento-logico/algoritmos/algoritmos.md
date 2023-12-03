@@ -26,7 +26,7 @@ Es importante que, al momento de formular el algoritmo, dividirlo cada vez en pa
 >
 > **Algoritmo**: Validar que la luz esté apagada, identificar dónde voy a encender la luz, pulsar interruptor de la luz.
 
-# Referencias
+## Referencias
 
 - [Belisa, A.](https://platzi.com/profesores/anabelisam_/) (s.f.). _Operadores de comparación_. [Nuevo Curso de Pensamiento Lógico: Algoritmos y Diagramas de Flujo](https://platzi.com/cursos/pensamiento-logico/). [Platzi](https://platzi.com/home). Recuperado el 14 de agostto de 2022 de https://platzi.com/clases/3221-pensamiento-logico/50679-operadores-de-comparacion/
 

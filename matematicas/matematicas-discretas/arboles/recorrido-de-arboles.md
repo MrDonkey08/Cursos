@@ -10,6 +10,6 @@ Existen tres formas de recorrer un árbol:
 
 <div style="page-break-after: always;"></div>
 
-# Referencias
+## Referencias
 
 - [Orduz, S.](https://platzi.com/profesores/sergio-orduz-240/) (s.f.). _Recorrido de árboles_. [Curso de Matemáticas Discretas](https://platzi.com/cursos/discretas/). [Platzi](https://platzi.com/). Recuperado el 08 de enero de 2023 de https://platzi.com/clases/1319-discretas/12233-recorrido-de-arboles/
