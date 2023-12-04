@@ -1,0 +1,1 @@
+Apellido, A. y Apellido, B. (año). Título del capítulo. En N. Apellido (Ed.), _Título del libro_ (pp. xx-xx). Editorial.

@@ -1,1 +1,1 @@
-/Attachments/Images/
+/attachments/images/

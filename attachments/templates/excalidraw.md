@@ -1,1 +1,1 @@
-/Attachments/Excalidraw/
+/attachments/excalidraw/
