@@ -1,0 +1,12 @@
+[submodule "control-de-versiones/git-y-github"]
+	path = control-de-versiones/git-y-github
+	url = git@github.com:MrDonkey08/git-y-github.git
+[submodule "programacion/programacion-web"]
+	path = programacion/programacion-web
+	url = git@github.com:MrDonkey08/programacion-web
+[submodule "programacion/rust"]
+	path = programacion/rust
+	url = git@github.com:MrDonkey08/rust/
+[submodule "terminal/terminal-y-linea-de-comandos"]
+	path = terminal/terminal-y-linea-de-comandos
+	url = git@github.com:MrDonkey08/terminal-y-linea-de-comandos
