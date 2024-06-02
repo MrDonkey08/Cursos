@@ -1,5 +1,5 @@
 [submodule "control-de-versiones/git-y-github"]
-	path = control-de-versiones/git-y-github
+	path = software/git-y-github
 	url = git@github.com:MrDonkey08/git-y-github.git
 [submodule "programacion/programacion-web"]
 	path = programacion/programacion-web
